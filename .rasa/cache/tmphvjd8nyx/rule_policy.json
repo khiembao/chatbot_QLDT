@@ -1,0 +1,50 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nganhtrongcntt\"}}]": "utter_nganhtrongcntt",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nganhtrongcntt\"}}, {\"prev_action\": {\"action_name\": \"utter_nganhtrongcntt\"}, \"user\": {\"intent\": \"nganhtrongcntt\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_coso\"}}]": "utter_cntt_coso",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_coso\"}}, {\"prev_action\": {\"action_name\": \"utter_cntt_coso\"}, \"user\": {\"intent\": \"cntt_intent_coso\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_diemchuan\"}}]": "utter_cntt_diemchuan",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_diemchuan\"}}, {\"prev_action\": {\"action_name\": \"utter_cntt_diemchuan\"}, \"user\": {\"intent\": \"cntt_intent_diemchuan\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_tinhdiem\"}}]": "utter_cntt_tinhdiem",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_tinhdiem\"}}, {\"prev_action\": {\"action_name\": \"utter_cntt_tinhdiem\"}, \"user\": {\"intent\": \"cntt_intent_tinhdiem\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}]": "utter_iamabot",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"bot_challenge\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_hocphi\"}}]": "utter_cntt_hocphi",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_hocphi\"}}, {\"prev_action\": {\"action_name\": \"utter_cntt_hocphi\"}, \"user\": {\"intent\": \"cntt_intent_hocphi\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"caccosotruong\"}}]": "utter_caccosotruong",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"caccosotruong\"}}, {\"prev_action\": {\"action_name\": \"utter_caccosotruong\"}, \"user\": {\"intent\": \"caccosotruong\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pagetuyensinh\"}}]": "utter_pagetuyensinh",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pagetuyensinh\"}}, {\"prev_action\": {\"action_name\": \"utter_pagetuyensinh\"}, \"user\": {\"intent\": \"pagetuyensinh\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"caccosotruong\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_hocphi\"}}, {\"prev_action\": {\"action_name\": \"utter_cntt_hocphi\"}, \"user\": {\"intent\": \"cntt_intent_hocphi\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_tinhdiem\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_diemchuan\"}}, {\"prev_action\": {\"action_name\": \"utter_cntt_diemchuan\"}, \"user\": {\"intent\": \"cntt_intent_diemchuan\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nganhtrongcntt\"}}, {\"prev_action\": {\"action_name\": \"utter_nganhtrongcntt\"}, \"user\": {\"intent\": \"nganhtrongcntt\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pagetuyensinh\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nganhtrongcntt\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_tinhdiem\"}}, {\"prev_action\": {\"action_name\": \"utter_cntt_tinhdiem\"}, \"user\": {\"intent\": \"cntt_intent_tinhdiem\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_coso\"}}, {\"prev_action\": {\"action_name\": \"utter_cntt_coso\"}, \"user\": {\"intent\": \"cntt_intent_coso\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_coso\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"pagetuyensinh\"}}, {\"prev_action\": {\"action_name\": \"utter_pagetuyensinh\"}, \"user\": {\"intent\": \"pagetuyensinh\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"caccosotruong\"}}, {\"prev_action\": {\"action_name\": \"utter_caccosotruong\"}, \"user\": {\"intent\": \"caccosotruong\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"bot_challenge\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_hocphi\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cntt_intent_diemchuan\"}}]"
+    ]
+  }
+}

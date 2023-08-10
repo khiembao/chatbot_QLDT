@@ -1,0 +1,594 @@
+version: "3.1"
+
+intents:
+  - intent_1011.0001
+  - intent_1012.0001
+  - intent_1013.0001
+  - intent_1014.0001
+  - intent_1015.0001
+  - intent_1016.0001
+  - intent_1017.0001
+  - intent_1018.0001
+  - intent_1021.0001
+  - intent_1022.0001
+  - intent_1023.0001
+  - intent_1024.0001
+  - intent_1025.0001
+  - intent_1031.0001
+  - intent_1032.0001
+  - intent_1033.0001
+  - intent_1034.0001
+  - intent_1035.0001
+  - intent_1036.0001
+  - intent_1037.0001
+  - intent_1038.0001
+  - intent_1039.0001
+  - intent_10310.0001
+  - intent_1041.0001
+  - intent_1042.0001
+  - intent_1043.0001
+  - intent_1044.0001
+  - intent_1045.0001
+  - intent_1046.0001
+  - intent_1051.0001
+  - intent_1052.0001
+  - intent_1053.0001
+  - intent_1054.0001
+  - intent_1055.0001
+  - intent_1056.0001
+  - intent_1057.0001
+  - intent_1061.0001
+  - intent_1062.0001
+  - intent_1063.0001
+  - intent_1071.0001
+  - intent_1072.0001
+  - intent_1073.0001
+  - intent_1074.0001
+  - intent_1075.0001
+  - intent_2011.0001
+  - intent_2012.0001
+  - intent_2013.0001
+  - intent_2014.0001
+  - intent_2021.0001
+  - intent_2022.0001
+  - intent_2023.0001
+  - intent_2024.0001
+  - intent_2025.0001
+  - intent_2031.0001
+  - intent_2032.0001
+  - intent_2033.0001
+  - intent_2034.0001
+  - intent_2035.0001
+  - intent_2041.0001
+  - intent_2042.0001
+  - intent_2051.0001
+  - intent_2052.0001
+  - intent_2053.0001
+  - intent_2054.0001
+  - intent_2061.0001
+  - intent_2062.0001
+  - intent_2071.0001
+  - intent_2072.0001
+  - intent_2073.0001
+  - intent_2074.0001
+  - intent_2075.0001
+  - intent_2081.0001
+  - intent_2082.0001
+  - intent_2091.0001
+  - intent_2092.0001
+  - intent_2093.0001
+  - intent_2101.0001
+  - intent_2102.0001
+  - intent_2103.0001
+  - intent_2111.0001
+  - intent_2112.0001
+  - intent_2121.0001
+  - intent_2122.0001
+  - intent_2123.0001
+  - intent_2124.0001
+  - intent_2125.0001
+  - intent_2126.0001
+  - intent_2127.0001
+  - intent_3011.0001
+  - intent_3012.0001
+  - intent_3013.0001
+  - intent_3014.0001
+  - intent_3021.0001
+  - intent_3022.0001
+  - intent_3023.0001
+  - intent_3024.0001
+  - intent_3031.0001
+  - intent_3032.0001
+  - intent_3033.0001
+  - intent_3034.0001
+  - intent_4011.0001
+  - intent_4012.0001
+  - intent_4013.0001
+  - intent_4014.0001
+  - intent_4015.0001
+  - intent_4016.0001
+  - intent_4017.0001
+  - intent_4018.0001
+  - intent_4021.0001
+  - intent_4022.0001
+  - intent_4023.0001
+  - intent_4031.0001
+  - intent_4032.0001
+responses: 
+  utter_1011.0001:
+  - text: "B1: Truy cập trang web sis.ou.edu.vn  
+B2: Chọn dịch vụ/tiện ích 
+B3: Ở mục DVOL chọn đăng ký cấp bảng điểm 
+B4: Chọn loại bd muốn đăng kí -> điền thông tin -> gửi yêu cầu 
+B5: Thanh toán lệ phí "
+
+  utter_1012.0001:
+  - text: "Cách 1: Khuyến khích thanh toán qua app Viettel Pay (được xác nhận thanh toán tự động)
+Cách 2:
+B1: Chuyển khoản qua STK của nhà trường 
+    - Số tài khoản: 1900 201 451 736 
+    - Ngân hàng AGRIBANK Chi nhánh Trung Tâm Sài Gòn. 
+    - Đơn vị hưởng: Trường Đại học Mở Thành phố Hồ Chí Minh. 
+    - Nội dung: MSSV-HỌ TÊN-PHÍ DVOL  
+B2: Gửi ảnh chụp màn hình chuyển khoản thành thông qua mail quanlydaotao@ou.edu.vn để được xác nhận thanh toán              "
+
+  utter_1013.0001:
+  - text: "4 ngày không tính ngày xác nhận thanh toán và thứ 7, chủ nhật 
+Lưu ý: mang thẻ SV khi ra vào trường và liên hệ nhận kết quả (P.005, CS 97 VVT) "
+
+  utter_1014.0001:
+  - text: "Bảng điểm Tiếng Việt: 20.000 đ
+Bảng điểm Tiếng anh: 150.000 đ"
+
+  utter_1015.0001:
+  - text: "BD Tiếng Anh cấp từ khóa 2009 trở về sau"
+
+  utter_1016.0001:
+  - text: "Khuyến khích sv tự đến nhận, nếu nhờ người đến nhận giúp phải có thẻ sv hoặc ảnh chụp thẻ sv "
+
+  utter_1017.0001:
+  - text: "BD có hỗ trợ ship về
+Lưu ý: sẽ nhận sau 7 - 10 ngày, tùy thuộc vào đơn vị vận chuyển"
+
+  utter_1018.0001:
+  - text: "Khuyến khích nhận đúng hẹn, sau 6 tháng kết quả sẽ bị hủy"
+
+  utter_1021.0001:
+  - text: "B1: Truy cập trang web sis.ou.edu.vn  
+B2: Chọn dịch vụ/tiện ích 
+B3: Ở mục DVOL chọn đăng ký BS BTN
+B4: Điền thông tin -> gửi yêu cầu 
+B5: Thanh toán lệ phí "
+
+  utter_1022.0001:
+  - text: "Kiểm tra thường xuyên trên sis, khi nào thấy yêu cầu đã được xử lý thì sau đó 1 ngày đến nhận"
+
+  utter_1023.0001:
+  - text: "BS BTN Tiếng Việt: 100.000 đ 
+BS BTN Tiếng Anh: 200.000 đ"
+
+  utter_1024.0001:
+  - text: "BS BTN không ship về nhà"
+
+  utter_1025.0001:
+  - text: "Cần có giấy ủy quyền + bản sao cccd của người yêu cầu cấp bs btn và người nhận giúp "
+
+  utter_1031.0001:
+  - text: "B1: Truy cập trang web sis.ou.edu.vn  
+B2: Chọn dịch vụ/tiện ích 
+B3: Ở mục DVOL chọn đăng ký CNSV
+B4: Chọn loại CNSV muốn đăng kí -> điền thông tin -> gửi yêu cầu 
+B5: Thanh toán lệ phí đối với CNSV Tiếng Anh hoặc yêu cầu ship về nhà"
+
+  utter_1032.0001:
+  - text: "4 ngày không tính ngày xác nhận thanh toán và thứ 7, chủ nhật 
+Lưu ý: mang thẻ SV khi ra vào trường và liên hệ nhận kết quả (P.005, CS 97 VVT) "
+
+  utter_1033.0001:
+  - text: "CNSV Tiếng Việt: không mất phí 
+CNSV Tiếng Anh: 50.000 đ"
+
+  utter_1034.0001:
+  - text: "Cách 1: Khuyến khích thanh toán qua app Viettel Pay (được xác nhận thanh toán tự động)
+Cách 2:
+B1: Chuyển khoản qua STK của nhà trường 
+    - Số tài khoản: 1900 201 451 736 
+    - Ngân hàng AGRIBANK Chi nhánh Trung Tâm Sài Gòn. 
+    - Đơn vị hưởng: Trường Đại học Mở Thành phố Hồ Chí Minh. 
+    - Nội dung: MSSV-HỌ TÊN-PHÍ DVOL  
+B2: Gửi ảnh chụp màn hình chuyển khoản thành thông qua mail quanlydaotao@ou.edu.vn để được xác nhận thanh toán              "
+
+  utter_1035.0001:
+  - text: " - Lý do 1: chưa nhận CNSV đã đăng ký trước đó 
+ - Lý do 2: chưa gửi mail xác nhận đã nhận CNSV khi ship về "
+
+  utter_1036.0001:
+  - text: "Khuyến khích sv tự đến nhận, nếu nhờ người đến nhận giúp phải có thẻ sv hoặc ảnh chụp thẻ sv "
+
+  utter_1037.0001:
+  - text: "Khuyến khích nhận đúng hẹn, sau 6 tháng kết quả sẽ bị hủy"
+
+  utter_1038.0001:
+  - text: "Sinh viên tạm dừng không cấp được CNSV "
+
+  utter_1039.0001:
+  - text: "CNSV là xác nhận sinh viên đang theo học tại trường, sv có nhu cầu vay vốn vui lòng liên hệ Phòng CTSV & TT"
+
+  utter_10310.0001:
+  - text: "CNSV có hiệu lực 6 tháng kể từ ngày cấp "
+
+  utter_1041.0001:
+  - text: "B1: Truy cập trang web sis.ou.edu.vn  
+B2: Chọn dịch vụ/tiện ích 
+B3: Ở mục DVOL chọn đăng ký CNTN TT
+B4: Chọn loại CNTN TT  muốn đăng kí -> điền thông tin -> gửi yêu cầu 
+B5: Thanh toán lệ phí đối với CNTN TT Tiếng Anh hoặc yêu cầu ship về nhà"
+
+  utter_1042.0001:
+  - text: "4 ngày không tính ngày xác nhận thanh toán và thứ 7, chủ nhật 
+Lưu ý: mang theo giấy tờ tùy thân khi liên hệ nhận kết quả (P.005, CS 97 VVT) "
+
+  utter_1043.0001:
+  - text: "CNTN TT Tiếng Việt: không mất phí 
+CNTN TT Tiếng Anh: 50.000 đ"
+
+  utter_1044.0001:
+  - text: "Khuyến khích sv tự đến nhận, nếu nhờ người đến nhận giúp phải có thẻ sv/ cccd hoặc ảnh chụp thẻ sv/ cccd "
+
+  utter_1045.0001:
+  - text: "Điều kiện 1: Sinh viên có tên trong danh sách xét TN 
+Điều kiện 2: Sau thời gian nhà trường họp xét TN "
+
+  utter_1046.0001:
+  - text: "CNTN TT có hỗ trợ ship về
+Lưu ý: sẽ nhận sau 7 - 10 ngày, tùy thuộc vào đơn vị vận chuyển"
+
+  utter_1051.0001:
+  - text: "B1: Truy cập trang web sis.ou.edu.vn  
+B2: Chọn dịch vụ/tiện ích 
+B3: Ở mục DVOL chọn đăng ký cấp thẻ SV 
+B4: Điền thông tin -> gửi yêu cầu 
+B5: Thanh toán lệ phí "
+
+  utter_1052.0001:
+  - text: "4 ngày không tính ngày xác nhận thanh toán và thứ 7, chủ nhật 
+Lưu ý: mang theo giấy tờ tùy thân khi liên hệ nhận kết quả (P.005, CS 97 VVT) "
+
+  utter_1053.0001:
+  - text: "Thẻ SV: 150.000 đ"
+
+  utter_1054.0001:
+  - text: "Khuyến khích sv tự đến nhận, nếu nhờ người đến nhận giúp phải có thẻ sv/ cccd hoặc ảnh chụp thẻ sv/ cccd "
+
+  utter_1055.0001:
+  - text: "Thẻ SV có hỗ trợ ship về
+Lưu ý: sẽ nhận sau 7 - 10 ngày, tùy thuộc vào đơn vị vận chuyển"
+
+  utter_1056.0001:
+  - text: "Sinh viên trả nợ chỉ cần sử dụng giấy tờ tùy thân khi ra vào trường và phòng thi"
+
+  utter_1057.0001:
+  - text: "- SV không cần gia hạn thẻ sv 
+- Thời hạn sử dụng: thời gian kết thúc chương trình đào tạo 4 năm"
+
+  utter_1061.0001:
+  - text: "B1: Truy cập trang web sis.ou.edu.vn  
+B2: Chọn dịch vụ/tiện ích 
+B3: Ở mục DVOL chọn đăng ký xét TN
+B4: Điền thông tin -> gửi yêu cầu 
+Lưu ý: P.QLDT sẽ phản hồi trực tiếp kết quả trên trang web "
+
+  utter_1062.0001:
+  - text: "TADR cũng là một môn học do đó phải hoàn tất hết tất cả môn học thì mới có thể xét tốt nghiệp "
+
+  utter_1063.0001:
+  - text: "4 ngày không tính ngày xác nhận thanh toán và thứ 7, chủ nhật 
+Lưu ý: P.QLDT sẽ phản hồi trực tiếp kết quả trên trang web "
+
+  utter_1071.0001:
+  - text: "- Xem kỹ khung thời gian mở mã số sinh viên từng học kỳ 
+- Liên hệ trực tiếp bộ phận tiếp sinh viên P.005 CS 97 Võ Văn Tần 
+Lưu ý: Mang thẻ SV khi ra vào trường "
+
+  utter_1072.0001:
+  - text: "3 ngày không tính ngày xác nhận thanh toán và thứ 7, chủ nhật 
+Lưu ý: sv tự kiểm tra tình trạng mở mssv trên trang tienichsv.ou.edu.vn "
+
+  utter_1073.0001:
+  - text: "Phí mở MSSV: 50.000 đ"
+
+  utter_1074.0001:
+  - text: "Khuyến khích sv tự đến mở MSSV nếu nhờ người đến nhận giúp phải có thẻ sv/ cccd hoặc ảnh chụp thẻ sv/ cccd "
+
+  utter_1075.0001:
+  - text: "- Sinh viên kiểm tra tình trạng khóa MSSV ở học kỳ kế tiếp theo đường dẫn: tienichsv.ou.edu.vn chọn xem Tình trạng khóa mã sinh viên. 
+- Trường hợp bị khóa MSSV do đóng học phí trễ hạn: Nếu học phí chưa được xác nhận thanh toán trên hệ thống tienichsv.ou.edu.vn, sinh viên nộp kèm theo biên lai đóng học phí (bản photo).
+- Trường hợp bảo lưu học tập: Sinh viên nộp đơn đề nghị được tiếp tục học tập kèm theo Giấy báo tạm dừng học tập do Phòng Quản lý đào tạo cấp.
+- Trường hợp tự ý nghỉ học nhiều học kỳ (2 học kỳ trở lên, khóa 2020 trở về trước): Sinh viên nộp kèm theo Giấy xác nhận không vi phạm pháp luật, hạnh kiểm do Công an địa phương cấp.
+- Trường hợp hết thời gian bị kỷ luật: Phòng Quản lý đào tạo sẽ tự động mở MSSV theo quyết định xóa kỷ luật từ phòng Công tác sinh viên trong học kỳ sinh viên hết hạn kỷ luật."
+
+  utter_2011.0001:
+  - text: "Điều kiện 1: Hoàn tất số tín chỉ trung bình một năm học (đối với khóa 2021 trở về sau) 
+http://quanlydaotao.ou.edu.vn/thong-bao-ve-so-tin-chi-trung-binh-nam-hoc-theo-ke-hoach-hoc-tap-chuan-ap-dung-cho-sinh-vien-tuyen-sinh-tu-khoa-2021 
+Điều kiện 2: Ngành, chương trình chuyển đến có tổ chức tuyển sinh cùng một phương thức trong cùng đợt xét tuyển của ngành sinh viên đang theo học  
+Điều kiện 3: Điểm xét tuyển của sinh viên phải bằng hoặc cao hơn điểm trúng tuyển cùng một tổ hợp trong cùng đợt của ngành, chương trình chuyển đến"
+  - text: " được sự chấp thuận của Phòng Quản lý đào tạo và Ban Giám hiệu phê duyệt 
+Lưu ý: Sinh viên chỉ được xét chuyển ngành, chuyển chương trình học một lần trong suốt khóa học"
+
+  utter_2012.0001:
+  - text: "Theo kế hoạch năm học"
+
+  utter_2013.0001:
+  - text: "Theo kế hoạch năm học"
+
+  utter_2014.0001:
+  - text: "Bước 1: Sau khi nhận quyết định được chuyển ngành, sinh viên mang theo quyết định liên hệ văn phòng Khoa của ngành vừa được chuyển sang để được cố vấn học tập (hoặc trợ lý giáo vụ Khoa) tư vấn về chương trình đào tạo, đăng ký môn học, nhận lớp mới để tham gia đánh giá kết quả rèn luyện 
+Bước 2: Xin cấp bảng điểm tổng hợp và liên hệ Phòng Quản lý Đào tạo (P.005 – Bộ phận tiếp sinh viên) để làm thủ tục hủy điểm các môn học ở ngành cũ mà trong chương trình đào tạo ngành mới không học. 
+Lưu ý: Phòng Quản lý Đào tạo sẽ không giải quyết bất kỳ trường hợp nào sinh viên đăng ký môn học sai mà không có sự tư vấn của cố vấn học tập (hoặc Trợ lý giáo vụ Khoa)"
+
+  utter_2021.0001:
+  - text: "Quy định học cùng lúc 2 ngành:
+1. Ngành đào tạo chính ở chương trình thứ hai phải khác với ngành đào tạo ở chương trình thứ nhất.
+2. Sinh viên được đăng ký xét học chương trình thứ hai sau khi đã kết thúc học kỳ đầu tiên và trước học kỳ cuối chính khóa của chương trình thứ nhất
+3. Sinh viên không thuộc diện tạm ngưng học và và không thuộc diện xếp loại học lực yếu ở chương trình thứ nhất.
+4. Thời gian tối đa được phép học đối với sinh viên đăng ký học đồng thời 2 chương trình là thời gian tối đa quy định cho chương trình thứ nhất. Khi học chương trình thứ hai, sinh viên được bảo lưu điểm của những học phần có nội dung và khối lượng kiến thức tương đương trong chương trình thứ nhất.
+5. Sinh viên chỉ được xét tốt nghiệp chương trình thứ hai nếu có đủ điều kiện tốt nghiệp ở chương trình thứ nhất./."
+
+  utter_2022.0001:
+  - text: "Theo kế hoạch năm học"
+
+  utter_2023.0001:
+  - text: "Theo kế hoạch năm học"
+
+  utter_2024.0001:
+  - text: "Thời gian tối đa được phép học đối với sinh viên đăng ký học đồng thời 2 chương trình là thời gian tối đa quy định cho chương trình thứ nhất. Khi học chương trình thứ hai, sinh viên được bảo lưu điểm của những học phần có nội dung và khối lượng kiến thức tương đương trong chương trình thứ nhất."
+
+  utter_2025.0001:
+  - text: "Bước 1: Sau khi nhận quyết định được học ngành thứ hai từ Phòng Quản lý Đào tạo, sinh viên mang theo quyết định liên hệ văn phòng Khoa của ngành thứ hai để được cố vấn học tập (hoặc trợ lý giáo vụ Khoa) tư vấn về chương trình đào tạo, đăng ký môn học. 
+Bước 2: Xin cấp bảng điểm tổng hợp và liên hệ Phòng Quản lý Đào tạo (P.005 – Bộ phận tiếp sinh viên) để làm thủ tục chuyển điểm từ ngành thứ nhất qua ngành thứ hai."
+
+  utter_2031.0001:
+  - text: "Theo kế hoạch năm học"
+
+  utter_2032.0001:
+  - text: "21 ngày kể từ ngày sinh viên nộp đơn , không tính ngày thứ 7 chủ nhật"
+
+  utter_2033.0001:
+  - text: "- 01 bản sao y công chứng hoặc bản photo kèm bản chính của chứng chỉ muốn xét miễn giảm 
+- Thẻ sinh viên
+- Liên hệ P005 CS 97 Võ Văn Tần để nộp đơn 
+Lưu ý: 
+    Sinh viên vui lòng tự liên hệ nộp đơn, cần có giấy ủy quyền khi nhờ người nộp giúp
+    Sinh viên khoa ĐTĐB nộp đơn tại Văn phòng khoa"
+
+  utter_2034.0001:
+  - text: "- TOEIC 
+- TOEFL ITP
+- TOEFL iBT
+- IELTS
+- Cambridge English Language Assessment"
+
+  utter_2035.0001:
+  - text: "Bước 1: Đăng ký cấp bảng điểm tổng hợp trên trang sis.ou.edu.vn 
+Bước 2: Liên hệ P005 để làm đơn (đính kèm bảng điểm) chuyển điểm "
+
+  utter_2041.0001:
+  - text: "Cùng mã môn học
+- Không cần thực hiện xóa điểm, hệ thống chỉ tính điểm cao nhất trong tất cả các lần học 
+Khác mã môn học 
+- Môn học lại tương đương với môn đã rớt, sinh viên vui lòng liên hệ P005 để làm đơn điều chỉnh 
+Lưu ý: 
+- Khuyến khích sinh viên đăng ký bd tổng hợp để ktra lại trước khi làm đơn
+- Môn học đã xóa sẽ không khôi phục lại được, sinh viên kiểm tra kỹ mã môn trước khi làm đơn"
+
+  utter_2042.0001:
+  - text: "4 ngày không tính thứ 7, chủ nhật 
+Lưu ý: mang thẻ SV khi ra vào trường và liên hệ nhận kết quả (P.005, CS 97 VVT) "
+
+  utter_2051.0001:
+  - text: "- 01 theo bản sao y công chứng hoặc bản photo kèm bản chính của CCCD 
+- Thẻ sinh viên
+- Liên hệ P005 CS 97 Võ Văn Tần để làm đơn "
+
+  utter_2052.0001:
+  - text: "Ảnh thẻ sinh viên được thay đổi trong các trường hợp: Sinh viên phẩu thuật thẩm mỹ, ảnh thẻ sinh viên không hợp lệ,... 
+Thắc mắc vui lòng liên hệ P005 CS 97 Võ Văn Tần để được giải đáp "
+
+  utter_2053.0001:
+  - text: "- Thẻ sinh viên
+- Liên hệ P005 CS 97 Võ Văn Tần để làm đơn"
+
+  utter_2054.0001:
+  - text: "3 ngày không tính thứ 7, chủ nhật"
+
+  utter_2061.0001:
+  - text: "- Sinh viên là người khuyết tật, có giấy xác nhận khuyết tật theo quy định của pháp luật về người khuyết tật"
+  - text: " 
+- Sinh viên không đủ sức khỏe về thể lực hoặc mắc những bệnh lý không thể hoạt động mạnh theo danh sách khám sức khỏe hàng năm của Trạm Y tế Trường"
+  - text: " 
+- Sinh viên đã hoàn thành nghĩa vụ quân sự, công an nhân dân."
+
+  utter_2062.0001:
+  - text: "4 ngày không tính thứ 7, chủ nhật"
+
+  utter_2071.0001:
+  - text: "- Sinh viên chính khóa 
+- Không đăng ký môn học trong học kỳ tạm dừng 
+- Hoàn tất đầy đủ học phí "
+
+  utter_2072.0001:
+  - text: "Thời gian tạm dừng vẫn tính vào khóa học "
+
+  utter_2073.0001:
+  - text: "1 tuần không tính thứ 7, chủ nhật"
+
+  utter_2074.0001:
+  - text: "Sinh viên vui lòng liên hệ P005 để làm thủ tục tạm dừng 
+Lưu ý: 
+- Áp dụng cho sinh viên chính khóa 
+- Sinh viên khóa 2021 trở về sau, tự ý nghỉ học 1HK sẽ bị cảnh cáo học tập, 2HK liên tiếp sẽ bị buộc thôi học"
+
+  utter_2075.0001:
+  - text: "Sinh viên được tạm dừng trong 4 năm học chính khóa (không tính học kỳ 1 năm nhất)"
+
+  utter_2081.0001:
+  - text: "Đem QD tạm dừng liên hệ P005 để làm đơn tiếp tục học tập (trong thời gian mở mssv)"
+
+  utter_2082.0001:
+  - text: "1 tuần không tính thứ 7, chủ nhật"
+
+  utter_2091.0001:
+  - text: "Liên hệ trực tiếp P005 CS 97 Võ Văn Tần để làm đơn 
+Lưu ý: mang thẻ SV khi ra vào trường và liên hệ nhận kết quả "
+
+  utter_2092.0001:
+  - text: "3 ngày không tính thứ 7, chủ nhật"
+
+  utter_2093.0001:
+  - text: "Sinh viên vui lòng liên hệ trực tiếp P005 CS 97 Võ Văn Tần để làm đơn xét môn học chưa đạt 
+Lưu ý: mang thẻ SV khi ra vào trường và liên hệ nhận kết quả "
+
+  utter_2101.0001:
+  - text: "Liên hệ trực tiếp P005 CS 97 Võ Văn Tần để làm đơn 
+Lưu ý: mang thẻ SV khi ra vào trường và liên hệ nhận kết quả "
+
+  utter_2102.0001:
+  - text: "- Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại khoản 5 Điều 2 của Quy chế này 
+- Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến"
+  - text: "
+- Nơi chuyển đến có đủ các điều kiện bảo đảm chất lượng, chưa vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo"
+  - text: " 
+- Được sự đồng ý của Hiệu trưởng trường xin chuyển đi và trường xin chuyển đến."
+
+  utter_2103.0001:
+  - text: "Khi nào có kết quả nhà trường sẽ liên hệ cho sinh viên lên nhận "
+
+  utter_2111.0001:
+  - text: "- Không đăng ký môn học 
+- Hoàn tất hết tất cả học phí 
+- Không nợ sách thư viện"
+
+  utter_2112.0001:
+  - text: "15 ngày không tính thứ 7, chủ nhật"
+
+  utter_2121.0001:
+  - text: "- Sinh viên bị ốm đau, tai nạn có giấy xác nhận của cơ sở y tế cấp
+Quận, Huyện trở lên cấp.
+- Sinh viên có tang của người thân là vợ (chồng), ông, bà, cha, mẹ, anh, chị, em ruột (hoặc của chồng/vợ), có bản sao giấy trích lục khai tử, bản sao hộ khẩu và các giấy tờ khác xác nhận quan hệ gia đình (công chứng tại Ủy ban nhân dân cấp Phường, Xã hoặc bản chính để đối chiếu). 
+- Sinh viên có quyết định của cơ quan cử đi công tác đột xuất. 
+- Sinh viên bị xếp trùng lịch thi do đăng ký học cải thiện điểm, học các môn thuộc các lớp khác với lớp đang theo học (trừ trường hợp sinh viên đăng ký môn học khác trong học kỳ có học Giáo dục quốc phòng và an ninh). "
+
+  utter_2122.0001:
+  - text: "- Sinh viên liên hệ P005 CS 97 Võ Văn Tần để nộp đơn 
+- Đem theo minh chứng giấy tờ liên quan để điều chỉnh lịch thi
+Lưu ý: mang thẻ SV khi ra vào trường và khi liên hệ"
+
+  utter_2123.0001:
+  - text: "Khuyến khích sv tự làm đơn, nếu nhờ người làm giúp phải có thẻ sv hoặc ảnh chụp thẻ sv "
+
+  utter_2124.0001:
+  - text: "- 3 ngày không tính thứ 7, chủ nhật 
+- Kết quả sẽ được nhận qua mail hoặc qua sdt của sinh viên"
+
+  utter_2125.0001:
+  - text: "Sinh viên có tối đa 8 năm học tại trường ( 4 năm chính khóa, 4 năm trả nợ)"
+
+  utter_2126.0001:
+  - text: "3 ngày không tính thứ 7, chủ nhật"
+
+  utter_2127.0001:
+  - text: "Chuyển khóa vẫn tính vào thời gian học tối đa của sinh viên (8 năm) "
+
+  utter_3011.0001:
+  - text: "Trước khi thời gian xét tốt nghiệp"
+
+  utter_3012.0001:
+  - text: "Khuyến khích sv tự đến nộp, nếu nhờ người đến nộp giúp phải có thẻ sv hoặc ảnh chụp thẻ sv "
+
+  utter_3013.0001:
+  - text: "- Sinh viên đem biên lai nhận hồ sơ liên hệ P005 CS 97 Võ Văn Tần để được giải quyết
+- Trường hợp sinh viên không có biên lại nhận hồ sơ vui lòng nộp lại BS BTN THPT"
+
+  utter_3014.0001:
+  - text: "- 02 bản sao có công chứng hoặc 02 bản photo có kèm bản chính để nhà trường đối chiếu. 
+- Nộp tại P005 CS 97 Võ Văn Tần 
+Lưu ý: mang thẻ SV khi ra vào trường "
+
+  utter_3021.0001:
+  - text: "Trước khi thời gian xét tốt nghiệp"
+
+  utter_3022.0001:
+  - text: "Khuyến khích sv tự đến nộp, nếu nhờ người đến nộp giúp phải có thẻ sv hoặc ảnh chụp thẻ sv "
+
+  utter_3023.0001:
+  - text: "- Sinh viên đem biên lai nhận hồ sơ liên hệ P005 CS 97 Võ Văn Tần để được giải quyết
+- Trường hợp sinh viên không có biên lại nhận hồ sơ vui lòng nộp lại BS HB THPT"
+
+  utter_3024.0001:
+  - text: "- 01 bản sao có công chứng hoặc 01 bản photo có kèm bản chính (đủ 06 học kỳ) để nhà trường đối chiếu. 
+- Nộp tại P005 CS 97 Võ Văn Tần 
+Lưu ý: mang thẻ SV khi ra vào trường "
+
+  utter_3031.0001:
+  - text: "Trước khi thời gian xét tốt nghiệp"
+
+  utter_3032.0001:
+  - text: "Khuyến khích sv tự đến nộp, nếu nhờ người đến nộp giúp phải có thẻ sv hoặc ảnh chụp thẻ sv "
+
+  utter_3033.0001:
+  - text: "- Đem biên lai nhận hồ sơ liên hệ P005 CS 97 Võ Văn Tần để được giải quyết
+- Trường hợp sinh viên không có biên lại nhận hồ sơ vui lòng nộp lại BS giấy khai sinh"
+
+  utter_3034.0001:
+  - text: "- 01 bản sao có công chứng hoặc 01 bản photo có kèm bản chính để nhà trường đối chiếu. 
+- Nộp tại P005 CS 97 Võ Văn Tần 
+Lưu ý: mang thẻ SV khi ra vào trường "
+
+  utter_4011.0001:
+  - text: "Đăng ký vào đợt 3 trong thời gian đăng ký môn học trực tuyến"
+
+  utter_4012.0001:
+  - text: "Đăng ký vào đợt 2,3 trong thời gian đăng ký môn học trực tuyến"
+
+  utter_4013.0001:
+  - text: "Đăng ký vào đợt 2,3 trong thời gian đăng ký môn học trực tuyến"
+
+  utter_4014.0001:
+  - text: "Các môn học dưới 5 biết điểm sau thời gian đăng ký môn học trực tuyến"
+
+  utter_4015.0001:
+  - text: "Sinh viên có thể ĐKMH vào đợt 2,3 "
+
+  utter_4016.0001:
+  - text: "Khi kết thúc thời gian ĐKMH trực tuyến sinh viên không được hủy các môn học đã đăng ký"
+
+  utter_4017.0001:
+  - text: "Khi kết thúc thời gian ĐKMH trực tuyến sinh viên không được điều chỉnh thời khóa biểu đã đăng ký "
+
+  utter_4018.0001:
+  - text: "- Sinh viên chương trình chất lượng cao có thể đăng ký khác lớp, tuy nhiên không đảm bảo đủ sĩ số lớp
+Lưu ý:
+- Đăng ký khác lớp vào đợt 2,3 của thời gian ĐKMH trực tuyến 
+- P.QLDT không giải quyết các trường hợp về sĩ số "
+
+  utter_4021.0001:
+  - text: "B1: Sinh viên tải mẫu đơn gia hạn thời gian đóng học phí tại (http://quanlydaotao.ou.edu.vn/cac-mau-bieu-cua-phong-qldt) hoặc liên hệ trực tiếp P005 để nhận đơn 
+B2: Xác nhận của địa phương (có dấu mộc tròn đỏ) về hoàn cảnh khó khăn chưa thể đóng học phí đúng hạn 
+B3: Nộp đơn tại P005, CS 97 Võ Văn Tần
+Lưu ý: Sinh viên vui lòng nộp đơn trong thời gian đóng học phí"
+
+  utter_4022.0001:
+  - text: "Sinh viên được hỗ trợ gia hạn học phí sẽ không bị khóa mã số sinh viên "
+
+  utter_4023.0001:
+  - text: "Sinh viên vui lòng gửi ảnh chụp biên lai học phí đã đóng qua mail của thầy phụ trách để được cập nhật loc.nth@ou.edu.vn "
+
+  utter_4031.0001:
+  - text: "P.QLDT chỉ hỗ trợ cấp chứng nhận đã đạt tiếng anh đầu ra/ tin học không chuyên tại trường"
+
+  utter_4032.0001:
+  - text: "Sinh viên gửi mail qua phuong.cth@ou.edu.vn để được hỗ trợ"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
