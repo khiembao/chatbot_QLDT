@@ -1,1270 +1,1024 @@
 version: "3.1"
 
 nlu:
-- intent: intent_1011.0001
+- intent: intent_10101001
   examples: |
-    - Cho tôi hỏi cách đăng ký cấp bảng điểm ?
-    - tôi muốn cấp bảng điểm thì làm như thế nào?
-    - làm thế nào để đăng ký cấp bảng điểm?
-    - Có hướng dẫn chi tiết nào về thủ tục đăng ký cấp bảng điểm mà tôi cần làm theo không?
-    - Tôi cần phải đến địa điểm nào để đăng ký cấp bảng điểm?
-    - Có hình thức đăng ký trực tuyến hoặc qua email cho việc cấp bảng điểm không?
-    - 
-
-- intent: intent_1012.0001
+    - Cho tôi hỏi cách đăng ký cấp bảng điểm  
+    - tôi muốn cấp bảng điểm thì làm như thế nào 
+    - làm thế nào để đăng ký cấp bảng điểm 
+    - Có hướng dẫn chi tiết nào về thủ tục đăng ký cấp bảng điểm mà tôi cần làm theo không 
+    - Tôi cần phải đến địa điểm nào để đăng ký cấp bảng điểm 
+    - Có hình thức đăng ký trực tuyến hoặc qua email cho việc cấp bảng điểm không 
+- intent: intent_10102001
   examples: |
-    - Cho tôi hỏi cách thanh toán bảng điểm ? 
-    - Làm thế nào để tiến hành việc thanh toán cho việc cấp bảng điểm?
-    - Có quy trình hay hướng dẫn nào về thủ tục thanh toán bảng điểm mà tôi cần tuân theo không?
-    - Tôi có thể thanh toán bảng điểm bằng cách nào? Có các phương thức thanh toán cụ thể mà tôi cần biết không?
-    - Có hình thức thanh toán bảng điểm trực tuyến không?
-    - Tôi cần biết về quy trình và các bước để thanh toán trực tuyến cho việc cấp bảng điểm?
-    - 
-
-- intent: intent_1013.0001
+    - Cho tôi hỏi cách thanh toán bảng điểm   
+    - Làm thế nào để tiến hành việc thanh toán cho việc cấp bảng điểm 
+    - Có quy trình hay hướng dẫn nào về thủ tục thanh toán bảng điểm mà tôi cần tuân theo không 
+    - Tôi có thể thanh toán bảng điểm bằng cách nào  Có các phương thức thanh toán cụ thể mà tôi cần biết không 
+    - Có hình thức thanh toán bảng điểm trực tuyến không 
+    - Tôi cần biết về quy trình và các bước để thanh toán trực tuyến cho việc cấp bảng điểm 
+- intent: intent_10103001
   examples: |
-    - Cho tôi hỏi thời gian cấp bảng điểm ?
-    - cho tôi hỏi khi nào thì nhận được bảng điểm?
-    - cho tôi hỏi bao lâu thì mới nhận:được bảng điểm?
-    - cho tôi hỏi thời gian cấp bảng điểm là bao lâu?
-    - tôi muốn biết thời gian từ khi đăng kí nhận bảng điểm thì bao lâu mới có?
-
-- intent: intent_1014.0001
+    - Cho tôi hỏi thời gian cấp bảng điểm  
+    - cho tôi hỏi khi nào thì nhận được bảng điểm 
+    - cho tôi hỏi bao lâu thì mới nhận:được bảng điểm 
+    - cho tôi hỏi thời gian cấp bảng điểm là bao lâu 
+    - tôi muốn biết thời gian từ khi đăng kí nhận bảng điểm thì bao lâu mới có 
+- intent: intent_10104001
   examples: |
-    - Cho tôi hỏi phí bảng điểm là bao nhiêu ? 
-    - cho tôi hỏi tôi có phải trả tiền cho bảng điểm không?
+    - Cho tôi hỏi phí bảng điểm là bao nhiêu   
+    - cho tôi hỏi tôi có phải trả tiền cho bảng điểm không 
     - tôi cần trả bao nhiêu cho bảng điểm
-    - phí đặng kí bảng điểm tiếng việt?
-    - phí đăng kí bẳng điểm tiếng anh?
-
-- intent: intent_1015.0001
+    - phí đặng kí bảng điểm tiếng việt 
+    - phí đăng kí bẳng điểm tiếng anh 
+- intent: intent_10105001
   examples: |
-    - Cho tôi hỏi từ khóa nào thì được cấp bảng điểm Tiếng Anh ?
-    - tôi muốn biết bảng diểm tiếng anh được cấp từ khóa nào?
-    - bảng điểm tiếng anh được cập từ khi nào?
-
-- intent: intent_1016.0001
+    - Cho tôi hỏi từ khóa nào thì được cấp bảng điểm Tiếng Anh  
+    - tôi muốn biết bảng diểm tiếng anh được cấp từ khóa nào 
+    - bảng điểm tiếng anh được cập từ khi nào 
+- intent: intent_10106001
   examples: |
-    - Cho tôi hỏi bảng điểm nhờ người nhận giúp được không ?
-    - cho tôi hỏi người thân của tôi có thể nhận bảng điểm giúp tôi được không?
-    - bảng điểm có cho người ngoài nhận dùm được không?
-    - bảng điẻm có băt buộc sinh viên phải đến nhận trực tiếp không?
+    - Cho tôi hỏi bảng điểm nhờ người nhận giúp được không  
+    - cho tôi hỏi người thân của tôi có thể nhận bảng điểm giúp tôi được không 
+    - bảng điểm có cho người ngoài nhận dùm được không 
+    - bảng điẻm có băt buộc sinh viên phải đến nhận trực tiếp không 
     - sinh viên phải đến trực tiếp để lấy bảng điểm đúng không
-
-- intent: intent_1017.0001
+- intent: intent_10107001
   examples: |
-    - Cho tôi hỏi bảng điểm có ship về không ? 
-    - tôi muốn biết là có dịch vụ vận chuyển bảng điểm không?
-    - có thể đăng ký ship vận chuyển bẳng điểm về đến nhà được không?
+    - Cho tôi hỏi bảng điểm có ship về không   
+    - tôi muốn biết là có dịch vụ vận chuyển bảng điểm không 
+    - có thể đăng ký ship vận chuyển bẳng điểm về đến nhà được không 
     - nếu tôi không thể đên lấy bảng điểm thì có cách nào khác không
     - làm thế nào tôi có thể không cần đển lấy bảng điểm
-
-- intent: intent_1018.0001
+- intent: intent_10108001
   examples: |
-    - Cho tôi hỏi đến nhận bảng điểm trễ hơn ngày hạn thì được không ? 
-    - tôi không đến đúng hạn nhận bảng điểm thì có sao không?
-    - nếu nhận bảng điểm không đúng hạn thì có làm sao không? 
+    - Cho tôi hỏi đến nhận bảng điểm trễ hơn ngày hạn thì được không   
+    - tôi không đến đúng hạn nhận bảng điểm thì có sao không 
+    - nếu nhận bảng điểm không đúng hạn thì có làm sao không  
     - nếu tôi nhận trễ bảng điểm thì có bị hủy không
     - bảng điểm có bắt buộc phải đến đúng hẹn không
-
-- intent: intent_1021.0001
+- intent: intent_10201001
   examples: |
-    - Cho tôi hỏi cách đăng ký cấp bản sao bằng tốt nghiệp ? 
-    - tôi muốn biết cách đăng kí nhận bằng tốt nghiệp?
-    - làm sao để được cấp bằng tốt nghiệp?
-    - các bước đăng kí nhận bằng tốt nghiệp như thế nào?
-    - tôi muốn lấy bằng tốt nghiệp thì làm như thế nào?
-
-- intent: intent_1022.0001
+    - Cho tôi hỏi cách đăng ký cấp bản sao bằng tốt nghiệp   
+    - tôi muốn biết cách đăng kí nhận bằng tốt nghiệp 
+    - làm sao để được cấp bằng tốt nghiệp 
+    - các bước đăng kí nhận bằng tốt nghiệp như thế nào 
+    - tôi muốn lấy bằng tốt nghiệp thì làm như thế nào 
+- intent: intent_10202001
   examples: |
-    - Cho tôi hỏi thời gian cấp bản sao bằng tốt nghiệp ?
+    - Cho tôi hỏi thời gian cấp bản sao bằng tốt nghiệp  
     - thông thường bằng tốt nghiệp sẽ được phát sau bao lâu từ khi đăng ký
-    - thời gian kể từ khi đăng ký đến lúc nhận là bao lâu?
-    - mât bao lâu thời gian thì tôi mới nhận được bằng tốt nghiệp?
-    - sau khi đăng ký nhận bằng tốt nghiệp thì có cần dợi thông báo không?
-    - làm sao để tôi biết bao giờ thì nhận được bằng tốt nghiệp?
-
-- intent: intent_1023.0001
+    - thời gian kể từ khi đăng ký đến lúc nhận là bao lâu 
+    - mât bao lâu thời gian thì tôi mới nhận được bằng tốt nghiệp 
+    - sau khi đăng ký nhận bằng tốt nghiệp thì có cần dợi thông báo không 
+    - làm sao để tôi biết bao giờ thì nhận được bằng tốt nghiệp 
+- intent: intent_10203001
   examples: |
-    - Cho tôi hỏi phí cấp bản sao bằng tốt nghiệp là bao nhiêu ? 
-    - cho tôi hỏi tôi có phải trả tiền cho bằng tốt nghiệp không?
-    - tôi cần trả bao nhiêu cho bằng tốt nghiệp
-    - phí đặng kí bằng tốt nghiệp tiếng viêt tiếng việt?
-    - phí đăng kí bẳng tốt nghiệp tiếng anh?
-    - 
-
-- intent: intent_1024.0001
+    - Cho tôi hỏi phí cấp bản sao bằng tốt nghiệp là bao nhiêu   
+    - cho tôi hỏi tôi có phải trả tiền cho bằng tốt nghiệp không 
+    - tôi cần trả bao nhiêu cho bằng tốt nghiệp
+    - phí đặng kí bằng tốt nghiệp tiếng viêt tiếng việt 
+    - phí đăng kí bẳng tốt nghiệp tiếng anh 
+- intent: intent_10204001
   examples: |
-    - Cho tôi hỏi bản sao bằng tốt nghiệp có ship về nhà không ?
-    - Cho tôi hỏi bằng tốt nghiệp có ship về không ? 
-    - tôi muốn biết là có dịch vụ vận chuyển bằng tốt nghiệp không?
-    - có thể đăng ký ship vận chuyển bằng tốt nghiệp về đến nhà được không?
+    - Cho tôi hỏi bản sao bằng tốt nghiệp có ship về nhà không  
+    - Cho tôi hỏi bằng tốt nghiệp có ship về không   
+    - tôi muốn biết là có dịch vụ vận chuyển bằng tốt nghiệp không 
+    - có thể đăng ký ship vận chuyển bằng tốt nghiệp về đến nhà được không 
     - nếu tôi không thể đên lấy bằng tốt nghiệp thì có cách nào khác không
     - làm thế nào tôi có thể không cần đển lấy bằng tốt nghiệp
-
-- intent: intent_1025.0001
+- intent: intent_10205001
   examples: |
-    - Cho tôi hỏi bằng tốt nghiệp nhờ người nhận giúp được không ?
-    - cho tôi hỏi người thân của tôi có thể nhận bằng tốt nghiệp giúp tôi được không?
-    - bằng tốt nghiệp có cho người ngoài nhận dùm được không?
-    - bằng tốt nghiệpcó băt buộc sinh viên phải đến nhận trực tiếp không?
+    - Cho tôi hỏi bằng tốt nghiệp nhờ người nhận giúp được không  
+    - cho tôi hỏi người thân của tôi có thể nhận bằng tốt nghiệp giúp tôi được không 
+    - bằng tốt nghiệp có cho người ngoài nhận dùm được không 
+    - bằng tốt nghiệpcó băt buộc sinh viên phải đến nhận trực tiếp không 
     - sinh viên phải đến trực tiếp để lấy bằng tốt nghiệp đúng không
-    - 
-
-- intent: intent_1031.0001
+- intent: intent_10301001
   examples: |
-    - Cho tôi hỏi cách đăng ký cấp chứng nhận sinh viên ?
-    - tôi muốn cấp giấy chứng nhận sinh viên thì làm như thế nào?
-    - làm thế nào để đăng ký cấp giấy chứng nhận sinh viên?
-    - Có hướng dẫn chi tiết nào về thủ tục đăng ký cấp giấy chứng nhận sinh viên mà tôi cần làm theo không?
-    - Tôi cần phải đến địa điểm nào để đăng ký cấp giấy chứng nhận sinh viên?
-    - Có hình thức đăng ký trực tuyến hoặc qua email cho việc cấp giấy chứng nhận sinh viên không?
-    - 
-
-- intent: intent_1032.0001
+    - Cho tôi hỏi cách đăng ký cấp chứng nhận sinh viên  
+    - tôi muốn cấp giấy chứng nhận sinh viên thì làm như thế nào 
+    - làm thế nào để đăng ký cấp giấy chứng nhận sinh viên 
+    - Có hướng dẫn chi tiết nào về thủ tục đăng ký cấp giấy chứng nhận sinh viên mà tôi cần làm theo không 
+    - Tôi cần phải đến địa điểm nào để đăng ký cấp giấy chứng nhận sinh viên 
+    - Có hình thức đăng ký trực tuyến hoặc qua email cho việc cấp giấy chứng nhận sinh viên không 
+- intent: intent_10302001
   examples: |
-    - Cho tôi hỏi thời gian cấp chứng nhận sinh viên ?
-    - Cho tôi hỏi thời gian cấp giấy chứng nhận sinh viên ?
-    - cho tôi hỏi khi nào thì nhận được giấy chứng nhận sinh viên?
-    - cho tôi hỏi bao lâu thì mới nhận:được giáy chứng nhận sinh viên?
-    - cho tôi hỏi thời gian giấy chứng nhận sinh viên là bao lâu?
-    - tôi muốn biết thời gian từ khi đăng kí nhận giấy chứng nhận sinh viên thì bao lâu mới có?
-
-- intent: intent_1033.0001
+    - Cho tôi hỏi thời gian cấp chứng nhận sinh viên  
+    - Cho tôi hỏi thời gian cấp giấy chứng nhận sinh viên  
+    - cho tôi hỏi khi nào thì nhận được giấy chứng nhận sinh viên 
+    - cho tôi hỏi bao lâu thì mới nhận:được giáy chứng nhận sinh viên 
+    - cho tôi hỏi thời gian giấy chứng nhận sinh viên là bao lâu 
+    - tôi muốn biết thời gian từ khi đăng kí nhận giấy chứng nhận sinh viên thì bao lâu mới có 
+- intent: intent_10303001
   examples: |
-    - Cho tôi hỏi phí chứng nhận sinh viên là bao nhiêu ? 
-    - cho tôi hỏi tôi có phải trả tiền cho giáy chứng nhận sinh viên không?
+    - Cho tôi hỏi phí chứng nhận sinh viên là bao nhiêu   
+    - cho tôi hỏi tôi có phải trả tiền cho giáy chứng nhận sinh viên không 
     - tôi cần trả bao nhiêu cho giấy chứng nhận sinh viên
-    - phí đặng kí giấy chứng nhận sinh viên tiếng việt?
-    - phí đăng kí giấy chứng nhận sinh viên tiếng anh?
-
-- intent: intent_1034.0001
+    - phí đặng kí giấy chứng nhận sinh viên tiếng việt 
+    - phí đăng kí giấy chứng nhận sinh viên tiếng anh 
+- intent: intent_10304001
   examples: |
-    - Cho tôi hỏi cách thanh toán chứng nhận sinh viên ? (đối với CNSV Tiếng Anh và CNSV ship về) 
-    - Làm thế nào để tiến hành việc thanh toán cho việc cấp giấy chứng nhận sinh viên?
-    - Có quy trình hay hướng dẫn nào về thủ tục thanh toán giáy chứng nhận sinh viên mà tôi cần tuân theo không?
-    - Tôi có thể thanh toán giấy chứng nhận sinh viên bằng cách nào? Có các phương thức thanh toán cụ thể mà tôi cần biết không?
-    - Có hình thức thanh toán giấy chứng nhận sinh viên trực tuyến không?
-    - Tôi cần biết về quy trình và các bước để thanh toán trực tuyến cho việc cấp giấy chứng nhận sinh viên?
-
-- intent: intent_1035.0001
+    - Cho tôi hỏi cách thanh toán chứng nhận sinh viên   (đối với CNSV Tiếng Anh và CNSV ship về) 
+    - Làm thế nào để tiến hành việc thanh toán cho việc cấp giấy chứng nhận sinh viên 
+    - Có quy trình hay hướng dẫn nào về thủ tục thanh toán giáy chứng nhận sinh viên mà tôi cần tuân theo không 
+    - Tôi có thể thanh toán giấy chứng nhận sinh viên bằng cách nào  Có các phương thức thanh toán cụ thể mà tôi cần biết không 
+    - Có hình thức thanh toán giấy chứng nhận sinh viên trực tuyến không 
+    - Tôi cần biết về quy trình và các bước để thanh toán trực tuyến cho việc cấp giấy chứng nhận sinh viên 
+- intent: intent_10305001
   examples: |
-    - Cho tôi hỏi tại sao tôi không đăng ký được chứng nhận sinh viên ?
+    - Cho tôi hỏi tại sao tôi không đăng ký được chứng nhận sinh viên  
     - tôi không thể đăng ký được giấy chứng nhận sinh viên
     - cho tôi biết lý do tại sao tôi không thể đăng ký giấy chứng nhận sinh viên
-    - không đăng ký được giấy chứng nhận sinh viên là bị sao?
-    - giấy chứng nhận sinh viên đăng lý không được là bị sao?
-    - 
-
-- intent: intent_1036.0001
+    - không đăng ký được giấy chứng nhận sinh viên là bị sao 
+    - giấy chứng nhận sinh viên đăng lý không được là bị sao 
+- intent: intent_10306001
   examples: |
-    - Cho tôi hỏi chứng nhận sinh viên nhờ người nhận giúp được không ?
-    - cho tôi hỏi người thân của tôi có thể nhận giấy chứng nhận sinh viên giúp tôi được không?
-    - giấy chứng nhận sinh viên có cho người ngoài nhận dùm được không?
-    - giấy chứng nhận sinh viên có băt buộc sinh viên phải đến nhận trực tiếp không?
+    - Cho tôi hỏi chứng nhận sinh viên nhờ người nhận giúp được không  
+    - cho tôi hỏi người thân của tôi có thể nhận giấy chứng nhận sinh viên giúp tôi được không 
+    - giấy chứng nhận sinh viên có cho người ngoài nhận dùm được không 
+    - giấy chứng nhận sinh viên có băt buộc sinh viên phải đến nhận trực tiếp không 
     - sinh viên phải đến trực tiếp để lấy giấy chứng nhận sinh viên đúng không
-
-- intent: intent_1037.0001
+- intent: intent_10307001
   examples: |
-    - Cho tôi hỏi đến nhận chứng nhận sinh viên trễ hơn ngày hạn thì được không ? 
-    - Nếu tôi đến nhận chứng nhận sinh viên trễ hạn thì có được không?
-    - Sẽ như thế nào nếu tôi nhận giấy chứng nhận sinh viên trễ hơn ngày hạn?
-    - Tôi không thể nhận chứng nhận sinh viên đúng hạn được thì có thể nhận nó sau không?
-    - Cho tôi hỏi chứng nhận sinh viên sẽ bị hủy sau bao lâu nếu không nhận đúng hẹn?
-
-- intent: intent_1038.0001
+    - Cho tôi hỏi đến nhận chứng nhận sinh viên trễ hơn ngày hạn thì được không   
+    - Nếu tôi đến nhận chứng nhận sinh viên trễ hạn thì có được không 
+    - Sẽ như thế nào nếu tôi nhận giấy chứng nhận sinh viên trễ hơn ngày hạn 
+    - Tôi không thể nhận chứng nhận sinh viên đúng hạn được thì có thể nhận nó sau không 
+    - Cho tôi hỏi chứng nhận sinh viên sẽ bị hủy sau bao lâu nếu không nhận đúng hẹn 
+- intent: intent_10308001
   examples: |
-    - Cho tôi hỏi sinh viên tạm dừng học tập có cấp chứng nhận sinh viên được không ? 
-    - Sinh viên tạm dừng học có được cấp chứng nhận sinh viên không?
-    - Chứng nhận sinh viên có được cấp cho sinh viên tạm dừng học tập không?
-    - Tôi có được cấp chứng nhận sinh viên khi tôi tạm dừng học tập không?
-    - Tôi là sinh viên tạm dừng học tập. Tôi có thể xin cấp chứng nhận sinh viên (CNSV) không?
-
-- intent: intent_1039.0001
+    - Cho tôi hỏi sinh viên tạm dừng học tập có cấp chứng nhận sinh viên được không   
+    - Sinh viên tạm dừng học có được cấp chứng nhận sinh viên không 
+    - Chứng nhận sinh viên có được cấp cho sinh viên tạm dừng học tập không 
+    - Tôi có được cấp chứng nhận sinh viên khi tôi tạm dừng học tập không 
+    - Tôi là sinh viên tạm dừng học tập. Tôi có thể xin cấp chứng nhận sinh viên (CNSV) không 
+- intent: intent_10309001
   examples: |
-    - Cho tôi hỏi giấy chứng nhận sinh viên có dùng để vay vốn được không ? 
-    - Tôi muốn vay vốn thì có thể dùng giấy chứng nhận sinh viên để vay được không?
-    - Cho tôi hỏi tôi có thể liên hệ ai để vay vốn khi là sinh viên của trường?
-    - Khi tôi cần vay vốn, liệu tôi cần phải xuất trình CNSV không?
-    - Khi tôi đã có CNSV, liệu tôi có thể tự mình liên hệ với Phòng CTSV & TT khi cần vay vốn?
-
-- intent: intent_10310.0001
+    - Cho tôi hỏi giấy chứng nhận sinh viên có dùng để vay vốn được không   
+    - Tôi muốn vay vốn thì có thể dùng giấy chứng nhận sinh viên để vay được không 
+    - Cho tôi hỏi tôi có thể liên hệ ai để vay vốn khi là sinh viên của trường 
+    - Khi tôi cần vay vốn, liệu tôi cần phải xuất trình CNSV không 
+    - Khi tôi đã có CNSV, liệu tôi có thể tự mình liên hệ với Phòng CTSV & TT khi cần vay vốn 
+- intent: intent_10310001
   examples: |
-    - Cho tôi hỏi giấy chứng nhận sinh viên có hiệu lực bao lâu ? 
-    - Khi CNSV được cấp, thời gian hiệu lực của nó kéo dài trong bao lâu?
-    - CNSV có thời hạn sử dụng là bao lâu kể từ ngày nó được cấp đối với sinh viên?
-    - Thời hạn sử dụng của CNSV kéo dài trong 6 tháng tính từ ngày nó được cấp, phải không?
-    - Kể từ ngày cấp CNSV, tôi có thể sử dụng nó trong khoảng thời gian 6 tháng, phải không?
-
-- intent: intent_1041.0001
+    - Cho tôi hỏi giấy chứng nhận sinh viên có hiệu lực bao lâu   
+    - Khi CNSV được cấp, thời gian hiệu lực của nó kéo dài trong bao lâu 
+    - CNSV có thời hạn sử dụng là bao lâu kể từ ngày nó được cấp đối với sinh viên 
+    - Thời hạn sử dụng của CNSV kéo dài trong 6 tháng tính từ ngày nó được cấp, phải không 
+    - Kể từ ngày cấp CNSV, tôi có thể sử dụng nó trong khoảng thời gian 6 tháng, phải không 
+- intent: intent_10401001
   examples: |
-    - Cho tôi hỏi cách đăng ký cấp chứng nhận tốt nghiệp tạm thời ?
-    - Tôi có thể làm gì để đăng ký cấp chứng nhận tốt nghiệp tạm thời ?
-    - Để có được giấy chứng nhận tốt nghiệp tạm thời tôi có thể đăng ký như thế nào?
-    - Khi có ý định đăng ký cấp giấy chứng nhận tốt nghiệp tạm thời, tôi cần làm thế nào?
-    - Hãy chỉ tôi các bước để đăng ký cấp chứng nhận tốt nghiệp tạm thời ?
-
-- intent: intent_1042.0001
+    - Cho tôi hỏi cách đăng ký cấp chứng nhận tốt nghiệp tạm thời  
+    - Tôi có thể làm gì để đăng ký cấp chứng nhận tốt nghiệp tạm thời  
+    - Để có được giấy chứng nhận tốt nghiệp tạm thời tôi có thể đăng ký như thế nào 
+    - Khi có ý định đăng ký cấp giấy chứng nhận tốt nghiệp tạm thời, tôi cần làm thế nào 
+    - Hãy chỉ tôi các bước để đăng ký cấp chứng nhận tốt nghiệp tạm thời  
+- intent: intent_10402001
   examples: |
-    - Cho tôi hỏi thời gian cấp chứng nhận tốt nghiệp tạm thời ?
-    - Sau khi đăng kí cấp chứng nhận tốt nghiệp tạm thời thì bao lâu tôi nhận được ?
-    - Thời gian cấp chứng nhận tốt nghiệp tạm thời là bao lâu ?
-    - Cho tôi biết thời gian cấp chứng nhận tốt nghiệp tạm thời là khi nào?
-    - Thời gian cấp chứng nhận tốt nghiệp tạm thời kéo dài đến ngày nào?
-    - Khi nào là thời điểm cấp chứng nhận tốt nghiệp tạm thời?
-    - Tôi cần biết thời hạn cấp chứng nhận tốt nghiệp tạm thời là ngày nào.
-    - Xin cho tôi thông tin về thời gian cấp chứng nhận tốt nghiệp tạm thời.
-    - Thời hạn cấp chứng nhận tốt nghiệp tạm thời kéo dài đến ngày nào?
-    - Cho tôi biết khi nào tôi sẽ nhận được chứng nhận tốt nghiệp tạm thời?
-
-- intent: intent_1043.0001
+    - Cho tôi hỏi thời gian cấp chứng nhận tốt nghiệp tạm thời  
+    - Sau khi đăng kí cấp chứng nhận tốt nghiệp tạm thời thì bao lâu tôi nhận được  
+    - Thời gian cấp chứng nhận tốt nghiệp tạm thời là bao lâu 
+    - Cho tôi biết thời gian cấp chứng nhận tốt nghiệp tạm thời là khi nào 
+    - Thời gian cấp chứng nhận tốt nghiệp tạm thời kéo dài đến ngày nào 
+    - Khi nào là thời điểm cấp chứng nhận tốt nghiệp tạm thời 
+    - Tôi cần biết thời hạn cấp chứng nhận tốt nghiệp tạm thời là ngày nào.
+    - Xin cho tôi thông tin về thời gian cấp chứng nhận tốt nghiệp tạm thời.
+    - Thời hạn cấp chứng nhận tốt nghiệp tạm thời kéo dài đến ngày nào 
+    - Cho tôi biết khi nào tôi sẽ nhận được chứng nhận tốt nghiệp tạm thời 
+- intent: intent_10403001
   examples: |
-    - Cho tôi hỏi phí chứng nhận tốt nghiệp tạm thời là bao nhiêu ?
-    - Cho tôi biết phí chứng nhận tốt nghiệp tạm thời là bao nhiêu?
-    - Phí cấp chứng nhận tốt nghiệp tạm thời là bao nhiêu tiền?
-    - Xin cho tôi thông tin về số tiền phải trả cho chứng nhận tốt nghiệp tạm thời.
-    - Tôi cần biết số tiền phí cấp chứng nhận tốt nghiệp tạm thời là bao nhiêu.
-    - Khi nào tôi phải thanh toán phí chứng nhận tốt nghiệp tạm thời và số tiền là bao nhiêu?
-    - Cho tôi hỏi, nếu tôi muốn lấy chứng nhận tốt nghiệp tạm thời, tôi phải trả bao nhiêu tiền?
-    - Tôi muốn biết số tiền phí cấp chứng nhận tốt nghiệp tạm thời và cách thanh toán là như thế nào?
-
-- intent: intent_1044.0001
+    - Cho tôi hỏi phí chứng nhận tốt nghiệp tạm thời là bao nhiêu 
+    - Cho tôi biết phí chứng nhận tốt nghiệp tạm thời là bao nhiêu 
+    - Phí cấp chứng nhận tốt nghiệp tạm thời là bao nhiêu tiền 
+    - Xin cho tôi thông tin về số tiền phải trả cho chứng nhận tốt nghiệp tạm thời.
+    - Tôi cần biết số tiền phí cấp chứng nhận tốt nghiệp tạm thời là bao nhiêu.
+    - Khi nào tôi phải thanh toán phí chứng nhận tốt nghiệp tạm thời và số tiền là bao nhiêu 
+    - Cho tôi hỏi, nếu tôi muốn lấy chứng nhận tốt nghiệp tạm thời, tôi phải trả bao nhiêu tiền 
+    - Tôi muốn biết số tiền phí cấp chứng nhận tốt nghiệp tạm thời và cách thanh toán là như thế nào 
+- intent: intent_10404001
   examples: |
-    - Cho tôi hỏi chứng nhận tốt nghiệp tạm thời nhờ người nhận giúp được không ?
-    - Tôi có thể nhờ người khác nhận chứng nhận tốt nghiệp tạm thời thay cho mình được không?
-    - Nếu tôi không thể đến nhận chứng nhận tốt nghiệp tạm thời cá nhân, tôi có thể giao cho ai đó thực hiện?
-    - Cho tôi biết liệu tôi có thể ủy quyền cho người khác nhận chứng nhận tốt nghiệp tạm thời thay cho mình không?
-    - Tôi cần biết liệu tôi có thể nhờ người thân nhận chứng nhận tốt nghiệp tạm thời thay cho mình không?
-    - Nếu tôi không thể có mặt, liệu tôi có thể nhờ người khác đến nhận chứng nhận tốt nghiệp tạm thời thay cho mình không?
-    - Cho tôi hỏi, nếu tôi không thể có mặt tại buổi lễ, tôi có thể giao cho ai đó nhận chứng nhận tốt nghiệp tạm thời thay mình được không?
-    - Nếu tôi không thể nhận chứng nhận tốt nghiệp tạm thời cá nhân, liệu có cách nào để người khác thực hiện thay tôi không?
-
-- intent: intent_1045.0001
+    - Cho tôi hỏi chứng nhận tốt nghiệp tạm thời nhờ người nhận giúp được không 
+    - Tôi có thể nhờ người khác nhận chứng nhận tốt nghiệp tạm thời thay cho mình được không 
+    - Nếu tôi không thể đến nhận chứng nhận tốt nghiệp tạm thời cá nhân, tôi có thể giao cho ai đó thực hiện 
+    - Cho tôi biết liệu tôi có thể ủy quyền cho người khác nhận chứng nhận tốt nghiệp tạm thời thay cho mình không 
+    - Tôi cần biết liệu tôi có thể nhờ người thân nhận chứng nhận tốt nghiệp tạm thời thay cho mình không 
+    - Nếu tôi không thể có mặt, liệu tôi có thể nhờ người khác đến nhận chứng nhận tốt nghiệp tạm thời thay cho mình không 
+    - Cho tôi hỏi, nếu tôi không thể có mặt tại buổi lễ, tôi có thể giao cho ai đó nhận chứng nhận tốt nghiệp tạm thời thay mình được không 
+    - Nếu tôi không thể nhận chứng nhận tốt nghiệp tạm thời cá nhân, liệu có cách nào để người khác thực hiện thay tôi không 
+- intent: intent_10405001
   examples: |
-    - Cho tôi hỏi điều kiện để cấp chứng nhận tốt nghiệp tạm thời là gì ? 
-    - Xin thông tin về điều kiện cấp chứng nhận tốt nghiệp tạm thời là gì?
-    - Cho tôi biết điều kiện để được cấp chứng nhận tốt nghiệp tạm thời là gì?
-    - Tôi muốn hỏi về các yêu cầu cụ thể để nhận chứng nhận tốt nghiệp tạm thời.
-    - Khi nào thì tôi đủ điều kiện để được cấp chứng nhận tốt nghiệp tạm thời?
-    - Tôi cần biết về những điều kiện cụ thể để đủ tư cách nhận chứng nhận tốt nghiệp tạm thời.
-    - Cho tôi hỏi, nếu tôi muốn nhận chứng nhận tốt nghiệp tạm thời, thì tôi cần đáp ứng những yêu cầu gì?
-    - Xin thông tin chi tiết về điều kiện cụ thể để cấp chứng nhận tốt nghiệp tạm thời là gì?
-
-- intent: intent_1046.0001
+    - Cho tôi hỏi điều kiện để cấp chứng nhận tốt nghiệp tạm thời là gì  
+    - Xin thông tin về điều kiện cấp chứng nhận tốt nghiệp tạm thời là gì 
+    - Cho tôi biết điều kiện để được cấp chứng nhận tốt nghiệp tạm thời là gì 
+    - Tôi muốn hỏi về các yêu cầu cụ thể để nhận chứng nhận tốt nghiệp tạm thời.
+    - Khi nào thì tôi đủ điều kiện để được cấp chứng nhận tốt nghiệp tạm thời 
+    - Tôi cần biết về những điều kiện cụ thể để đủ tư cách nhận chứng nhận tốt nghiệp tạm thời.
+    - Cho tôi hỏi, nếu tôi muốn nhận chứng nhận tốt nghiệp tạm thời, thì tôi cần đáp ứng những yêu cầu gì 
+    - Xin thông tin chi tiết về điều kiện cụ thể để cấp chứng nhận tốt nghiệp tạm thời là gì 
+- intent: intent_10406001
   examples: |
-    - Cho tôi hỏi chứng nhận tốt nghiệp tạm thời có ship về không ? 
-    - Chứng nhận tốt nghiệp tạm thời có được gửi chuyển phát về không?
-    - Tôi muốn biết liệu có dịch vụ giao hàng đối với chứng nhận tốt nghiệp tạm thời không?
-    - Cho tôi biết liệu tôi có thể yêu cầu gửi chứng nhận tốt nghiệp tạm thời về bằng dịch vụ giao hàng không?
-    - Tôi cần hỏi về khả năng ship chứng nhận tốt nghiệp tạm thời về qua dịch vụ chuyển phát.
-    - Cho tôi biết, nếu tôi muốn nhận chứng nhận tốt nghiệp tạm thời qua dịch vụ giao hàng, có thể thực hiện không?
-    - Xin hỏi về việc gửi chứng nhận tốt nghiệp tạm thời về qua dịch vụ ship có khả dụng không?
-    - Tôi cần biết liệu có dịch vụ vận chuyển để gửi chứng nhận tốt nghiệp tạm thời về không?
-
-- intent: intent_1051.0001
+    - Cho tôi hỏi chứng nhận tốt nghiệp tạm thời có ship về không   
+    - Chứng nhận tốt nghiệp tạm thời có được gửi chuyển phát về không 
+    - Tôi muốn biết liệu có dịch vụ giao hàng đối với chứng nhận tốt nghiệp tạm thời không 
+    - Cho tôi biết liệu tôi có thể yêu cầu gửi chứng nhận tốt nghiệp tạm thời về bằng dịch vụ giao hàng không 
+    - Tôi cần hỏi về khả năng ship chứng nhận tốt nghiệp tạm thời về qua dịch vụ chuyển phát.
+    - Cho tôi biết, nếu tôi muốn nhận chứng nhận tốt nghiệp tạm thời qua dịch vụ giao hàng, có thể thực hiện không 
+    - Xin hỏi về việc gửi chứng nhận tốt nghiệp tạm thời về qua dịch vụ ship có khả dụng không 
+    - Tôi cần biết liệu có dịch vụ vận chuyển để gửi chứng nhận tốt nghiệp tạm thời về không 
+- intent: intent_10501001
   examples: |
-    - Cho tôi hỏi cách đăng ký cấp thẻ sinh viên ? 
-    - Làm ơn hướng dẫn tôi cách đăng ký cấp thẻ sinh viên.
-    - Tôi cần biết thủ tục cụ thể để đăng ký cấp thẻ sinh viên là gì?
-    - Xin hỏi về cách thức và quy trình đăng ký cấp thẻ sinh viên.
-    - Cho tôi biết cách thực hiện thủ tục đăng ký cấp thẻ sinh viên như thế nào.
-    - Tôi muốn được hướng dẫn về việc đăng ký cấp thẻ sinh viên, bạn có thể giúp tôi không?
-    - Xin cho tôi thông tin chi tiết về quy trình đăng ký cấp thẻ sinh viên.
-    - Tôi đang tìm hiểu về cách đăng ký cấp thẻ sinh viên, bạn có thể chia sẻ thông tin với tôi không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_1052.0001
+    - Cho tôi hỏi cách đăng ký cấp thẻ sinh viên  
+    - Làm ơn hướng dẫn tôi cách đăng ký cấp thẻ sinh viên.
+    - Tôi cần biết thủ tục cụ thể để đăng ký cấp thẻ sinh viên là gì 
+    - Xin hỏi về cách thức và quy trình đăng ký cấp thẻ sinh viên.
+    - Cho tôi biết cách thực hiện thủ tục đăng ký cấp thẻ sinh viên như thế nào.
+    - Tôi muốn được hướng dẫn về việc đăng ký cấp thẻ sinh viên, bạn có thể giúp tôi không 
+    - Xin cho tôi thông tin chi tiết về quy trình đăng ký cấp thẻ sinh viên.
+    - Tôi đang tìm hiểu về cách đăng ký cấp thẻ sinh viên, bạn có thể chia sẻ thông tin với tôi không     -
+- intent: intent_10502001
   examples: |
-    - Cho tôi hỏi thời gian cấp thẻ sinh viên  ?
-    - Thời gian cấp thẻ sinh viên kéo dài trong khoảng bao lâu?
-    - Khi nào thẻ sinh viên sẽ được cấp cho tôi?
-    - Xin thông tin về thời điểm cụ thể khi thẻ sinh viên sẽ được cấp.
-    - Cho tôi biết thời gian dự kiến để tôi nhận được thẻ sinh viên.
-    - Thẻ sinh viên sẽ được cấp trong khoảng thời gian bao lâu?
-    - Tôi cần biết thời hạn cụ thể cho việc cấp thẻ sinh viên là khi nào.
-    - Khi nào tôi có thể nhận thẻ sinh viên mà tôi đã đăng ký?
-
-- intent: intent_1053.0001
+    - Cho tôi hỏi thời gian cấp thẻ sinh viên
+    - Thời gian cấp thẻ sinh viên kéo dài trong khoảng bao lâu 
+    - Khi nào thẻ sinh viên sẽ được cấp cho tôi 
+    - Xin thông tin về thời điểm cụ thể khi thẻ sinh viên sẽ được cấp.
+    - Cho tôi biết thời gian dự kiến để tôi nhận được thẻ sinh viên.
+    - Thẻ sinh viên sẽ được cấp trong khoảng thời gian bao lâu 
+    - Tôi cần biết thời hạn cụ thể cho việc cấp thẻ sinh viên là khi nào.
+    - Khi nào tôi có thể nhận thẻ sinh viên mà tôi đã đăng ký 
+- intent: intent_10503001
   examples: |
-    - Cho tôi hỏi phí thẻ sinh viên là bao nhiêu ? 
-    - Tôi muốn biết số tiền phí để cấp thẻ sinh viên là bao nhiêu?
+    - Cho tôi hỏi phí thẻ sinh viên là bao nhiêu   
+    - Tôi muốn biết số tiền phí để cấp thẻ sinh viên là bao nhiêu 
     - Xin cho tôi thông tin về số tiền phải trả để đăng ký cấp thẻ sinh viên.
-    - Cho tôi biết chi phí để nhận thẻ sinh viên là bao nhiêu tiền?
+    - Cho tôi biết chi phí để nhận thẻ sinh viên là bao nhiêu tiền 
     - Tôi cần hỏi về số tiền phí cần trả để có được thẻ sinh viên.
-    - Khi nào tôi phải thanh toán phí để cấp thẻ sinh viên và số tiền là bao nhiêu?
-    - Cho tôi biết, nếu tôi muốn đăng ký thẻ sinh viên, tôi phải trả bao nhiêu tiền?
-    - Tôi muốn biết số tiền phí cấp thẻ sinh viên và cách thanh toán là như thế nào?
-
-- intent: intent_1054.0001
+    - Khi nào tôi phải thanh toán phí để cấp thẻ sinh viên và số tiền là bao nhiêu 
+    - Cho tôi biết, nếu tôi muốn đăng ký thẻ sinh viên, tôi phải trả bao nhiêu tiền 
+    - Tôi muốn biết số tiền phí cấp thẻ sinh viên và cách thanh toán là như thế nào 
+- intent: intent_10504001
   examples: |
-    - Cho tôi hỏi thẻ sinh viên nhờ người nhận giúp được không ?
-    - Tôi có thể nhờ người khác nhận thẻ sinh viên thay cho mình được không?
-    - Nếu tôi không thể đến nhận thẻ sinh viên cá nhân, tôi có thể giao cho ai đó thực hiện?
-    - Cho tôi biết liệu tôi có thể ủy quyền cho người khác nhận thẻ sinh viên thay cho mình không?
-    - Tôi cần biết liệu tôi có thể nhờ người thân nhận thẻ sinh viên thay cho mình không?
-    - Nếu tôi không thể có mặt, liệu tôi có thể nhờ người khác đến nhận thẻ sinh viên thay mình được không?
-    - Cho tôi hỏi, nếu tôi không thể có mặt tại buổi lễ, tôi có thể giao cho ai đó nhận thẻ sinh viên thay mình được không?
-    - Nếu tôi không thể nhận thẻ sinh viên cá nhân, liệu có cách nào để người khác thực hiện thay tôi không?
-    - 
-
-- intent: intent_1055.0001
+    - Cho tôi hỏi thẻ sinh viên nhờ người nhận giúp được không 
+    - Tôi có thể nhờ người khác nhận thẻ sinh viên thay cho mình được không 
+    - Nếu tôi không thể đến nhận thẻ sinh viên cá nhân, tôi có thể giao cho ai đó thực hiện 
+    - Cho tôi biết liệu tôi có thể ủy quyền cho người khác nhận thẻ sinh viên thay cho mình không 
+    - Tôi cần biết liệu tôi có thể nhờ người thân nhận thẻ sinh viên thay cho mình không 
+    - Nếu tôi không thể có mặt, liệu tôi có thể nhờ người khác đến nhận thẻ sinh viên thay mình được không 
+    - Cho tôi hỏi, nếu tôi không thể có mặt tại buổi lễ, tôi có thể giao cho ai đó nhận thẻ sinh viên thay mình được không 
+    - Nếu tôi không thể nhận thẻ sinh viên cá nhân, liệu có cách nào để người khác thực hiện thay tôi không 
+- intent: intent_10505001
   examples: |
-    - Cho tôi hỏi thẻ sinh viên có ship về không ? 
-    - Thẻ sinh viên có dịch vụ giao hàng đối với nó không?
-    - Tôi muốn biết liệu có dịch vụ ship thẻ sinh viên về không?
-    - Cho tôi biết, nếu tôi muốn nhận thẻ sinh viên qua dịch vụ giao hàng, có thể thực hiện không?
+    - Cho tôi hỏi thẻ sinh viên có ship về không   
+    - Thẻ sinh viên có dịch vụ giao hàng đối với nó không 
+    - Tôi muốn biết liệu có dịch vụ ship thẻ sinh viên về không 
+    - Cho tôi biết, nếu tôi muốn nhận thẻ sinh viên qua dịch vụ giao hàng, có thể thực hiện không 
     - Tôi cần hỏi về khả năng ship thẻ sinh viên về qua dịch vụ giao hàng.
-    - Cho tôi biết, nếu tôi muốn thẻ sinh viên gửi về thông qua dịch vụ ship, có khả dụng không?
-    - Xin hỏi về việc gửi thẻ sinh viên về qua dịch vụ ship có thực hiện được không?
-    - Tôi cần biết liệu có dịch vụ vận chuyển để gửi thẻ sinh viên về thông qua ship không?
-    - 
-
-- intent: intent_1056.0001
+    - Cho tôi biết, nếu tôi muốn thẻ sinh viên gửi về thông qua dịch vụ ship, có khả dụng không 
+    - Xin hỏi về việc gửi thẻ sinh viên về qua dịch vụ ship có thực hiện được không 
+    - Tôi cần biết liệu có dịch vụ vận chuyển để gửi thẻ sinh viên về thông qua ship không 
+- intent: intent_10506001
   examples: |
-    - Cho tôi hỏi sinh viên trả nợ (hết 4 năm chính khóa) có cần cấp thẻ sinh viên không ?
-    - Nếu sinh viên đã trả nợ (hết 4 năm chính khóa), liệu có cần đăng ký cấp thẻ sinh viên không?
-    - Sinh viên đã hoàn tất trả nợ (hết 4 năm chính khóa), liệu họ vẫn cần đăng ký cấp thẻ sinh viên không?
-    - Cho tôi biết, sau khi trả nợ (hết 4 năm chính khóa), sinh viên có cần thực hiện thủ tục cấp thẻ sinh viên không?
-    - Nếu sinh viên đã hoàn tất việc trả nợ (hết 4 năm chính khóa), liệu họ vẫn cần đăng ký thẻ sinh viên không?
-    - Tôi muốn hỏi, nếu đã trả nợ (hết 4 năm chính khóa), sinh viên còn cần phải làm thủ tục cấp thẻ sinh viên không?
-    - Cho tôi biết, sau khi hoàn thành trả nợ (hết 4 năm chính khóa), sinh viên có cần phải đăng ký thẻ sinh viên không?
-    - Nếu đã trả nợ (hết 4 năm chính khóa), liệu sinh viên còn cần đăng ký và cấp thẻ sinh viên không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_1057.0001
+    - Cho tôi hỏi sinh viên trả nợ (hết 4 năm chính khóa) có cần cấp thẻ sinh viên không  
+    - Nếu sinh viên đã trả nợ (hết 4 năm chính khóa), liệu có cần đăng ký cấp thẻ sinh viên không 
+    - Sinh viên đã hoàn tất trả nợ (hết 4 năm chính khóa), liệu họ vẫn cần đăng ký cấp thẻ sinh viên không 
+    - Cho tôi biết, sau khi trả nợ (hết 4 năm chính khóa), sinh viên có cần thực hiện thủ tục cấp thẻ sinh viên không 
+    - Nếu sinh viên đã hoàn tất việc trả nợ (hết 4 năm chính khóa), liệu họ vẫn cần đăng ký thẻ sinh viên không 
+    - Tôi muốn hỏi, nếu đã trả nợ (hết 4 năm chính khóa), sinh viên còn cần phải làm thủ tục cấp thẻ sinh viên không 
+    - Cho tôi biết, sau khi hoàn thành trả nợ (hết 4 năm chính khóa), sinh viên có cần phải đăng ký thẻ sinh viên không 
+    - Nếu đã trả nợ (hết 4 năm chính khóa), liệu sinh viên còn cần đăng ký và cấp thẻ sinh viên không
+- intent: intent_10507001
   examples: |
-    - Cho tôi hỏi có cần gia hạn thẻ sinh viên không ? 
-    - Sinh viên có cần thực hiện gia hạn thẻ sinh viên không?
-    - Cho tôi biết liệu có cần phải gia hạn thẻ sinh viên không?
-    - Tôi muốn hỏi, sau một thời gian, sinh viên có cần phải làm thủ tục gia hạn thẻ sinh viên không?
-    - Nếu thẻ sinh viên của tôi sắp hết hạn, liệu tôi cần phải thực hiện gia hạn không?
-    - Tôi cần biết, sau khi thẻ sinh viên hết hạn, tôi có cần phải làm thủ tục gia hạn thẻ không?
-    - Cho tôi hỏi, nếu thẻ sinh viên của tôi sắp hết hạn, tôi cần phải làm gì để gia hạn?
-    - Nếu thẻ sinh viên của tôi gần hết hạn, liệu tôi có cần phải thực hiện thủ tục gia hạn không?
-
-- intent: intent_1061.0001
+    - Cho tôi hỏi có cần gia hạn thẻ sinh viên không   
+    - Sinh viên có cần thực hiện gia hạn thẻ sinh viên không 
+    - Cho tôi biết liệu có cần phải gia hạn thẻ sinh viên không 
+    - Tôi muốn hỏi, sau một thời gian, sinh viên có cần phải làm thủ tục gia hạn thẻ sinh viên không 
+    - Nếu thẻ sinh viên của tôi sắp hết hạn, liệu tôi cần phải thực hiện gia hạn không 
+    - Tôi cần biết, sau khi thẻ sinh viên hết hạn, tôi có cần phải làm thủ tục gia hạn thẻ không 
+    - Cho tôi hỏi, nếu thẻ sinh viên của tôi sắp hết hạn, tôi cần phải làm gì để gia hạn 
+    - Nếu thẻ sinh viên của tôi gần hết hạn, liệu tôi có cần phải thực hiện thủ tục gia hạn không 
+- intent: intent_10601001
   examples: |
-    - Cho tôi hỏi cách đăng ký xét tốt nghiệp ? 
-    - Làm ơn hướng dẫn tôi cách đăng ký xét tốt nghiệp.
-    - Tôi cần biết thủ tục cụ thể để đăng ký xét tốt nghiệp là gì?
-    - Xin hỏi về cách thức và quy trình đăng ký xét tốt nghiệp.
-    - Cho tôi biết cách thực hiện thủ tục đăng ký xét tốt nghiệp như thế nào.
-    - Tôi muốn được hướng dẫn về việc đăng ký xét tốt nghiệp, bạn có thể giúp tôi không?
-    - Xin cho tôi thông tin chi tiết về quy trình đăng ký xét tốt nghiệp.
-    - Tôi đang tìm hiểu về cách đăng ký xét tốt nghiệp, bạn có thể chia sẻ thông tin với tôi không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_1062.0001
+    - Cho tôi hỏi cách đăng ký xét tốt nghiệp
+    - Làm ơn hướng dẫn tôi cách đăng ký xét tốt nghiệp.
+    - Tôi cần biết thủ tục cụ thể để đăng ký xét tốt nghiệp là gì 
+    - Xin hỏi về cách thức và quy trình đăng ký xét tốt nghiệp.
+    - Cho tôi biết cách thực hiện thủ tục đăng ký xét tốt nghiệp như thế nào.
+    - Tôi muốn được hướng dẫn về việc đăng ký xét tốt nghiệp, bạn có thể giúp tôi không 
+    - Xin cho tôi thông tin chi tiết về quy trình đăng ký xét tốt nghiệp.
+    - Tôi đang tìm hiểu về cách đăng ký xét tốt nghiệp, bạn có thể chia sẻ thông tin với tôi không
+- intent: intent_10602001
   examples: |
-    - Cho tôi hỏi chưa thi tiếng anh đầu ra thì có xét tốt nghiệp được không ? 
-    - Nếu tôi chưa thi tiếng Anh đầu ra, liệu có thể xét tốt nghiệp được không?
-    - Tôi muốn biết liệu việc chưa thi tiếng Anh đầu ra có ảnh hưởng gì đến việc xét tốt nghiệp hay không?
-    - Cho tôi biết, nếu tôi chưa thi tiếng Anh đầu ra, liệu tôi có thể tham gia quá trình xét tốt nghiệp không?
-    - Tôi cần hỏi về yêu cầu về việc thi tiếng Anh đầu ra trong quá trình xét tốt nghiệp.
-    - Nếu tôi chưa hoàn thành kỳ thi tiếng Anh đầu ra, liệu tôi có thể tham gia xét tốt nghiệp không?
-    - Cho tôi biết, nếu tôi chưa đủ điều kiện thi tiếng Anh đầu ra, liệu tôi có thể xét tốt nghiệp hay không?
-    - Nếu tôi chưa thi tiếng Anh đầu ra, tôi cần biết liệu có khả năng tham gia xét tốt nghiệp không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_1063.0001
+    - Cho tôi hỏi chưa thi tiếng anh đầu ra thì có xét tốt nghiệp được không   
+    - Nếu tôi chưa thi tiếng Anh đầu ra, liệu có thể xét tốt nghiệp được không 
+    - Tôi muốn biết liệu việc chưa thi tiếng Anh đầu ra có ảnh hưởng gì đến việc xét tốt nghiệp hay không 
+    - Cho tôi biết, nếu tôi chưa thi tiếng Anh đầu ra, liệu tôi có thể tham gia quá trình xét tốt nghiệp không 
+    - Tôi cần hỏi về yêu cầu về việc thi tiếng Anh đầu ra trong quá trình xét tốt nghiệp.
+    - Nếu tôi chưa hoàn thành kỳ thi tiếng Anh đầu ra, liệu tôi có thể tham gia xét tốt nghiệp không 
+    - Cho tôi biết, nếu tôi chưa đủ điều kiện thi tiếng Anh đầu ra, liệu tôi có thể xét tốt nghiệp hay không 
+    - Nếu tôi chưa thi tiếng Anh đầu ra, tôi cần biết liệu có khả năng tham gia xét tốt nghiệp không
+- intent: intent_10603001
   examples: |
-    - Cho tôi hỏi thời gian có kết quả đăng ký xét tốt nghiệp ?
-    - Thời gian mà chúng ta có kết quả đăng ký xét tốt nghiệp là bao lâu?
-    - Khi nào chúng ta sẽ biết kết quả sau khi đăng ký xét tốt nghiệp?
-    - Cho tôi biết thời điểm cụ thể mà chúng ta sẽ nhận được kết quả đăng ký xét tốt nghiệp.
-    - Tôi cần biết thời gian bao lâu sau khi đăng ký xét tốt nghiệp mà chúng ta sẽ có kết quả.
-    - Khi nào chúng ta sẽ được thông báo kết quả đăng ký xét tốt nghiệp?
-    - Cho tôi hỏi, sau bao lâu chúng ta sẽ nhận được kết quả sau khi đăng ký xét tốt nghiệp?
+    - Cho tôi hỏi thời gian có kết quả đăng ký xét tốt nghiệp  
+    - Thời gian mà chúng ta có kết quả đăng ký xét tốt nghiệp là bao lâu 
+    - Khi nào chúng ta sẽ biết kết quả sau khi đăng ký xét tốt nghiệp 
+    - Cho tôi biết thời điểm cụ thể mà chúng ta sẽ nhận được kết quả đăng ký xét tốt nghiệp.
+    - Tôi cần biết thời gian bao lâu sau khi đăng ký xét tốt nghiệp mà chúng ta sẽ có kết quả.
+    - Khi nào chúng ta sẽ được thông báo kết quả đăng ký xét tốt nghiệp
+    - Cho tôi hỏi, sau bao lâu chúng ta sẽ nhận được kết quả sau khi đăng ký xét tốt nghiệp 
     - Tôi muốn biết thời gian kỳ vọng để chúng ta có thông tin kết quả đăng ký xét tốt nghiệp
-
-- intent: intent_1071.0001
+- intent: intent_10701001
   examples: |
-    - Cho tôi hỏi cách mở mã số sinh viên ? 
-    - Làm ơn chỉ tôi cách mở mã số sinh viên.
-    - Tôi cần biết thủ tục cụ thể để mở mã số sinh viên là gì?
-    - Xin hỏi về cách thức và quy trình mở mã số sinh viên.
-    - Cho tôi biết cách thực hiện thủ tục mở mã số sinh viên như thế nào.
-    - Tôi muốn được hướng dẫn về việc mở mã số sinh viên, bạn có thể giúp tôi không?
-    - Xin cho tôi thông tin chi tiết về quy trình mở mã số sinh viên.
-    - Tôi đang tìm hiểu về cách mở mã số sinh viên, bạn có thể chia sẻ thông tin với tôi không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_1072.0001
+    - Cho tôi hỏi cách mở mã số sinh viên  
+    - Làm ơn chỉ tôi cách mở mã số sinh viên.
+    - Tôi cần biết thủ tục cụ thể để mở mã số sinh viên là gì 
+    - Xin hỏi về cách thức và quy trình mở mã số sinh viên.
+    - Cho tôi biết cách thực hiện thủ tục mở mã số sinh viên như thế nào.
+    - Tôi muốn được hướng dẫn về việc mở mã số sinh viên, bạn có thể giúp tôi không 
+    - Xin cho tôi thông tin chi tiết về quy trình mở mã số sinh viên.
+    - Tôi đang tìm hiểu về cách mở mã số sinh viên, bạn có thể chia sẻ thông tin với tôi không
+- intent: intent_10702001
   examples: |
-    - Cho tôi hỏi thời gian mở mã số sinh viên ?
-    - Thời gian mở mã số sinh viên kéo dài trong khoảng bao lâu?
-    - Khi nào là thời điểm mở mã số sinh viên?
-    - Xin hỏi về thời điểm cụ thể khi chúng ta có thể mở mã số sinh viên.
-    - Cho tôi biết thời gian dự kiến để tôi có thể mở mã số sinh viên.
-    - Khi nào là thời gian mở mã số sinh viên và làm thủ tục như thế nào?
-    - Xin cho tôi thông tin chi tiết về thời hạn mở mã số sinh viên.
-    - Khi nào tôi có thể thực hiện thủ tục mở mã số sinh viên?
-
-- intent: intent_1073.0001
+    - Cho tôi hỏi thời gian mở mã số sinh viên  
+    - Thời gian mở mã số sinh viên kéo dài trong khoảng bao lâu 
+    - Khi nào là thời điểm mở mã số sinh viên 
+    - Xin hỏi về thời điểm cụ thể khi chúng ta có thể mở mã số sinh viên.
+    - Cho tôi biết thời gian dự kiến để tôi có thể mở mã số sinh viên.
+    - Khi nào là thời gian mở mã số sinh viên và làm thủ tục như thế nào 
+    - Xin cho tôi thông tin chi tiết về thời hạn mở mã số sinh viên.
+    - Khi nào tôi có thể thực hiện thủ tục mở mã số sinh viên 
+- intent: intent_10703001
   examples: |
-    - Cho tôi hỏi phí mở mã số sinh viên là bao nhiêu ? 
-    - Tôi muốn biết số tiền phí để mở mã số sinh viên là bao nhiêu?
-    - Xin cho tôi thông tin về số tiền phải trả để mở mã số sinh viên.
-    - Cho tôi biết chi phí để có thể mở mã số sinh viên là bao nhiêu tiền?
-    - Tôi cần hỏi về số tiền phí cần trả để thực hiện việc mở mã số sinh viên.
-    - Khi nào tôi phải thanh toán phí để mở mã số sinh viên và số tiền là bao nhiêu?
-    - Cho tôi biết, nếu tôi muốn mở mã số sinh viên, tôi cần phải trả bao nhiêu tiền?
-    - Tôi muốn biết số tiền phí mở mã số sinh viên và cách thanh toán là như thế nào?
-
-- intent: intent_1074.0001
+    - Cho tôi hỏi phí mở mã số sinh viên là bao nhiêu 
+    - Tôi muốn biết số tiền phí để mở mã số sinh viên là bao nhiêu 
+    - Xin cho tôi thông tin về số tiền phải trả để mở mã số sinh viên.
+    - Cho tôi biết chi phí để có thể mở mã số sinh viên là bao nhiêu tiền 
+    - Tôi cần hỏi về số tiền phí cần trả để thực hiện việc mở mã số sinh viên.
+    - Khi nào tôi phải thanh toán phí để mở mã số sinh viên và số tiền là bao nhiêu 
+    - Cho tôi biết, nếu tôi muốn mở mã số sinh viên, tôi cần phải trả bao nhiêu tiền 
+    - Tôi muốn biết số tiền phí mở mã số sinh viên và cách thanh toán là như thế nào 
+- intent: intent_10704001
   examples: |
-    - Cho tôi hỏi mở mã số sinh viên nhờ người mở giúp được không ?
-    - Tôi có thể nhờ người khác mở mã số sinh viên thay cho mình được không?
-    - Nếu tôi không thể đến mở mã số sinh viên cá nhân, tôi có thể giao cho ai đó thực hiện?
-    - Cho tôi biết liệu tôi có thể ủy quyền cho người khác mở mã số sinh viên thay cho mình không?
-    - Tôi cần biết liệu tôi có thể nhờ người thân mở mã số sinh viên thay cho mình không?
-    - Nếu tôi không thể có mặt, liệu tôi có thể nhờ người khác đến mở mã số sinh viên thay mình được không?
-    - Cho tôi hỏi, nếu tôi không thể có mặt tại buổi mở mã số sinh viên, tôi có thể giao cho ai đó thực hiện thay mình được không?
-    - Nếu tôi không thể mở mã số sinh viên cá nhân, liệu có cách nào để người khác thực hiện thay tôi không?
-
-- intent: intent_1075.0001
+    - Cho tôi hỏi mở mã số sinh viên nhờ người mở giúp được không  
+    - Tôi có thể nhờ người khác mở mã số sinh viên thay cho mình được không 
+    - Nếu tôi không thể đến mở mã số sinh viên cá nhân, tôi có thể giao cho ai đó thực hiện 
+    - Cho tôi biết liệu tôi có thể ủy quyền cho người khác mở mã số sinh viên thay cho mình không 
+    - Tôi cần biết liệu tôi có thể nhờ người thân mở mã số sinh viên thay cho mình không 
+    - Nếu tôi không thể có mặt, liệu tôi có thể nhờ người khác đến mở mã số sinh viên thay mình được không 
+    - Cho tôi hỏi, nếu tôi không thể có mặt tại buổi mở mã số sinh viên, tôi có thể giao cho ai đó thực hiện thay mình được không 
+    - Nếu tôi không thể mở mã số sinh viên cá nhân, liệu có cách nào để người khác thực hiện thay tôi không 
+- intent: intent_10705001
   examples: |
-    - Cho tôi hỏi lý do bị khóa mã số sinh viên ? 
-    - Xin thông tin về những lý do có thể dẫn đến việc bị khóa mã số sinh viên.
-    - Cho tôi biết vì sao có thể bị khóa mã số sinh viên?
-    - Tôi cần hỏi về các nguyên nhân có thể khiến cho mã số sinh viên bị khóa.
-    - Khi nào thường xảy ra việc bị khóa mã số sinh viên và vì sao?
-    - Tôi muốn biết các lý do thường gây ra việc bị khóa mã số sinh viên là gì?
-    - Cho tôi biết, trong những tình huống nào, mã số sinh viên có thể bị khóa?
-    - Nếu bị khóa mã số sinh viên, có những nguyên nhân cụ thể nào dẫn đến điều này?
-
-- intent: intent_2011.0001
+    - Cho tôi hỏi lý do bị khóa mã số sinh viên   
+    - Xin thông tin về những lý do có thể dẫn đến việc bị khóa mã số sinh viên.
+    - Cho tôi biết vì sao có thể bị khóa mã số sinh viên 
+    - Tôi cần hỏi về các nguyên nhân có thể khiến cho mã số sinh viên bị khóa.
+    - Khi nào thường xảy ra việc bị khóa mã số sinh viên và vì sao 
+    - Tôi muốn biết các lý do thường gây ra việc bị khóa mã số sinh viên là gì 
+    - Cho tôi biết, trong những tình huống nào, mã số sinh viên có thể bị khóa 
+    - Nếu bị khóa mã số sinh viên, có những nguyên nhân cụ thể nào dẫn đến điều này 
+- intent: intent_20101001
   examples: |
-    - Cho tôi hỏi điều kiện chuyển ngành là gì ?
-    - Tôi cần biết điều kiện gì để có thể chuyển ngành?
-    - Cho tôi xin thông tin về các yêu cầu để thực hiện chuyển ngành.
-    - Xin hỏi về những điều kiện cụ thể để có thể chuyển ngành.
-    - Tôi muốn biết, nếu muốn chuyển ngành, điều kiện cần phải đáp ứng là gì?
-    - Tôi cần hỏi về những yêu cầu gì khi muốn thực hiện chuyển ngành.
-    - Cho tôi biết điều kiện và yêu cầu gì cần thiết để có thể chuyển ngành.
-    - Nếu tôi muốn thay đổi ngành học, tôi cần phải đáp ứng những điều kiện gì?
-
-- intent: intent_2012.0001
+    - Cho tôi hỏi điều kiện chuyển ngành là gì 
+    - Tôi cần biết điều kiện gì để có thể chuyển ngành 
+    - Cho tôi xin thông tin về các yêu cầu để thực hiện chuyển ngành.
+    - Xin hỏi về những điều kiện cụ thể để có thể chuyển ngành.
+    - Tôi muốn biết, nếu muốn chuyển ngành, điều kiện cần phải đáp ứng là gì 
+    - Tôi cần hỏi về những yêu cầu gì khi muốn thực hiện chuyển ngành.
+    - Cho tôi biết điều kiện và yêu cầu gì cần thiết để có thể chuyển ngành.
+    - Nếu tôi muốn thay đổi ngành học, tôi cần phải đáp ứng những điều kiện gì 
+- intent: intent_20102001
   examples: |
-    - Cho tôi hỏi bao lâu sẽ nhận được kết quả chuyển ngành ? 
-    - Khi nào tôi có thể nhận được kết quả về việc chuyển ngành?
-    - Thời gian dự kiến để tôi biết kết quả sau khi thực hiện chuyển ngành là bao lâu?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi đăng ký chuyển ngành?
-    - Cho tôi biết, khi nào là thời điểm tôi có thể nhận được thông tin về kết quả chuyển ngành?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi đăng ký chuyển ngành?
-    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả chuyển ngành?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả chuyển ngành là bao lâu?
-
-- intent: intent_2013.0001
+    - Cho tôi hỏi bao lâu sẽ nhận được kết quả chuyển ngành   
+    - Khi nào tôi có thể nhận được kết quả về việc chuyển ngành 
+    - Thời gian dự kiến để tôi biết kết quả sau khi thực hiện chuyển ngành là bao lâu 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi đăng ký chuyển ngành 
+    - Cho tôi biết, khi nào là thời điểm tôi có thể nhận được thông tin về kết quả chuyển ngành 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi đăng ký chuyển ngành 
+    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả chuyển ngành 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả chuyển ngành là bao lâu 
+- intent: intent_20103001
   examples: |
     - Cho tôi hỏi thời gian nhận đơn chuyển ngành
-    - Khi nào là thời gian đăng ký nhận đơn chuyển ngành?
-    - Tôi muốn biết thời điểm cụ thể khi chúng ta có thể nộp đơn chuyển ngành.
-    - Cho tôi biết, thời gian nộp đơn chuyển ngành kéo dài trong khoảng bao lâu?
-    - Khi nào là thời gian mà tôi có thể gửi đơn đăng ký chuyển ngành?
-    - Tôi cần hỏi về thời hạn nộp đơn chuyển ngành là khi nào?
-    - Xin cho tôi thông tin về thời gian đăng ký nhận đơn chuyển ngành.
-    - Khi nào tôi có thể bắt đầu nộp đơn chuyển ngành và thời gian kéo dài đến khi nào?
-
-- intent: intent_2014.0001
+    - Khi nào là thời gian đăng ký nhận đơn chuyển ngành 
+    - Tôi muốn biết thời điểm cụ thể khi chúng ta có thể nộp đơn chuyển ngành.
+    - Cho tôi biết, thời gian nộp đơn chuyển ngành kéo dài trong khoảng bao lâu 
+    - Khi nào là thời gian mà tôi có thể gửi đơn đăng ký chuyển ngành 
+    - Tôi cần hỏi về thời hạn nộp đơn chuyển ngành là khi nào 
+    - Xin cho tôi thông tin về thời gian đăng ký nhận đơn chuyển ngành.
+    - Khi nào tôi có thể bắt đầu nộp đơn chuyển ngành và thời gian kéo dài đến khi nào 
+- intent: intent_20104001
   examples: |
-    - Cho tôi hỏi sau khi chuyển ngành cần làm gì ? 
-    - Tôi muốn biết sau khi chuyển ngành, cần thực hiện những bước gì tiếp theo?
-    - Cho tôi biết, sau khi thành công chuyển ngành, tôi phải làm gì tiếp theo?
-    - Tôi cần hỏi về các thủ tục cần thực hiện sau khi đã chuyển ngành.
-    - Xin cho tôi thông tin về các bước tiếp theo sau khi tôi đã hoàn thành việc chuyển ngành.
-    - Khi đã chuyển ngành thành công, tôi cần phải thực hiện các bước gì tiếp theo?
-    - Nếu tôi đã hoàn thành việc chuyển ngành, tôi cần biết cần làm gì tiếp theo sau đó?
-    - Sau khi thực hiện thành công việc chuyển ngành, tôi cần phải thực hiện các hành động gì?
-
-- intent: intent_2021.0001
+    - Cho tôi hỏi sau khi chuyển ngành cần làm gì   
+    - Tôi muốn biết sau khi chuyển ngành, cần thực hiện những bước gì tiếp theo 
+    - Cho tôi biết, sau khi thành công chuyển ngành, tôi phải làm gì tiếp theo 
+    - Tôi cần hỏi về các thủ tục cần thực hiện sau khi đã chuyển ngành.
+    - Xin cho tôi thông tin về các bước tiếp theo sau khi tôi đã hoàn thành việc chuyển ngành.
+    - Khi đã chuyển ngành thành công, tôi cần phải thực hiện các bước gì tiếp theo 
+    - Nếu tôi đã hoàn thành việc chuyển ngành, tôi cần biết cần làm gì tiếp theo sau đó
+    - Sau khi thực hiện thành công việc chuyển ngành, tôi cần phải thực hiện các hành động gì 
+- intent: intent_20201001
   examples: |
-    - Cho tôi hỏi điều kiện học ngành hai là gì ?
-    - Xin hỏi về các điều kiện cần thiết để học ngành thứ hai?
-    - Cho tôi biết những điều kiện gì cần đáp ứng khi muốn học ngành thứ hai?
-    - Tôi cần biết những yêu cầu gì khi muốn tham gia học ngành thứ hai?
-    - Khi muốn học ngành thứ hai, điều kiện cần thiết mà tôi phải thỏa mãn là gì?
-    - Cho tôi biết, nếu tôi muốn học ngành thứ hai, tôi cần phải đáp ứng những điều kiện gì?
-    - Tôi muốn hỏi về những điều kiện và yêu cầu để học ngành thứ hai.
-    - Nếu tôi quyết định học ngành thứ hai, tôi cần phải thỏa mãn những điều kiện gì?
-
-- intent: intent_2022.0001
+    - Cho tôi hỏi điều kiện học ngành hai là gì  
+    - Xin hỏi về các điều kiện cần thiết để học ngành thứ hai 
+    - Cho tôi biết những điều kiện gì cần đáp ứng khi muốn học ngành thứ hai 
+    - Tôi cần biết những yêu cầu gì khi muốn tham gia học ngành thứ hai 
+    - Khi muốn học ngành thứ hai, điều kiện cần thiết mà tôi phải thỏa mãn là gì 
+    - Cho tôi biết, nếu tôi muốn học ngành thứ hai, tôi cần phải đáp ứng những điều kiện gì 
+    - Tôi muốn hỏi về những điều kiện và yêu cầu để học ngành thứ hai.
+    - Nếu tôi quyết định học ngành thứ hai, tôi cần phải thỏa mãn những điều kiện gì 
+- intent: intent_20202001
   examples: |
-    - Cho tôi hỏi bao lâu sẽ nhận được kết quả chuyển ngành ? 
-    - Khi nào tôi có thể biết kết quả sau khi đăng ký chuyển ngành?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả về việc chuyển ngành?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả chuyển ngành là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi đăng ký chuyển ngành?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả chuyển ngành.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn chuyển ngành?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả chuyển ngành là bao lâu?
-
-- intent: intent_2023.0001
+    - Cho tôi hỏi bao lâu sẽ nhận được kết quả chuyển ngành   
+    - Khi nào tôi có thể biết kết quả sau khi đăng ký chuyển ngành 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả về việc chuyển ngành 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả chuyển ngành là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi đăng ký chuyển ngành 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả chuyển ngành.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn chuyển ngành 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả chuyển ngành là bao lâu 
+- intent: intent_20203001
   examples: |
-    - Cho tôi hỏi thời gian nhận đơn học ngành hai ? 
-    - Khi nào là thời gian đăng ký nhận đơn học ngành thứ hai?
-    - Tôi muốn biết thời điểm cụ thể khi chúng ta có thể nộp đơn đăng ký học ngành thứ hai.
-    - Cho tôi biết, thời gian nộp đơn học ngành thứ hai kéo dài trong khoảng bao lâu?
-    - Khi nào là thời gian mà tôi có thể gửi đơn đăng ký học ngành thứ hai?
-    - Tôi cần hỏi về thời hạn nộp đơn học ngành thứ hai là khi nào?
-    - Xin cho tôi thông tin về thời gian đăng ký nhận đơn học ngành thứ hai.
-    - Khi nào tôi có thể bắt đầu nộp đơn đăng ký học ngành thứ hai và thời gian kéo dài đến khi nào?
-
-- intent: intent_2024.0001
+    - Cho tôi hỏi thời gian nhận đơn học ngành hai   
+    - Khi nào là thời gian đăng ký nhận đơn học ngành thứ hai 
+    - Tôi muốn biết thời điểm cụ thể khi chúng ta có thể nộp đơn đăng ký học ngành thứ hai.
+    - Cho tôi biết, thời gian nộp đơn học ngành thứ hai kéo dài trong khoảng bao lâu 
+    - Khi nào là thời gian mà tôi có thể gửi đơn đăng ký học ngành thứ hai 
+    - Tôi cần hỏi về thời hạn nộp đơn học ngành thứ hai là khi nào 
+    - Xin cho tôi thông tin về thời gian đăng ký nhận đơn học ngành thứ hai.
+    - Khi nào tôi có thể bắt đầu nộp đơn đăng ký học ngành thứ hai và thời gian kéo dài đến khi nào 
+- intent: intent_20204001
   examples: |
-    - Cho tôi hỏi thời gian tối đa học ngành hai ? 
-    - Tối đa thời gian mà tôi có thể học ngành thứ hai là bao lâu?
-    - Tôi cần biết thời gian tối đa cho phép khi tôi muốn học ngành thứ hai là bao lâu?
-    - Cho tôi biết về khoảng thời gian tối đa mà tôi có thể dành để học ngành thứ hai.
-    - Khi muốn học ngành thứ hai, tối đa thời gian mà tôi có thể theo học là bao nhiêu?
-    - Xin hỏi về giới hạn thời gian tối đa mà tôi được phép học ngành thứ hai.
-    - Tôi muốn hỏi về thời gian tối đa cho phép khi tôi quyết định theo đuổi học ngành thứ hai.
-    - Khi tôi đăng ký học ngành thứ hai, tôi cần biết về thời gian tối đa mà tôi có thể tham gia học là bao lâu?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2025.0001
+    - Cho tôi hỏi thời gian tối đa học ngành hai   
+    - Tối đa thời gian mà tôi có thể học ngành thứ hai là bao lâu 
+    - Tôi cần biết thời gian tối đa cho phép khi tôi muốn học ngành thứ hai là bao lâu 
+    - Cho tôi biết về khoảng thời gian tối đa mà tôi có thể dành để học ngành thứ hai.
+    - Khi muốn học ngành thứ hai, tối đa thời gian mà tôi có thể theo học là bao nhiêu 
+    - Xin hỏi về giới hạn thời gian tối đa mà tôi được phép học ngành thứ hai.
+    - Tôi muốn hỏi về thời gian tối đa cho phép khi tôi quyết định theo đuổi học ngành thứ hai.
+    - Khi tôi đăng ký học ngành thứ hai, tôi cần biết về thời gian tối đa mà tôi có thể tham gia học là bao lâu
+- intent: intent_20205001
   examples: |
-    - Cho tôi hỏi sau khi học ngành hai cần làm gì ? 
-    - Tôi muốn biết sau khi học ngành thứ hai, tôi cần thực hiện những bước gì tiếp theo?
-    - Cho tôi biết, sau khi hoàn thành học ngành thứ hai, tôi phải làm gì tiếp theo?
-    - Tôi cần hỏi về các thủ tục cần thực hiện sau khi đã hoàn thành học ngành thứ hai.
-    - Xin cho tôi thông tin về các bước tiếp theo sau khi tôi đã hoàn thành việc học ngành thứ hai.
-    - Khi đã hoàn thành học ngành thứ hai, tôi cần phải thực hiện các bước gì tiếp theo?
-    - Nếu tôi đã hoàn thành việc học ngành thứ hai, tôi cần biết cần làm gì tiếp theo sau đó?
-    - Sau khi thực hiện thành công việc học ngành thứ hai, tôi cần phải thực hiện các hành động gì?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2031.0001
+    - Cho tôi hỏi sau khi học ngành hai cần làm gì   
+    - Tôi muốn biết sau khi học ngành thứ hai, tôi cần thực hiện những bước gì tiếp theo 
+    - Cho tôi biết, sau khi hoàn thành học ngành thứ hai, tôi phải làm gì tiếp theo 
+    - Tôi cần hỏi về các thủ tục cần thực hiện sau khi đã hoàn thành học ngành thứ hai.
+    - Xin cho tôi thông tin về các bước tiếp theo sau khi tôi đã hoàn thành việc học ngành thứ hai.
+    - Khi đã hoàn thành học ngành thứ hai, tôi cần phải thực hiện các bước gì tiếp theo 
+    - Nếu tôi đã hoàn thành việc học ngành thứ hai, tôi cần biết cần làm gì tiếp theo sau đó 
+    - Sau khi thực hiện thành công việc học ngành thứ hai, tôi cần phải thực hiện các hành động gì
+- intent: intent_20301001
   examples: |
-    - Cho tôi hỏi thời gian nhận đơn xét miễn giảm môn học ?
-    - Khi nào là thời gian đăng ký nhận đơn xét miễn giảm môn học?
-    - Tôi muốn biết thời điểm cụ thể khi chúng ta có thể nộp đơn xét miễn giảm môn học.
-    - Cho tôi biết, thời gian nộp đơn xét miễn giảm môn học kéo dài trong khoảng bao lâu?
-    - Khi nào là thời gian mà tôi có thể gửi đơn xét miễn giảm môn học?
-    - Tôi cần hỏi về thời hạn nộp đơn xét miễn giảm môn học là khi nào?
-    - Xin cho tôi thông tin về thời gian đăng ký nhận đơn xét miễn giảm môn học.
-    - Khi nào tôi có thể bắt đầu nộp đơn xét miễn giảm môn học và thời gian kéo dài đến khi nào?
-
-- intent: intent_2032.0001
+    - Cho tôi hỏi thời gian nhận đơn xét miễn giảm môn học  
+    - Khi nào là thời gian đăng ký nhận đơn xét miễn giảm môn học 
+    - Tôi muốn biết thời điểm cụ thể khi chúng ta có thể nộp đơn xét miễn giảm môn học.
+    - Cho tôi biết, thời gian nộp đơn xét miễn giảm môn học kéo dài trong khoảng bao lâu 
+    - Khi nào là thời gian mà tôi có thể gửi đơn xét miễn giảm môn học 
+    - Tôi cần hỏi về thời hạn nộp đơn xét miễn giảm môn học là khi nào 
+    - Xin cho tôi thông tin về thời gian đăng ký nhận đơn xét miễn giảm môn học.
+    - Khi nào tôi có thể bắt đầu nộp đơn xét miễn giảm môn học và thời gian kéo dài đến khi nào 
+- intent: intent_20302001
   examples: |
-    - Cho tôi hỏi bao lâu sẽ nhận được kết quả miễn giảm/ chuyển điểm ? 
-    - Khi nào tôi có thể biết kết quả về việc xét miễn giảm/chuyển điểm?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi đăng ký xét miễn giảm/chuyển điểm?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả xét miễn giảm/chuyển điểm là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi đăng ký xét miễn giảm/chuyển điểm?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xét miễn giảm/chuyển điểm.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn xét miễn giảm/chuyển điểm?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả xét miễn giảm/chuyển điểm là bao lâu?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2033.0001
+    - Cho tôi hỏi bao lâu sẽ nhận được kết quả miễn giảm/ chuyển điểm   
+    - Khi nào tôi có thể biết kết quả về việc xét miễn giảm/chuyển điểm 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi đăng ký xét miễn giảm/chuyển điểm 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả xét miễn giảm/chuyển điểm là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi đăng ký xét miễn giảm/chuyển điểm 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xét miễn giảm/chuyển điểm.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn xét miễn giảm/chuyển điểm 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả xét miễn giảm/chuyển điểm là bao lâu
+- intent: intent_20303001
   examples: |
-    - Cho tôi hỏi thủ tục làm đơn miễn giảm ?
-    - Tôi muốn biết thủ tục cụ thể để làm đơn xét miễn giảm.
-    - Cho tôi biết, khi làm đơn xét miễn giảm, tôi cần thực hiện những bước gì?
-    - Tôi cần hỏi về các thủ tục và bước làm khi muốn xét miễn giảm môn học.
-    - Xin cho tôi thông tin về các bước và hướng dẫn khi làm đơn xét miễn giảm.
-    - Khi muốn xét miễn giảm môn học, tôi cần phải thực hiện những thủ tục gì?
-    - Tôi muốn hỏi về quá trình thực hiện đơn xét miễn giảm và các bước cần thực hiện.
-    - Nếu tôi muốn xét miễn giảm môn học, tôi cần biết phải làm những thủ tục gì?
-
-- intent: intent_2034.0001
+    - Cho tôi hỏi thủ tục làm đơn miễn giảm  
+    - Tôi muốn biết thủ tục cụ thể để làm đơn xét miễn giảm.
+    - Cho tôi biết, khi làm đơn xét miễn giảm, tôi cần thực hiện những bước gì 
+    - Tôi cần hỏi về các thủ tục và bước làm khi muốn xét miễn giảm môn học.
+    - Xin cho tôi thông tin về các bước và hướng dẫn khi làm đơn xét miễn giảm.
+    - Khi muốn xét miễn giảm môn học, tôi cần phải thực hiện những thủ tục gì 
+    - Tôi muốn hỏi về quá trình thực hiện đơn xét miễn giảm và các bước cần thực hiện.
+    - Nếu tôi muốn xét miễn giảm môn học, tôi cần biết phải làm những thủ tục gì 
+- intent: intent_20304001
   examples: |
-    - Cho tôi hỏi các loại chứng chỉ nhà trường dùng để xét miễn giảm Tiếng anh ? 
-    - Tôi cần biết về các loại chứng chỉ mà nhà trường chấp nhận để xét miễn giảm môn Tiếng Anh.
-    - Cho tôi biết, có những loại chứng chỉ nào được sử dụng để xét miễn giảm môn học Tiếng Anh?
-    - Tôi muốn hỏi về danh sách các chứng chỉ mà trường hỗ trợ cho việc xét miễn giảm môn Tiếng Anh.
-    - Xin cho tôi thông tin về các loại chứng chỉ được công nhận để xét miễn giảm môn học Tiếng Anh.
-    - Nếu tôi muốn xét miễn giảm môn Tiếng Anh, tôi cần biết về những chứng chỉ nào có thể được sử dụng.
-    - Tôi muốn biết về danh sách các chứng chỉ hợp lệ để xét miễn giảm môn học Tiếng Anh.
-    - Cho tôi biết về các chứng chỉ mà trường đang chấp nhận để xét miễn giảm môn Tiếng Anh.
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2035.0001
+    - Cho tôi hỏi các loại chứng chỉ nhà trường dùng để xét miễn giảm Tiếng anh   
+    - Tôi cần biết về các loại chứng chỉ mà nhà trường chấp nhận để xét miễn giảm môn Tiếng Anh.
+    - Cho tôi biết, có những loại chứng chỉ nào được sử dụng để xét miễn giảm môn học Tiếng Anh 
+    - Tôi muốn hỏi về danh sách các chứng chỉ mà trường hỗ trợ cho việc xét miễn giảm môn Tiếng Anh.
+    - Xin cho tôi thông tin về các loại chứng chỉ được công nhận để xét miễn giảm môn học Tiếng Anh.
+    - Nếu tôi muốn xét miễn giảm môn Tiếng Anh, tôi cần biết về những chứng chỉ nào có thể được sử dụng.
+    - Tôi muốn biết về danh sách các chứng chỉ hợp lệ để xét miễn giảm môn học Tiếng Anh.
+    - Cho tôi biết về các chứng chỉ mà trường đang chấp nhận để xét miễn giảm môn Tiếng Anh.
+- intent: intent_20305001
   examples: |
-    - Cho tôi hỏi thủ tục làm đơn chuyển điểm?
-    - Tôi muốn biết thủ tục cụ thể để làm đơn chuyển điểm.
-    - Cho tôi biết, khi làm đơn chuyển điểm, tôi cần thực hiện những bước gì?
-    - Tôi cần hỏi về các thủ tục và bước làm khi muốn chuyển điểm.
-    - Xin cho tôi thông tin về các bước và hướng dẫn khi làm đơn chuyển điểm.
-    - Khi muốn chuyển điểm, tôi cần phải thực hiện những thủ tục gì?
-    - Tôi muốn hỏi về quy trình thực hiện đơn chuyển điểm và các bước cần thực hiện.
-    - Nếu tôi muốn chuyển điểm, tôi cần biết phải làm những thủ tục gì?
-
-- intent: intent_2041.0001
+    - Cho tôi hỏi thủ tục làm đơn chuyển điểm 
+    - Tôi muốn biết thủ tục cụ thể để làm đơn chuyển điểm.
+    - Cho tôi biết, khi làm đơn chuyển điểm, tôi cần thực hiện những bước gì 
+    - Tôi cần hỏi về các thủ tục và bước làm khi muốn chuyển điểm.
+    - Xin cho tôi thông tin về các bước và hướng dẫn khi làm đơn chuyển điểm.
+    - Khi muốn chuyển điểm, tôi cần phải thực hiện những thủ tục gì 
+    - Tôi muốn hỏi về quy trình thực hiện đơn chuyển điểm và các bước cần thực hiện.
+    - Nếu tôi muốn chuyển điểm, tôi cần biết phải làm những thủ tục gì 
+- intent: intent_20401001
   examples: |
-    - Cho tôi hỏi học lại cùng mã môn học/ khác mã thì có cần điều chỉnh không ? 
-    - Khi học lại cùng mã môn học hoặc khác mã, liệu có cần thực hiện điều chỉnh gì không?
-    - Tôi muốn biết khi học lại môn học có cùng mã hoặc khác mã, có cần phải làm điều gì thay đổi?
-    - Cho tôi biết, khi quyết định học lại môn học cùng mã hoặc khác mã, liệu có cần điều chỉnh gì không?
-    - Xin cho tôi thông tin về việc cần điều chỉnh gì khi tôi học lại môn học cùng mã hoặc khác mã.
-    - Khi học lại môn học cùng mã hoặc khác mã, tôi cần phải thực hiện những điều chỉnh gì?
-    - Tôi muốn hỏi về quá trình học lại môn học cùng mã hoặc khác mã và xem xét liệu có cần phải điều chỉnh gì không.
-    - Nếu tôi quyết định học lại môn học cùng mã hoặc khác mã, tôi cần biết có cần phải điều chỉnh gì không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2042.0001
+    - Cho tôi hỏi học lại cùng mã môn học/ khác mã thì có cần điều chỉnh không   
+    - Khi học lại cùng mã môn học hoặc khác mã, liệu có cần thực hiện điều chỉnh gì không 
+    - Tôi muốn biết khi học lại môn học có cùng mã hoặc khác mã, có cần phải làm điều gì thay đổi 
+    - Cho tôi biết, khi quyết định học lại môn học cùng mã hoặc khác mã, liệu có cần điều chỉnh gì không 
+    - Xin cho tôi thông tin về việc cần điều chỉnh gì khi tôi học lại môn học cùng mã hoặc khác mã.
+    - Khi học lại môn học cùng mã hoặc khác mã, tôi cần phải thực hiện những điều chỉnh gì 
+    - Tôi muốn hỏi về quá trình học lại môn học cùng mã hoặc khác mã và xem xét liệu có cần phải điều chỉnh gì không.
+    - Nếu tôi quyết định học lại môn học cùng mã hoặc khác mã, tôi cần biết có cần phải điều chỉnh gì không
+- intent: intent_20402001
   examples: |
-    - Cho tôi hỏi thời gian có kết quả điều chinh bảng điểm ? 
-    - Khi nào tôi có thể biết kết quả sau khi thực hiện điều chỉnh bảng điểm?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi đề xuất điều chỉnh bảng điểm?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi đề nghị điều chỉnh bảng điểm là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi đề xuất điều chỉnh bảng điểm?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả điều chỉnh bảng điểm.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn điều chỉnh bảng điểm?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả điều chỉnh bảng điểm là bao lâu?
-
-- intent: intent_2051.0001
+    - Cho tôi hỏi thời gian có kết quả điều chinh bảng điểm   
+    - Khi nào tôi có thể biết kết quả sau khi thực hiện điều chỉnh bảng điểm 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi đề xuất điều chỉnh bảng điểm 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi đề nghị điều chỉnh bảng điểm là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi đề xuất điều chỉnh bảng điểm 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả điều chỉnh bảng điểm.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn điều chỉnh bảng điểm 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả điều chỉnh bảng điểm là bao lâu 
+- intent: intent_20501001
   examples: |
-    - Cho tôi hỏi muốn điều chỉnh số chứng minh nhân dân sang căn cước công dân cần làm gì ?
-    - Tôi muốn biết thủ tục cụ thể để điều chỉnh số chứng minh nhân dân sang căn cước công dân.
-    - Cho tôi biết, khi muốn điều chỉnh số chứng minh nhân dân sang căn cước công dân, tôi cần thực hiện những bước gì?
-    - Tôi cần hỏi về các thủ tục và bước làm khi muốn thay đổi từ số chứng minh nhân dân sang căn cước công dân.
-    - Xin cho tôi thông tin về các bước và hướng dẫn khi muốn điều chỉnh số chứng minh nhân dân thành căn cước công dân.
-    - Khi muốn thay đổi từ số chứng minh nhân dân sang căn cước công dân, tôi cần phải thực hiện những thủ tục gì?
-    - Tôi muốn hỏi về quy trình thực hiện thay đổi từ số chứng minh nhân dân sang căn cước công dân và các bước cần thực hiện.
-    - Nếu tôi muốn chuyển từ số chứng minh nhân dân sang căn cước công dân, tôi cần biết phải làm những thủ tục gì?
-
-- intent: intent_2052.0001
+    - Cho tôi hỏi muốn điều chỉnh số chứng minh nhân dân sang căn cước công dân cần làm gì  
+    - Tôi muốn biết thủ tục cụ thể để điều chỉnh số chứng minh nhân dân sang căn cước công dân.
+    - Cho tôi biết, khi muốn điều chỉnh số chứng minh nhân dân sang căn cước công dân, tôi cần thực hiện những bước gì 
+    - Tôi cần hỏi về các thủ tục và bước làm khi muốn thay đổi từ số chứng minh nhân dân sang căn cước công dân.
+    - Xin cho tôi thông tin về các bước và hướng dẫn khi muốn điều chỉnh số chứng minh nhân dân thành căn cước công dân.
+    - Khi muốn thay đổi từ số chứng minh nhân dân sang căn cước công dân, tôi cần phải thực hiện những thủ tục gì 
+    - Tôi muốn hỏi về quy trình thực hiện thay đổi từ số chứng minh nhân dân sang căn cước công dân và các bước cần thực hiện.
+    - Nếu tôi muốn chuyển từ số chứng minh nhân dân sang căn cước công dân, tôi cần biết phải làm những thủ tục gì 
+- intent: intent_20502001
   examples: |
-    - Cho tôi hỏi có được thay đổi ảnh thẻ sinh viên không ? 
-    - Tôi cần biết liệu có thể thay đổi ảnh trên thẻ sinh viên hay không?
-    - Xin cho tôi biết về khả năng thay đổi ảnh thẻ sinh viên có khả thi không?
-    - Tôi muốn hỏi về việc thay đổi ảnh trên thẻ sinh viên, liệu có được phép hay không?
-    - Cho tôi biết, khi muốn thay đổi ảnh thẻ sinh viên, có cách nào để thực hiện không?
-    - Khi tôi cần thay đổi ảnh thẻ sinh viên, tôi phải làm gì để thực hiện việc này?
-    - Tôi muốn hỏi về việc thay đổi ảnh trên thẻ sinh viên, liệu có yêu cầu gì đặc biệt không?
-    - Nếu tôi muốn thay đổi ảnh thẻ sinh viên, tôi cần phải thực hiện những thủ tục gì?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2053.0001
+    - Cho tôi hỏi có được thay đổi ảnh thẻ sinh viên không   
+    - Tôi cần biết liệu có thể thay đổi ảnh trên thẻ sinh viên hay không 
+    - Xin cho tôi biết về khả năng thay đổi ảnh thẻ sinh viên có khả thi không 
+    - Tôi muốn hỏi về việc thay đổi ảnh trên thẻ sinh viên, liệu có được phép hay không 
+    - Cho tôi biết, khi muốn thay đổi ảnh thẻ sinh viên, có cách nào để thực hiện không 
+    - Khi tôi cần thay đổi ảnh thẻ sinh viên, tôi phải làm gì để thực hiện việc này 
+    - Tôi muốn hỏi về việc thay đổi ảnh trên thẻ sinh viên, liệu có yêu cầu gì đặc biệt không 
+    - Nếu tôi muốn thay đổi ảnh thẻ sinh viên, tôi cần phải thực hiện những thủ tục gì
+- intent: intent_20503001
   examples: |
-    - Cho tôi hỏi cách điều chỉnh số điện thoại ?
-    - Tôi muốn biết cách thực hiện việc điều chỉnh số điện thoại, có thể chỉ cho tôi được không?
-    - Cho tôi biết, làm thế nào để điều chỉnh số điện thoại mà tôi đã đăng ký?
-    - Tôi cần hỏi về cách thay đổi số điện thoại mà tôi đã đăng ký, có thể hướng dẫn cho tôi không?
-    - Xin cho tôi biết cách điều chỉnh số điện thoại đã đăng ký trong hệ thống.
-    - Khi tôi muốn thay đổi số điện thoại, tôi cần phải thực hiện những bước gì?
-    - Tôi muốn hỏi về quá trình thay đổi số điện thoại đã đăng ký và cách thực hiện điều này.
-    - Nếu tôi muốn thay đổi số điện thoại đã đăng ký, tôi cần biết cách thực hiện điều chỉnh như thế nào?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2054.0001
+    - Cho tôi hỏi cách điều chỉnh số điện thoại 
+    - Tôi muốn biết cách thực hiện việc điều chỉnh số điện thoại, có thể chỉ cho tôi được không 
+    - Cho tôi biết, làm thế nào để điều chỉnh số điện thoại mà tôi đã đăng ký 
+    - Tôi cần hỏi về cách thay đổi số điện thoại mà tôi đã đăng ký, có thể hướng dẫn cho tôi không 
+    - Xin cho tôi biết cách điều chỉnh số điện thoại đã đăng ký trong hệ thống.
+    - Khi tôi muốn thay đổi số điện thoại, tôi cần phải thực hiện những bước gì 
+    - Tôi muốn hỏi về quá trình thay đổi số điện thoại đã đăng ký và cách thực hiện điều này.
+    - Nếu tôi muốn thay đổi số điện thoại đã đăng ký, tôi cần biết cách thực hiện điều chỉnh như thế nào
+- intent: intent_20504001
   examples: |
-    - Cho tôi hỏi bao lâu sẽ có kết quả điều chỉnh thông tin sinh viên ? 
-    - Khi nào tôi có thể biết kết quả sau khi thực hiện điều chỉnh thông tin sinh viên?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi đề xuất thay đổi thông tin sinh viên?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi đề nghị điều chỉnh thông tin sinh viên là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi đề xuất thay đổi thông tin sinh viên?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả điều chỉnh thông tin sinh viên.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn thay đổi thông tin sinh viên?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả điều chỉnh thông tin sinh viên là bao lâu?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2061.0001
+    - Cho tôi hỏi bao lâu sẽ có kết quả điều chỉnh thông tin sinh viên 
+    - Khi nào tôi có thể biết kết quả sau khi thực hiện điều chỉnh thông tin sinh viên 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi đề xuất thay đổi thông tin sinh viên 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi đề nghị điều chỉnh thông tin sinh viên là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi đề xuất thay đổi thông tin sinh viên 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả điều chỉnh thông tin sinh viên.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn thay đổi thông tin sinh viên 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả điều chỉnh thông tin sinh viên là bao lâu
+- intent: intent_20601001
   examples: |
-    - Cho tôi hỏi đối tượng được xét miễn giảm giáo dục quốc phòng, giáo dục thể chất ? (phần thực hành)
-    - Tôi cần biết đối tượng nào được xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành)?
-    - Cho tôi biết, ai là đối tượng được miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành)?
-    - Tôi muốn hỏi về những ai được xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành)?
-    - Xin cho tôi biết danh sách những đối tượng được miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành).
-    - Khi nào thì một người được coi là đủ điều kiện để xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành)?
-    - Tôi cần biết về những điều kiện cụ thể khiến một người được xem xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành).
-    - Nếu ai đáp ứng các tiêu chí nào thì được xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành)?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2062.0001
+    - Cho tôi hỏi đối tượng được xét miễn giảm giáo dục quốc phòng, giáo dục thể chất   (phần thực hành)
+    - Tôi cần biết đối tượng nào được xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành) 
+    - Cho tôi biết, ai là đối tượng được miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành) 
+    - Tôi muốn hỏi về những ai được xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành) 
+    - Xin cho tôi biết danh sách những đối tượng được miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành).
+    - Khi nào thì một người được coi là đủ điều kiện để xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành) 
+    - Tôi cần biết về những điều kiện cụ thể khiến một người được xem xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành).
+    - Nếu ai đáp ứng các tiêu chí nào thì được xét miễn giảm giáo dục quốc phòng và giáo dục thể chất (phần thực hành)
+- intent: intent_20602001
   examples: |
-    - Cho tôi hỏi bao lâu sẽ có kết quả xét miễn giảm giáo dục quốc phòng, giáo dục thể chất ? 
-    - Khi nào tôi có thể biết kết quả sau khi đăng ký xét miễn giảm giáo dục quốc phòng và giáo dục thể chất?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi nộp đơn xét miễn giảm giáo dục quốc phòng và giáo dục thể chất?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi đăng ký xét miễn giảm giáo dục quốc phòng và giáo dục thể chất là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi đăng ký xét miễn giảm giáo dục quốc phòng và giáo dục thể chất?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xét miễn giảm giáo dục quốc phòng và giáo dục thể chất.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn xét miễn giảm giáo dục quốc phòng và giáo dục thể chất?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả xét miễn giảm giáo dục quốc phòng và giáo dục thể chất là bao lâu?
-
-- intent: intent_2071.0001
+    - Cho tôi hỏi bao lâu sẽ có kết quả xét miễn giảm giáo dục quốc phòng, giáo dục thể chất 
+    - Khi nào tôi có thể biết kết quả sau khi đăng ký xét miễn giảm giáo dục quốc phòng và giáo dục thể chất 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả sau khi nộp đơn xét miễn giảm giáo dục quốc phòng và giáo dục thể chất 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi đăng ký xét miễn giảm giáo dục quốc phòng và giáo dục thể chất là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi đăng ký xét miễn giảm giáo dục quốc phòng và giáo dục thể chất 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xét miễn giảm giáo dục quốc phòng và giáo dục thể chất.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết kết quả sau khi nộp đơn xét miễn giảm giáo dục quốc phòng và giáo dục thể chất 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả xét miễn giảm giáo dục quốc phòng và giáo dục thể chất là bao lâu 
+- intent: intent_20701001
   examples: |
-    - Cho tôi hỏi điều kiện để làm đơn tạm dừng học tập ?
-    - Tôi muốn biết điều kiện cụ thể để được làm đơn tạm dừng học tập, có thể chỉ cho tôi không?
-    - Cho tôi biết, khi muốn làm đơn tạm dừng học tập, tôi cần phải đáp ứng những điều kiện gì?
-    - Tôi cần hỏi về các điều kiện cần thiết khi muốn làm đơn tạm dừng học tập, có thể hướng dẫn cho tôi không?
-    - Xin cho tôi thông tin về những yêu cầu và điều kiện khi muốn làm đơn tạm dừng học tập.
-    - Khi tôi muốn làm đơn tạm dừng học tập, tôi cần phải thỏa mãn những điều kiện gì?
-    - Tôi muốn hỏi về các tiêu chí khi muốn làm đơn tạm dừng học tập và cách thực hiện điều này.
-    - Nếu tôi muốn làm đơn tạm dừng học tập, tôi cần biết phải đáp ứng những điều kiện gì?
-
-- intent: intent_2072.0001
+    - Cho tôi hỏi điều kiện để làm đơn tạm dừng học tập 
+    - Tôi muốn biết điều kiện cụ thể để được làm đơn tạm dừng học tập, có thể chỉ cho tôi không 
+    - Cho tôi biết, khi muốn làm đơn tạm dừng học tập, tôi cần phải đáp ứng những điều kiện gì 
+    - Tôi cần hỏi về các điều kiện cần thiết khi muốn làm đơn tạm dừng học tập, có thể hướng dẫn cho tôi không 
+    - Xin cho tôi thông tin về những yêu cầu và điều kiện khi muốn làm đơn tạm dừng học tập.
+    - Khi tôi muốn làm đơn tạm dừng học tập, tôi cần phải thỏa mãn những điều kiện gì 
+    - Tôi muốn hỏi về các tiêu chí khi muốn làm đơn tạm dừng học tập và cách thực hiện điều này.
+    - Nếu tôi muốn làm đơn tạm dừng học tập, tôi cần biết phải đáp ứng những điều kiện gì 
+- intent: intent_20702001
   examples: |
-    - Cho tôi hỏi thời gian tạm dừng có tính vào khóa học hay không ?
-    - Tôi cần biết liệu thời gian tạm dừng học có được tính vào khoảng thời gian của khóa học hay không?
-    - Cho tôi biết, khi tạm dừng học, thời gian đó có ảnh hưởng đến khoá học của tôi không?
-    - Tôi muốn hỏi về việc thời gian tạm dừng học có được tính vào độ dài của khóa học hay không?
-    - Xin cho tôi biết liệu thời gian nghỉ học tạm thời có được tính vào thời gian của khóa học không?
-    - Khi tôi tạm dừng học, thời gian đó có góp phần vào thời gian học của khóa không?
-    - Tôi muốn biết thời gian tạm dừng học có được cộng dồn vào khoảng thời gian tổng cộng của khóa học hay không?
-    - Nếu tôi tạm dừng học, thời gian đó có được tính vào thời gian học của khóa hay không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2073.0001
+    - Cho tôi hỏi thời gian tạm dừng có tính vào khóa học hay không 
+    - Tôi cần biết liệu thời gian tạm dừng học có được tính vào khoảng thời gian của khóa học hay không 
+    - Cho tôi biết, khi tạm dừng học, thời gian đó có ảnh hưởng đến khoá học của tôi không 
+    - Tôi muốn hỏi về việc thời gian tạm dừng học có được tính vào độ dài của khóa học hay không 
+    - Xin cho tôi biết liệu thời gian nghỉ học tạm thời có được tính vào thời gian của khóa học không
+    - Khi tôi tạm dừng học, thời gian đó có góp phần vào thời gian học của khóa không 
+    - Tôi muốn biết thời gian tạm dừng học có được cộng dồn vào khoảng thời gian tổng cộng của khóa học hay không 
+    - Nếu tôi tạm dừng học, thời gian đó có được tính vào thời gian học của khóa hay không 
+- intent: intent_20703001
   examples: |
-    - Cho tôi hỏi bao lâu sẽ có kết quả tạm dừng học tập ?
-    - Khi nào tôi có thể biết kết quả sau khi đệ trình yêu cầu tạm dừng học tập?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xin tạm dừng học tập?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn tạm dừng học tập là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xin tạm ngừng học tập?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét tạm dừng học tập.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xin tạm dừng học tập?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu tạm dừng học tập là bao lâu?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2074.0001
+    - Cho tôi hỏi bao lâu sẽ có kết quả tạm dừng học tập  
+    - Khi nào tôi có thể biết kết quả sau khi đệ trình yêu cầu tạm dừng học tập 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xin tạm dừng học tập 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn tạm dừng học tập là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xin tạm ngừng học tập 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét tạm dừng học tập.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xin tạm dừng học tập 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu tạm dừng học tập là bao lâu 
+- intent: intent_20704001
   examples: |
-    - Cho tôi hỏi nghỉ học 1 học kỳ tại trường cần làm gì ?
-    - Tôi cần biết các bước cụ thể khi muốn xin nghỉ học một học kỳ tại trường.
-    - Cho tôi biết, khi có ý định nghỉ học một học kỳ, tôi cần phải thực hiện những thủ tục gì?
-    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn xin nghỉ học một học kỳ tại trường.
-    - Xin vui lòng cung cấp thông tin về các bước khi muốn nghỉ học một học kỳ tại trường.
-    - Khi tôi mong muốn nghỉ học một học kỳ, tôi cần phải thực hiện những thủ tục gì?
-    - Tôi muốn hỏi về các tiêu chí để được xem xét nghỉ học một học kỳ và cách thực hiện điều này.
-    - Nếu tôi muốn xin nghỉ học một học kỳ tại trường, tôi cần biết phải thực hiện những thủ tục gì?
-
-- intent: intent_2075.0001
+    - Cho tôi hỏi nghỉ học 1 học kỳ tại trường cần làm gì  
+    - Tôi cần biết các bước cụ thể khi muốn xin nghỉ học một học kỳ tại trường.
+    - Cho tôi biết, khi có ý định nghỉ học một học kỳ, tôi cần phải thực hiện những thủ tục gì 
+    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn xin nghỉ học một học kỳ tại trường.
+    - Xin vui lòng cung cấp thông tin về các bước khi muốn nghỉ học một học kỳ tại trường.
+    - Khi tôi mong muốn nghỉ học một học kỳ, tôi cần phải thực hiện những thủ tục gì 
+    - Tôi muốn hỏi về các tiêu chí để được xem xét nghỉ học một học kỳ và cách thực hiện điều này.
+    - Nếu tôi muốn xin nghỉ học một học kỳ tại trường, tôi cần biết phải thực hiện những thủ tục gì 
+- intent: intent_20705001
   examples: |
-    - Cho tôi hỏi có thể tạm dừng bao nhiêu học kỳ ? 
-    - Tôi cần biết có giới hạn về số lần tạm dừng học kỳ mà tôi có thể thực hiện không?
-    - Cho tôi biết, tôi có thể tạm dừng học trong bao nhiêu học kỳ mà không bị hạn chế?
-    - Tôi muốn hỏi về số lần tôi được phép tạm dừng học kỳ và có những quy định nào liên quan đến điều này?
-    - Xin cho tôi biết về khả năng tôi có thể tạm dừng học trong mấy học kỳ mà không ảnh hưởng xấu đến việc học tập của mình?
-    - Khi tôi mong muốn tạm dừng học, tôi có thể thực hiện bao nhiêu học kỳ liên tiếp mà không có vấn đề gì?
-    - Tôi muốn hỏi về quy định về số học kỳ mà tôi có thể tạm dừng học mà không ảnh hưởng đến hồ sơ học tập của mình.
-    - Nếu tôi muốn nghỉ học tạm thời, tôi có thể thực hiện trong mấy học kỳ liên tiếp?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2081.0001
+    - Cho tôi hỏi có thể tạm dừng bao nhiêu học kỳ   
+    - Tôi cần biết có giới hạn về số lần tạm dừng học kỳ mà tôi có thể thực hiện không 
+    - Cho tôi biết, tôi có thể tạm dừng học trong bao nhiêu học kỳ mà không bị hạn chế 
+    - Tôi muốn hỏi về số lần tôi được phép tạm dừng học kỳ và có những quy định nào liên quan đến điều này 
+    - Xin cho tôi biết về khả năng tôi có thể tạm dừng học trong mấy học kỳ mà không ảnh hưởng xấu đến việc học tập của mình 
+    - Khi tôi mong muốn tạm dừng học, tôi có thể thực hiện bao nhiêu học kỳ liên tiếp mà không có vấn đề gì
+    - Tôi muốn hỏi về quy định về số học kỳ mà tôi có thể tạm dừng học mà không ảnh hưởng đến hồ sơ học tập của mình.
+    - Nếu tôi muốn nghỉ học tạm thời, tôi có thể thực hiện trong mấy học kỳ liên tiếp 
+- intent: intent_20801001
   examples: |
-    - Cho tôi hỏi thủ tục làm đơn tiếp tục học tập ? 
-    - Tôi cần biết về các bước cụ thể khi muốn xin tiếp tục học tập tại trường.
-    - Cho tôi biết, khi có ý định tiếp tục học, tôi phải thực hiện những thủ tục gì?
-    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn xin tiếp tục học tại trường.
-    - Xin vui lòng cung cấp thông tin về các bước khi muốn tiếp tục học tập tại trường.
-    - Khi tôi mong muốn tiếp tục học, tôi cần phải thực hiện những thủ tục gì?
-    - Tôi muốn biết về các tiêu chí để được xem xét tiếp tục học tập và cách thực hiện điều này.
-    - Nếu tôi muốn xin tiếp tục học tại trường, tôi cần biết phải thực hiện những thủ tục gì?
-
-- intent: intent_2082.0001
+    - Cho tôi hỏi thủ tục làm đơn tiếp tục học tập   
+    - Tôi cần biết về các bước cụ thể khi muốn xin tiếp tục học tập tại trường.
+    - Cho tôi biết, khi có ý định tiếp tục học, tôi phải thực hiện những thủ tục gì 
+    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn xin tiếp tục học tại trường.
+    - Xin vui lòng cung cấp thông tin về các bước khi muốn tiếp tục học tập tại trường.
+    - Khi tôi mong muốn tiếp tục học, tôi cần phải thực hiện những thủ tục gì 
+    - Tôi muốn biết về các tiêu chí để được xem xét tiếp tục học tập và cách thực hiện điều này.
+    - Nếu tôi muốn xin tiếp tục học tại trường, tôi cần biết phải thực hiện những thủ tục gì 
+- intent: intent_20802001
   examples: |
-    - Cho tôi hỏi thời gian có kết quả tiếp tục học tập ? 
-    - Khi nào tôi có thể biết kết quả sau khi đệ trình yêu cầu tiếp tục học tập?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xin tiếp tục học tập?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn tiếp tục học tập là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xin tiếp tục học tập?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét tiếp tục học tập.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xin tiếp tục học tập?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu tiếp tục học tập là bao lâu?
-
-- intent: intent_2091.0001
+    - Cho tôi hỏi thời gian có kết quả tiếp tục học tập   
+    - Khi nào tôi có thể biết kết quả sau khi đệ trình yêu cầu tiếp tục học tập 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xin tiếp tục học tập 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn tiếp tục học tập là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xin tiếp tục học tập 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét tiếp tục học tập.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xin tiếp tục học tập 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu tiếp tục học tập là bao lâu 
+- intent: intent_20901001
   examples: |
-    - Cho tôi hỏi thủ tục làm đơn xét môn học chưa đạt ?
-    - Tôi cần biết về các bước cụ thể khi muốn xin xét lại môn học chưa đạt.
-    - Cho tôi biết, khi có ý định xét lại môn học không đạt, tôi phải thực hiện những thủ tục gì?
-    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn nộp đơn xét môn học chưa qua.
-    - Xin vui lòng cung cấp thông tin về các bước khi muốn xin xét lại môn học chưa đạt.
-    - Khi tôi mong muốn xét lại môn học, tôi cần phải thực hiện những thủ tục gì?
-    - Tôi muốn biết về các tiêu chí để được xem xét lại môn học chưa qua và cách thực hiện điều này.
-    - Nếu tôi muốn xin xét môn học chưa đạt, tôi cần biết phải thực hiện những thủ tục gì?
-
-- intent: intent_2092.0001
+    - Cho tôi hỏi thủ tục làm đơn xét môn học chưa đạt  
+    - Tôi cần biết về các bước cụ thể khi muốn xin xét lại môn học chưa đạt.
+    - Cho tôi biết, khi có ý định xét lại môn học không đạt, tôi phải thực hiện những thủ tục gì 
+    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn nộp đơn xét môn học chưa qua.
+    - Xin vui lòng cung cấp thông tin về các bước khi muốn xin xét lại môn học chưa đạt.
+    - Khi tôi mong muốn xét lại môn học, tôi cần phải thực hiện những thủ tục gì 
+    - Tôi muốn biết về các tiêu chí để được xem xét lại môn học chưa qua và cách thực hiện điều này.
+    - Nếu tôi muốn xin xét môn học chưa đạt, tôi cần biết phải thực hiện những thủ tục gì 
+- intent: intent_20902001
   examples: |
-    - Cho tôi hỏi thời gian có kết quả xét môn học chưa đạt ?
-    - Khi nào tôi có thể biết kết quả sau khi đệ trình yêu cầu xét môn học chưa đạt?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xét môn học không đạt?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn xét môn học chưa qua là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xét môn học không đạt?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét môn học chưa đạt.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xét môn học chưa qua?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu xét môn học chưa đạt là bao lâu?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2093.0001
+    - Cho tôi hỏi thời gian có kết quả xét môn học chưa đạt  
+    - Khi nào tôi có thể biết kết quả sau khi đệ trình yêu cầu xét môn học chưa đạt 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xét môn học không đạt 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn xét môn học chưa qua là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xét môn học không đạt 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét môn học chưa đạt.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xét môn học chưa qua 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu xét môn học chưa đạt là bao lâu 
+- intent: intent_20903001
   examples: |
-    - Cho tôi hỏi muốn kiểm tra còn nợ bao nhiêu môn học cần làm gì ?
-    - Tôi cần biết cách kiểm tra số môn học còn nợ và cần làm gì để làm điều này?
-    - Cho tôi biết, khi muốn kiểm tra số môn học chưa hoàn thành, tôi phải thực hiện thủ tục gì?
-    - Tôi muốn hỏi về quy trình và hướng dẫn cách xác định số môn học còn thiếu và cần phải thực hiện gì?
-    - Xin vui lòng cung cấp thông tin về cách kiểm tra số môn học chưa hoàn thành và thủ tục liên quan.
-    - Khi tôi mong muốn xem xét số môn học nợ, tôi cần phải thực hiện những thủ tục gì?
-    - Tôi muốn biết về cách xác định số môn học còn nợ và các bước thực hiện để kiểm tra điều này.
-    - Nếu tôi muốn biết số môn học chưa hoàn thành, tôi cần biết cách thức kiểm tra và thực hiện những thủ tục gì?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2101.0001
+    - Cho tôi hỏi muốn kiểm tra còn nợ bao nhiêu môn học cần làm gì  
+    - Tôi cần biết cách kiểm tra số môn học còn nợ và cần làm gì để làm điều này 
+    - Cho tôi biết, khi muốn kiểm tra số môn học chưa hoàn thành, tôi phải thực hiện thủ tục gì 
+    - Tôi muốn hỏi về quy trình và hướng dẫn cách xác định số môn học còn thiếu và cần phải thực hiện gì 
+    - Xin vui lòng cung cấp thông tin về cách kiểm tra số môn học chưa hoàn thành và thủ tục liên quan.
+    - Khi tôi mong muốn xem xét số môn học nợ, tôi cần phải thực hiện những thủ tục gì 
+    - Tôi muốn biết về cách xác định số môn học còn nợ và các bước thực hiện để kiểm tra điều này.
+    - Nếu tôi muốn biết số môn học chưa hoàn thành, tôi cần biết cách thức kiểm tra và thực hiện những thủ tục gì 
+- intent: intent_21001001
   examples: |
-    - Cho tôi hỏi thủ tục làm đơn chuyển trường ? 
-    - Tôi cần biết về các bước cụ thể khi muốn xin chuyển trường và cách thực hiện thủ tục này.
-    - Cho tôi biết, khi có ý định chuyển trường, tôi phải thực hiện những thủ tục gì để làm đơn?
-    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn nộp đơn chuyển trường và cách thực hiện điều này.
-    - Xin vui lòng cung cấp thông tin về các bước khi muốn xin chuyển trường và cách thức thực hiện thủ tục.
-    - Khi tôi mong muốn chuyển trường, tôi cần phải thực hiện những thủ tục gì và làm những điều gì?
-    - Tôi muốn biết về cách thực hiện thủ tục nộp đơn chuyển trường và các bước cụ thể trong quá trình này.
-    - Nếu tôi muốn xin chuyển trường, tôi cần biết phải thực hiện những thủ tục gì và làm những điều gì?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2102.0001
+    - Cho tôi hỏi thủ tục làm đơn chuyển trường   
+    - Tôi cần biết về các bước cụ thể khi muốn xin chuyển trường và cách thực hiện thủ tục này.
+    - Cho tôi biết, khi có ý định chuyển trường, tôi phải thực hiện những thủ tục gì để làm đơn 
+    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn nộp đơn chuyển trường và cách thực hiện điều này.
+    - Xin vui lòng cung cấp thông tin về các bước khi muốn xin chuyển trường và cách thức thực hiện thủ tục.
+    - Khi tôi mong muốn chuyển trường, tôi cần phải thực hiện những thủ tục gì và làm những điều gì 
+    - Tôi muốn biết về cách thực hiện thủ tục nộp đơn chuyển trường và các bước cụ thể trong quá trình này.
+    - Nếu tôi muốn xin chuyển trường, tôi cần biết phải thực hiện những thủ tục gì và làm những điều gì 
+- intent: intent_21002001
   examples: |
-    - Cho tôi hỏi điều kiện để chuyển trường ? 
+    - Cho tôi hỏi điều kiện để chuyển trường   
     - Tôi cần biết về những điều kiện cần thiết để có thể chuyển trường và yêu cầu gì phải đáp ứng.
-    - Cho tôi biết, để thực hiện việc chuyển trường, tôi cần phải đáp ứng những điều kiện nào và thực hiện những gì?
+    - Cho tôi biết, để thực hiện việc chuyển trường, tôi cần phải đáp ứng những điều kiện nào và thực hiện những gì 
     - Tôi muốn hỏi về những tiêu chuẩn và yêu cầu cần thiết khi muốn xin chuyển trường.
     - Xin vui lòng cung cấp thông tin về những điều kiện và tiêu chí để thực hiện việc chuyển trường.
-    - Khi tôi mong muốn chuyển trường, tôi cần phải đáp ứng những điều kiện gì và làm những gì?
+    - Khi tôi mong muốn chuyển trường, tôi cần phải đáp ứng những điều kiện gì và làm những gì 
     - Tôi muốn biết về những yêu cầu cụ thể để thực hiện việc chuyển trường và những điều kiện cần thỏa mãn.
-    - Nếu tôi muốn xin chuyển trường, tôi cần biết những tiêu chuẩn và yêu cầu gì phải tuân theo?
-
-- intent: intent_2103.0001
+    - Nếu tôi muốn xin chuyển trường, tôi cần biết những tiêu chuẩn và yêu cầu gì phải tuân theo 
+- intent: intent_21003001
   examples: |
-    - Cho tôi hỏi thời gian có kết quả chuyển trường ? 
-    - Khi nào tôi có thể biết kết quả sau khi đệ trình yêu cầu chuyển trường?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xin chuyển trường?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn chuyển trường là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xin chuyển trường?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét chuyển trường.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xin chuyển trường?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu chuyển trường là bao lâu?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2111.0001
+    - Cho tôi hỏi thời gian có kết quả chuyển trường   
+    - Khi nào tôi có thể biết kết quả sau khi đệ trình yêu cầu chuyển trường 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xin chuyển trường 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn chuyển trường là bao lâu
+    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xin chuyển trường 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét chuyển trường.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xin chuyển trường 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu chuyển trường là bao lâu 
+- intent: intent_21101001
   examples: |
-    - Cho tôi hỏi điều kiện làm đơn thôi học ? 
-    - Tôi cần biết về những điều kiện và yêu cầu để có thể nộp đơn thôi học và điều gì cần phải đáp ứng.
-    - Cho tôi biết, để thực hiện việc nộp đơn thôi học, tôi cần phải đáp ứng những điều kiện nào và thực hiện những gì?
-    - Tôi muốn hỏi về những tiêu chuẩn và yêu cầu cần thiết khi muốn xin thôi học.
-    - Xin vui lòng cung cấp thông tin về những điều kiện và tiêu chí để thực hiện việc nộp đơn thôi học.
-    - Khi tôi mong muốn thôi học, tôi cần phải đáp ứng những điều kiện gì và làm những gì?
-    - Tôi muốn biết về những yêu cầu cụ thể để thực hiện việc nộp đơn thôi học và những điều kiện cần thỏa mãn.
-    - Nếu tôi muốn xin thôi học, tôi cần biết những tiêu chuẩn và yêu cầu gì phải tuân theo?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2112.0001
+    - Cho tôi hỏi điều kiện làm đơn thôi học   
+    - Tôi cần biết về những điều kiện và yêu cầu để có thể nộp đơn thôi học và điều gì cần phải đáp ứng.
+    - Cho tôi biết, để thực hiện việc nộp đơn thôi học, tôi cần phải đáp ứng những điều kiện nào và thực hiện những gì 
+    - Tôi muốn hỏi về những tiêu chuẩn và yêu cầu cần thiết khi muốn xin thôi học.
+    - Xin vui lòng cung cấp thông tin về những điều kiện và tiêu chí để thực hiện việc nộp đơn thôi học.
+    - Khi tôi mong muốn thôi học, tôi cần phải đáp ứng những điều kiện gì và làm những gì 
+    - Tôi muốn biết về những yêu cầu cụ thể để thực hiện việc nộp đơn thôi học và những điều kiện cần thỏa mãn.
+    - Nếu tôi muốn xin thôi học, tôi cần biết những tiêu chuẩn và yêu cầu gì phải tuân theo 
+- intent: intent_21102001
   examples: |
-    - Cho tôi hỏi thời gian có kết quả thôi học ?
-    - Khi nào tôi có thể biết kết quả sau khi nộp đơn thôi học?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xin thôi học?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn thôi học là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xin thôi học?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét thôi học.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xin thôi học?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu thôi học là bao lâu?
-    - 
-    - 
-    - 
-    -  
-
-- intent: intent_2121.0001
+    - Cho tôi hỏi thời gian có kết quả thôi học  
+    - Khi nào tôi có thể biết kết quả sau khi nộp đơn thôi học 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của đơn xin thôi học 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn thôi học là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn xin thôi học 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét thôi học.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả đơn xin thôi học 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu thôi học là bao lâu 
+- intent: intent_21201001
   examples: |
-    - Cho tôi hỏi điều kiện để điều chỉnh lịch thi ? 
-    - Tôi cần biết về những tiêu chuẩn và yêu cầu cần thiết để có thể điều chỉnh lịch thi và điều gì cần phải đáp ứng.
-    - Cho tôi biết, để thực hiện việc điều chỉnh lịch thi, tôi cần phải đáp ứng những điều kiện nào và thực hiện những gì?
-    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn xin điều chỉnh lịch thi và cách thực hiện điều này.
-    - Xin vui lòng cung cấp thông tin về các yêu cầu và tiêu chuẩn để thực hiện việc điều chỉnh lịch thi.
-    - Khi tôi mong muốn điều chỉnh lịch thi, tôi cần phải đáp ứng những điều kiện gì và làm những gì?
-    - Tôi muốn biết về cách thực hiện thủ tục nộp đơn điều chỉnh lịch thi và các bước cụ thể trong quá trình này.
-    - Nếu tôi muốn xin điều chỉnh lịch thi, tôi cần biết phải thực hiện những thủ tục gì và làm những điều gì?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2122.0001
+    - Cho tôi hỏi điều kiện để điều chỉnh lịch thi   
+    - Tôi cần biết về những tiêu chuẩn và yêu cầu cần thiết để có thể điều chỉnh lịch thi và điều gì cần phải đáp ứng.
+    - Cho tôi biết, để thực hiện việc điều chỉnh lịch thi, tôi cần phải đáp ứng những điều kiện nào và thực hiện những gì 
+    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn xin điều chỉnh lịch thi và cách thực hiện điều này.
+    - Xin vui lòng cung cấp thông tin về các yêu cầu và tiêu chuẩn để thực hiện việc điều chỉnh lịch thi.
+    - Khi tôi mong muốn điều chỉnh lịch thi, tôi cần phải đáp ứng những điều kiện gì và làm những gì 
+    - Tôi muốn biết về cách thực hiện thủ tục nộp đơn điều chỉnh lịch thi và các bước cụ thể trong quá trình này.
+    - Nếu tôi muốn xin điều chỉnh lịch thi, tôi cần biết phải thực hiện những thủ tục gì và làm những điều gì 
+- intent: intent_21202001
   examples: |
-    - Cho tôi hỏi thủ tục điều chỉnh lịch thi ?
-    - Tôi cần biết về các bước cụ thể khi muốn xin điều chỉnh lịch thi và cách thực hiện thủ tục này.
-    - Cho tôi biết, khi có ý định điều chỉnh lịch thi, tôi phải thực hiện những thủ tục gì để làm đơn?
-    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn nộp đơn điều chỉnh lịch thi và cách thực hiện điều này.
-    - Xin vui lòng cung cấp thông tin về các bước khi muốn xin điều chỉnh lịch thi và cách thức thực hiện thủ tục.
-    - Khi tôi mong muốn điều chỉnh lịch thi, tôi cần phải thực hiện những thủ tục gì và làm những điều gì?
-    - Tôi muốn biết về cách thực hiện thủ tục nộp đơn điều chỉnh lịch thi và các bước cụ thể trong quá trình này.
-    - Nếu tôi muốn xin điều chỉnh lịch thi, tôi cần biết phải thực hiện những thủ tục gì và làm những điều gì?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2123.0001
+    - Cho tôi hỏi thủ tục điều chỉnh lịch thi  
+    - Tôi cần biết về các bước cụ thể khi muốn xin điều chỉnh lịch thi và cách thực hiện thủ tục này.
+    - Cho tôi biết, khi có ý định điều chỉnh lịch thi, tôi phải thực hiện những thủ tục gì để làm đơn 
+    - Tôi muốn hỏi về quy trình và hướng dẫn khi muốn nộp đơn điều chỉnh lịch thi và cách thực hiện điều này.
+    - Xin vui lòng cung cấp thông tin về các bước khi muốn xin điều chỉnh lịch thi và cách thức thực hiện thủ tục.
+    - Khi tôi mong muốn điều chỉnh lịch thi, tôi cần phải thực hiện những thủ tục gì và làm những điều gì 
+    - Tôi muốn biết về cách thực hiện thủ tục nộp đơn điều chỉnh lịch thi và các bước cụ thể trong quá trình này.
+    - Nếu tôi muốn xin điều chỉnh lịch thi, tôi cần biết phải thực hiện những thủ tục gì và làm những điều gì 
+- intent: intent_21203001
   examples: |
-    - Cho tôi hỏi đơn điều chỉnh lịch thi nhờ người làm giúp được không ?
-    - Tôi muốn biết liệu có thể nhờ người khác nộp đơn điều chỉnh lịch thi giúp tôi không?
-    - Cho tôi hỏi, có được phép yêu cầu người khác làm hộ đơn điều chỉnh lịch thi cho mình không?
-    - Tôi cần tìm hiểu liệu có thể nhờ người làm giúp việc nộp đơn điều chỉnh lịch thi không?
-    - Xin hỏi, có khả năng được nhờ người khác nộp đơn điều chỉnh lịch thi thay cho mình không?
-    - Tôi muốn hỏi, có thể yêu cầu người làm hộ thủ tục đơn điều chỉnh lịch thi giúp tôi không?
-    - Tôi cần biết liệu có thể xin người khác giúp đỡ trong việc nộp đơn điều chỉnh lịch thi không?
-    - Cho tôi hỏi, có được phép nhờ người làm thủ tục đơn điều chỉnh lịch thi cho mình không?
-
-- intent: intent_2124.0001
+    - Cho tôi hỏi đơn điều chỉnh lịch thi nhờ người làm giúp được không  
+    - Tôi muốn biết liệu có thể nhờ người khác nộp đơn điều chỉnh lịch thi giúp tôi không 
+    - Cho tôi hỏi, có được phép yêu cầu người khác làm hộ đơn điều chỉnh lịch thi cho mình không 
+    - Tôi cần tìm hiểu liệu có thể nhờ người làm giúp việc nộp đơn điều chỉnh lịch thi không 
+    - Xin hỏi, có khả năng được nhờ người khác nộp đơn điều chỉnh lịch thi thay cho mình không 
+    - Tôi muốn hỏi, có thể yêu cầu người làm hộ thủ tục đơn điều chỉnh lịch thi giúp tôi không 
+    - Tôi cần biết liệu có thể xin người khác giúp đỡ trong việc nộp đơn điều chỉnh lịch thi không 
+    - Cho tôi hỏi, có được phép nhờ người làm thủ tục đơn điều chỉnh lịch thi cho mình không 
+- intent: intent_21204001
   examples: |
-    - Cho tôi hỏi thời gian có kết quả điều chỉnh lịch thi ? 
-    - Khi nào tôi có thể biết kết quả sau khi nộp đơn điều chỉnh lịch thi?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của yêu cầu điều chỉnh lịch thi?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn điều chỉnh lịch thi là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn điều chỉnh lịch thi?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét điều chỉnh lịch thi.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả yêu cầu điều chỉnh lịch thi?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu điều chỉnh lịch thi là bao lâu?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2125.0001
+    - Cho tôi hỏi thời gian có kết quả điều chỉnh lịch thi   
+    - Khi nào tôi có thể biết kết quả sau khi nộp đơn điều chỉnh lịch thi 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của yêu cầu điều chỉnh lịch thi 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn điều chỉnh lịch thi là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn điều chỉnh lịch thi
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét điều chỉnh lịch thi.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả yêu cầu điều chỉnh lịch thi 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu điều chỉnh lịch thi là bao lâu 
+- intent: intent_21205001
   examples: |
-    - Cho tôi hỏi thời gian học tối đa của sinh viên là bao lâu ?
-    - Tôi cần biết về thời gian tối đa mà một sinh viên có thể học tại trường là bao lâu?
-    - Cho tôi biết, trong khoảng thời gian tối đa, một sinh viên có thể tiếp tục học tập ở trường trong bao lâu?
-    - Tôi muốn hỏi về giới hạn thời gian học tối đa mà sinh viên được phép duy trì tại trường.
-    - Xin vui lòng cung cấp thông tin về khoảng thời gian tối đa mà sinh viên có thể tiếp tục học tại trường.
-    - Khi tôi muốn biết về thời gian tối đa học của sinh viên tại trường, điều đó nghĩa là bao lâu?
-    - Tôi muốn biết về giới hạn thời gian học mà sinh viên có thể theo học tại trường trong khoảng thời gian tối đa.
-    - Nếu tôi muốn tìm hiểu về thời hạn học tối đa của sinh viên tại trường, thời gian đó kéo dài bao lâu?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_2126.0001
+    - Cho tôi hỏi thời gian học tối đa của sinh viên là bao lâu  
+    - Tôi cần biết về thời gian tối đa mà một sinh viên có thể học tại trường là bao lâu 
+    - Cho tôi biết, trong khoảng thời gian tối đa, một sinh viên có thể tiếp tục học tập ở trường trong bao lâu 
+    - Tôi muốn hỏi về giới hạn thời gian học tối đa mà sinh viên được phép duy trì tại trường.
+    - Xin vui lòng cung cấp thông tin về khoảng thời gian tối đa mà sinh viên có thể tiếp tục học tại trường.
+    - Khi tôi muốn biết về thời gian tối đa học của sinh viên tại trường, điều đó nghĩa là bao lâu 
+    - Tôi muốn biết về giới hạn thời gian học mà sinh viên có thể theo học tại trường trong khoảng thời gian tối đa.
+    - Nếu tôi muốn tìm hiểu về thời hạn học tối đa của sinh viên tại trường, thời gian đó kéo dài bao lâu 
+- intent: intent_21206001
   examples: |
-    - Cho tôi hỏi thời gian có kết quả chuyển khóa học ?
-    - Khi nào tôi có thể biết kết quả sau khi nộp đơn chuyển khóa học?
-    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của yêu cầu chuyển khóa học?
-    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn chuyển khóa học là bao lâu?
-    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn chuyển khóa học?
-    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét chuyển khóa học.
-    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả yêu cầu chuyển khóa học?
-    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu chuyển khóa học là bao lâu?
-
-- intent: intent_2127.0001
+    - Cho tôi hỏi thời gian có kết quả chuyển khóa học  
+    - Khi nào tôi có thể biết kết quả sau khi nộp đơn chuyển khóa học 
+    - Tôi muốn hỏi, sau bao lâu thì tôi sẽ biết kết quả của yêu cầu chuyển khóa học 
+    - Cho tôi biết thời gian dự kiến để tôi có thông tin về kết quả sau khi nộp đơn chuyển khóa học là bao lâu 
+    - Khi nào tôi sẽ được thông báo kết quả sau khi nộp đơn chuyển khóa học 
+    - Tôi cần hỏi về thời hạn khi tôi có thể biết tình hình kết quả xem xét chuyển khóa học.
+    - Xin hỏi, sau bao lâu thì tôi có thể biết tình hình kết quả yêu cầu chuyển khóa học 
+    - Tôi cần biết thời gian kỳ vọng để tôi có thông tin về kết quả yêu cầu chuyển khóa học là bao lâu 
+- intent: intent_21207001
   examples: |
-    - Cho tôi hỏi có được cộng thêm thời gian học khi chuyển khóa học không ? 
-    - Tôi muốn hỏi liệu có khả năng được gia tăng thời gian học sau khi chuyển khóa học không?
-    - Cho tôi biết, khi thực hiện chuyển khóa học, có cho phép cộng thêm thời gian học hay không?
-    - Tôi cần tìm hiểu về việc có thể gia tăng thời gian học khi thực hiện yêu cầu chuyển khóa học không?
-    - Xin hỏi, có thể được tăng thêm thời gian học khi thực hiện việc chuyển khóa học không?
-    - Tôi muốn biết, sau khi thực hiện yêu cầu chuyển khóa học, có được cộng thêm thời gian học không?
-    - Tôi cần biết về khả năng gia tăng thời gian học khi thực hiện chuyển khóa học có được xem xét không?
-    - Cho tôi hỏi, khi thực hiện yêu cầu chuyển khóa học, có được xem xét về việc cộng thêm thời gian học không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_3011.0001
+    - Cho tôi hỏi có được cộng thêm thời gian học khi chuyển khóa học không   
+    - Tôi muốn hỏi liệu có khả năng được gia tăng thời gian học sau khi chuyển khóa học không 
+    - Cho tôi biết, khi thực hiện chuyển khóa học, có cho phép cộng thêm thời gian học hay không 
+    - Tôi cần tìm hiểu về việc có thể gia tăng thời gian học khi thực hiện yêu cầu chuyển khóa học không 
+    - Xin hỏi, có thể được tăng thêm thời gian học khi thực hiện việc chuyển khóa học không 
+    - Tôi muốn biết, sau khi thực hiện yêu cầu chuyển khóa học, có được cộng thêm thời gian học không 
+    - Tôi cần biết về khả năng gia tăng thời gian học khi thực hiện chuyển khóa học có được xem xét không 
+    - Cho tôi hỏi, khi thực hiện yêu cầu chuyển khóa học, có được xem xét về việc cộng thêm thời gian học không 
+- intent: intent_30101001
   examples: |
-    - Cho tôi hỏi thời hạn nộp bản sao bằng tốt nghiệp THPT là khi nào ? 
-    - Thời hạn cuối cùng để nộp bản sao bằng tốt nghiệp THPT là khi nào?
-    - Tôi cần biết thời điểm cụ thể mà chúng ta phải hoàn tất việc nộp bản sao bằng tốt nghiệp THPT là khi nào?
-    - Cho tôi biết, đến khi nào chúng ta cần phải nộp bản sao bằng tốt nghiệp THPT?
-    - Tôi muốn biết thời gian cuối cùng để thực hiện thủ tục nộp bản sao bằng tốt nghiệp THPT là khi nào?
-    - Khi nào là thời điểm cần phải hoàn thành việc nộp bản sao bằng tốt nghiệp THPT và làm thủ tục như thế nào?
-    - Xin hỏi về thời hạn cuối cùng để nộp bản sao bằng tốt nghiệp THPT là khi nào?
-    - Khi nào tôi cần hoàn thành việc nộp bản sao bằng tốt nghiệp THPT và đăng ký thủ tục liên quan?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_3012.0001
+    - Cho tôi hỏi thời hạn nộp bản sao bằng tốt nghiệp THPT là khi nào   
+    - Thời hạn cuối cùng để nộp bản sao bằng tốt nghiệp THPT là khi nào 
+    - Tôi cần biết thời điểm cụ thể mà chúng ta phải hoàn tất việc nộp bản sao bằng tốt nghiệp THPT là khi nào 
+    - Cho tôi biết, đến khi nào chúng ta cần phải nộp bản sao bằng tốt nghiệp THPT 
+    - Tôi muốn biết thời gian cuối cùng để thực hiện thủ tục nộp bản sao bằng tốt nghiệp THPT là khi nào 
+    - Khi nào là thời điểm cần phải hoàn thành việc nộp bản sao bằng tốt nghiệp THPT và làm thủ tục như thế nào 
+    - Xin hỏi về thời hạn cuối cùng để nộp bản sao bằng tốt nghiệp THPT là khi nào 
+    - Khi nào tôi cần hoàn thành việc nộp bản sao bằng tốt nghiệp THPT và đăng ký thủ tục liên quan 
+- intent: intent_30102001
   examples: |
-    - Cho tôi hỏi bản sao bằng tốt nghiệp THPT có nộp giúp được không ? 
-    - Tôi có thể nhờ người khác nộp giúp bản sao bằng tốt nghiệp THPT được không?
-    - Nếu tôi không thể đến nộp bản sao bằng tốt nghiệp THPT cá nhân, tôi có thể giao cho ai đó thực hiện?
-    - Cho tôi biết liệu tôi có thể ủy quyền cho người khác nộp bản sao bằng tốt nghiệp THPT thay cho mình không?
-    - Tôi cần biết liệu tôi có thể nhờ người thân nộp bản sao bằng tốt nghiệp THPT thay cho mình không?
-    - Nếu tôi không thể có mặt, liệu tôi có thể nhờ người khác đến nộp bản sao bằng tốt nghiệp THPT thay mình được không?
-    - Cho tôi hỏi, nếu tôi không thể có mặt tại buổi nộp bản sao bằng tốt nghiệp THPT, tôi có thể giao cho ai đó thực hiện thay mình được không?
-    - Nếu tôi không thể nộp bản sao bằng tốt nghiệp THPT cá nhân, liệu có cách nào để người khác thực hiện thay tôi không?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_3013.0001
+    - Cho tôi hỏi bản sao bằng tốt nghiệp THPT có nộp giúp được không   
+    - Tôi có thể nhờ người khác nộp giúp bản sao bằng tốt nghiệp THPT được không 
+    - Nếu tôi không thể đến nộp bản sao bằng tốt nghiệp THPT cá nhân, tôi có thể giao cho ai đó thực hiện 
+    - Cho tôi biết liệu tôi có thể ủy quyền cho người khác nộp bản sao bằng tốt nghiệp THPT thay cho mình không 
+    - Tôi cần biết liệu tôi có thể nhờ người thân nộp bản sao bằng tốt nghiệp THPT thay cho mình không 
+    - Nếu tôi không thể có mặt, liệu tôi có thể nhờ người khác đến nộp bản sao bằng tốt nghiệp THPT thay mình được không 
+    - Cho tôi hỏi, nếu tôi không thể có mặt tại buổi nộp bản sao bằng tốt nghiệp THPT, tôi có thể giao cho ai đó thực hiện thay mình được không 
+    - Nếu tôi không thể nộp bản sao bằng tốt nghiệp THPT cá nhân, liệu có cách nào để người khác thực hiện thay tôi không 
+- intent: intent_30103001
   examples: |
-    - Cho tôi hỏi đã nộp bản sao bằng tốt nghiệp THPT nhưng trên hệ thống không cập nhật ?
-    - Tôi đã nộp bản sao bằng tốt nghiệp THPT nhưng thấy hệ thống không cập nhật, tôi cần phải làm gì?
-    - Tôi muốn hỏi, nếu đã nộp bản sao bằng tốt nghiệp THPT nhưng thấy hệ thống không thể cập nhật, tôi cần thực hiện thủ tục gì?
-    - Xin thông tin về trường hợp nộp bản sao bằng tốt nghiệp THPT đã nhưng hệ thống không cập nhật.
-    - Tôi cần biết, nếu tôi đã nộp bản sao bằng tốt nghiệp THPT nhưng thấy hệ thống không đồng bộ, tôi nên làm gì tiếp theo?
-    - Nếu tôi đã nộp bản sao bằng tốt nghiệp THPT nhưng thấy thông tin không được cập nhật trên hệ thống, tôi cần phải thực hiện các bước gì?
-    - Cho tôi biết, nếu đã hoàn thành việc nộp bản sao bằng tốt nghiệp THPT nhưng thấy thông tin chưa được cập nhật, tôi cần thực hiện điều gì?
-    - Nếu tôi đã gửi bản sao bằng tốt nghiệp THPT nhưng thấy hệ thống không cập nhật, tôi cần làm gì để kiểm tra tình trạng?
-    - 
-    - 
-    - 
-    - 
-
-- intent: intent_3014.0001
+    - Cho tôi hỏi đã nộp bản sao bằng tốt nghiệp THPT nhưng trên hệ thống không cập nhật  
+    - Tôi đã nộp bản sao bằng tốt nghiệp THPT nhưng thấy hệ thống không cập nhật, tôi cần phải làm gì 
+    - Tôi muốn hỏi, nếu đã nộp bản sao bằng tốt nghiệp THPT nhưng thấy hệ thống không thể cập nhật, tôi cần thực hiện thủ tục gì 
+    - Xin thông tin về trường hợp nộp bản sao bằng tốt nghiệp THPT đã nhưng hệ thống không cập nhật.
+    - Tôi cần biết, nếu tôi đã nộp bản sao bằng tốt nghiệp THPT nhưng thấy hệ thống không đồng bộ, tôi nên làm gì tiếp theo 
+    - Nếu tôi đã nộp bản sao bằng tốt nghiệp THPT nhưng thấy thông tin không được cập nhật trên hệ thống, tôi cần phải thực hiện các bước gì 
+    - Cho tôi biết, nếu đã hoàn thành việc nộp bản sao bằng tốt nghiệp THPT nhưng thấy thông tin chưa được cập nhật, tôi cần thực hiện điều gì 
+    - Nếu tôi đã gửi bản sao bằng tốt nghiệp THPT nhưng thấy hệ thống không cập nhật, tôi cần làm gì để kiểm tra tình trạng 
+- intent: intent_30104001
   examples: |
-    - Cho tôi hỏi thủ tục nộp bản sao bằng tốt nghiệp THPT ? 
-    - Làm ơn hướng dẫn tôi thủ tục nộp bản sao bằng tốt nghiệp THPT.
-    - Tôi cần biết thủ tục cụ thể để nộp bản sao bằng tốt nghiệp THPT là gì?
-    - Xin hỏi về cách thức và quy trình nộp bản sao bằng tốt nghiệp THPT.
-    - Cho tôi biết cách thực hiện thủ tục nộp bản sao bằng tốt nghiệp THPT như thế nào.
-    - Tôi muốn được hướng dẫn về việc nộp bản sao bằng tốt nghiệp THPT, bạn có thể giúp tôi không?
-    - Xin cho tôi thông tin chi tiết về quy trình nộp bản sao bằng tốt nghiệp THPT.
-    - Tôi đang tìm hiểu về cách nộp bản sao bằng tốt nghiệp THPT, bạn có thể chia sẻ thông tin với tôi không?
-
-- intent: intent_3021.0001
+    - Cho tôi hỏi thủ tục nộp bản sao bằng tốt nghiệp THPT   
+    - Làm ơn hướng dẫn tôi thủ tục nộp bản sao bằng tốt nghiệp THPT.
+    - Tôi cần biết thủ tục cụ thể để nộp bản sao bằng tốt nghiệp THPT là gì 
+    - Xin hỏi về cách thức và quy trình nộp bản sao bằng tốt nghiệp THPT.
+    - Cho tôi biết cách thực hiện thủ tục nộp bản sao bằng tốt nghiệp THPT như thế nào.
+    - Tôi muốn được hướng dẫn về việc nộp bản sao bằng tốt nghiệp THPT, bạn có thể giúp tôi không 
+    - Xin cho tôi thông tin chi tiết về quy trình nộp bản sao bằng tốt nghiệp THPT.
+    - Tôi đang tìm hiểu về cách nộp bản sao bằng tốt nghiệp THPT, bạn có thể chia sẻ thông tin với tôi không 
+- intent: intent_30201001
   examples: |
-    - Cho tôi hỏi thời hạn nộp bản sao học bạ là khi nào ? 
-    - Cho tôi biết thời gian cuối cùng để nộp bản sao học bạ là khi nào?
-    - Thời hạn nộp bản sao học bạ là bao lâu?
-    - Khi nào là thời điểm kết thúc nộp bản sao học bạ?
-    - Cho tôi hỏi, nếu tôi muốn nộp bản sao học bạ, thời hạn là ngày nào?
-    - Thời gian nộp bản sao học bạ kéo dài đến ngày nào?
-    - Tôi cần biết thời điểm hết hạn nộp bản sao học bạ là khi nào.
+    - Cho tôi hỏi thời hạn nộp bản sao học bạ là khi nào   
+    - Cho tôi biết thời gian cuối cùng để nộp bản sao học bạ là khi nào 
+    - Thời hạn nộp bản sao học bạ là bao lâu 
+    - Khi nào là thời điểm kết thúc nộp bản sao học bạ 
+    - Cho tôi hỏi, nếu tôi muốn nộp bản sao học bạ, thời hạn là ngày nào 
+    - Thời gian nộp bản sao học bạ kéo dài đến ngày nào 
+    - Tôi cần biết thời điểm hết hạn nộp bản sao học bạ là khi nào.
     - Xin cho tôi thông tin về thời hạn cuối cùng nộp bản sao học bạ.
-
-- intent: intent_3022.0001
+- intent: intent_30202001
   examples: |
-    - Cho tôi hỏi bản sao học bạ có nộp giúp được không ? 
-    - Có thể nhờ người khác nộp bản sao học bạ thay cho tôi được không?
-    - Tôi có thể giao cho ai đó nộp bản sao học bạ thay cho mình không?
-    - Nếu tôi không thể nộp bản sao học bạ cá nhân, tôi có thể nhờ người khác nộp giúp không?
-    - Tôi muốn biết liệu tôi có thể uỷ quyền cho người khác nộp bản sao học bạ thay cho mình không?
-    - Nếu tôi không thể tự mình nộp, tôi có thể nhờ người thân nộp bản sao học bạ thay vì mình không?
-    - Cho tôi hỏi, tôi có thể nhờ người bạn nộp bản sao học bạ thay cho mình trong tình huống này không?
-    - Nếu tôi không thể đến nộp cá nhân, liệu tôi có thể nhờ người khác nộp bản sao học bạ thay mình không?
-
-- intent: intent_3023.0001
+    - Cho tôi hỏi bản sao học bạ có nộp giúp được không   
+    - Có thể nhờ người khác nộp bản sao học bạ thay cho tôi được không 
+    - Tôi có thể giao cho ai đó nộp bản sao học bạ thay cho mình không 
+    - Nếu tôi không thể nộp bản sao học bạ cá nhân, tôi có thể nhờ người khác nộp giúp không 
+    - Tôi muốn biết liệu tôi có thể uỷ quyền cho người khác nộp bản sao học bạ thay cho mình không 
+    - Nếu tôi không thể tự mình nộp, tôi có thể nhờ người thân nộp bản sao học bạ thay vì mình không 
+    - Cho tôi hỏi, tôi có thể nhờ người bạn nộp bản sao học bạ thay cho mình trong tình huống này không 
+    - Nếu tôi không thể đến nộp cá nhân, liệu tôi có thể nhờ người khác nộp bản sao học bạ thay mình không 
+- intent: intent_30203001
   examples: |
-    - Cho tôi hỏi đã nộp bản sao học bạ nhưng trên hệ thống không cập nhật ?
-    - Tôi đã nộp bản sao học bạ nhưng tôi thấy trên hệ thống vẫn chưa cập nhật, tôi phải làm gì?
-    - Cho tôi hỏi, nếu đã nộp bản sao học bạ mà hệ thống không cập nhật, tôi nên thực hiện thủ tục gì tiếp theo?
-    - Tôi đã hoàn tất việc nộp bản sao học bạ nhưng tôi phát hiện hệ thống không cập nhật, tôi cần làm gì để khắc phục?
-    - Nếu tôi đã nộp bản sao học bạ nhưng không thấy hệ thống cập nhật, liệu có vấn đề gì xảy ra?
-    - Tôi cần hỏi về trường hợp đã nộp bản sao học bạ nhưng hệ thống vẫn không cập nhật thông tin của tôi.
-    - Nếu đã nộp bản sao học bạ nhưng trên hệ thống không cập nhật, tôi cần liên hệ với ai để giải quyết?
-    - Cho tôi biết, tôi đã gửi bản sao học bạ nhưng không thấy thông tin của mình được cập nhật trên hệ thống, tôi nên làm gì?
-
-- intent: intent_3024.0001
+    - Cho tôi hỏi đã nộp bản sao học bạ nhưng trên hệ thống không cập nhật  
+    - Tôi đã nộp bản sao học bạ nhưng tôi thấy trên hệ thống vẫn chưa cập nhật, tôi phải làm gì 
+    - Cho tôi hỏi, nếu đã nộp bản sao học bạ mà hệ thống không cập nhật, tôi nên thực hiện thủ tục gì tiếp theo 
+    - Tôi đã hoàn tất việc nộp bản sao học bạ nhưng tôi phát hiện hệ thống không cập nhật, tôi cần làm gì để khắc phục 
+    - Nếu tôi đã nộp bản sao học bạ nhưng không thấy hệ thống cập nhật, liệu có vấn đề gì xảy ra 
+    - Tôi cần hỏi về trường hợp đã nộp bản sao học bạ nhưng hệ thống vẫn không cập nhật thông tin của tôi
+    - Nếu đã nộp bản sao học bạ nhưng trên hệ thống không cập nhật, tôi cần liên hệ với ai để giải quyết 
+    - Cho tôi biết, tôi đã gửi bản sao học bạ nhưng không thấy thông tin của mình được cập nhật trên hệ thống, tôi nên làm gì 
+- intent: intent_30204001
   examples: |
-    - Cho tôi hỏi thủ tục nộp bản sao học bạ ? 
-    - Cho tôi hỏi thủ tục nộp bản sao học bạ là gì?
-    - Thủ tục nộp bản sao học bạ là như thế nào?
-    - Xin hướng dẫn về thủ tục nộp bản sao học bạ.
-    - Cho tôi biết về quy trình nộp bản sao học bạ được không?
-    - Thủ tục nộp bản sao học bạ có gì đặc biệt mà tôi cần biết?
-    - Xin thông tin về cách thực hiện thủ tục nộp bản sao học bạ.
-    - Khi nào là thời điểm cuối cùng để hoàn tất thủ tục nộp bản sao học bạ?
-
-- intent: intent_3031.0001
+    - Cho tôi hỏi thủ tục nộp bản sao học bạ   
+    - Cho tôi hỏi thủ tục nộp bản sao học bạ là gì 
+    - Thủ tục nộp bản sao học bạ là như thế nào 
+    - Xin hướng dẫn về thủ tục nộp bản sao học bạ.
+    - Cho tôi biết về quy trình nộp bản sao học bạ được không 
+    - Thủ tục nộp bản sao học bạ có gì đặc biệt mà tôi cần biết 
+    - Xin thông tin về cách thực hiện thủ tục nộp bản sao học bạ.
+    - Khi nào là thời điểm cuối cùng để hoàn tất thủ tục nộp bản sao học bạ 
+- intent: intent_30301001
   examples: |
-    - Cho tôi hỏi thời hạn nộp bản sao giấy khai sinh là khi nào ? 
-    - Cho tôi hỏi thời hạn nộp bản sao giấy khai sinh là khi nào?
-    - Thời hạn nộp bản sao giấy khai sinh là bao lâu?
-    - Khi nào là thời điểm cuối cùng để nộp giấy khai sinh?
-    - Cho tôi biết thời gian cuối cùng nộp bản sao giấy khai sinh là khi nào?
-    - Thời điểm kết thúc nộp giấy khai sinh là khi nào?
-    - Thời hạn cuối cùng nộp bản sao giấy khai sinh là ngày nào?
+    - Cho tôi hỏi thời hạn nộp bản sao giấy khai sinh là khi nào   
+    - Cho tôi hỏi thời hạn nộp bản sao giấy khai sinh là khi nào 
+    - Thời hạn nộp bản sao giấy khai sinh là bao lâu 
+    - Khi nào là thời điểm cuối cùng để nộp giấy khai sinh 
+    - Cho tôi biết thời gian cuối cùng nộp bản sao giấy khai sinh là khi nào 
+    - Thời điểm kết thúc nộp giấy khai sinh là khi nào 
+    - Thời hạn cuối cùng nộp bản sao giấy khai sinh là ngày nào 
     - Xin thông tin về thời gian nộp bản sao giấy khai sinh.
-
-- intent: intent_3032.0001
+- intent: intent_30302001
   examples: |
-    - Cho tôi hỏi bản sao giấy khai sinh có nộp giúp được không ? 
-    - Có thể nhờ người khác nộp bản sao giấy khai sinh giúp tôi được không?
-    - Tôi có thể giao cho ai đó nộp bản sao giấy khai sinh thay cho mình không?
-    - Nếu tôi không thể nộp bản sao giấy khai sinh cá nhân, tôi có thể nhờ người khác làm giúp không?
-    - Tôi muốn biết liệu tôi có thể uỷ quyền cho người khác nộp bản sao giấy khai sinh thay cho mình không?
-    - Nếu tôi không thể tự mình nộp, tôi có thể giao việc nộp bản sao giấy khai sinh cho người khác không?
-    - Cho tôi hỏi, tôi có thể mời người thân nộp bản sao giấy khai sinh thay vì mình không?
-    - Nếu tôi không thể đến nộp cá nhân, liệu tôi có thể nhờ ai đó khác nộp bản sao giấy khai sinh giúp?
-
-- intent: intent_3033.0001
+    - Cho tôi hỏi bản sao giấy khai sinh có nộp giúp được không   
+    - Có thể nhờ người khác nộp bản sao giấy khai sinh giúp tôi được không 
+    - Tôi có thể giao cho ai đó nộp bản sao giấy khai sinh thay cho mình không 
+    - Nếu tôi không thể nộp bản sao giấy khai sinh cá nhân, tôi có thể nhờ người khác làm giúp không 
+    - Tôi muốn biết liệu tôi có thể uỷ quyền cho người khác nộp bản sao giấy khai sinh thay cho mình không 
+    - Nếu tôi không thể tự mình nộp, tôi có thể giao việc nộp bản sao giấy khai sinh cho người khác không 
+    - Cho tôi hỏi, tôi có thể mời người thân nộp bản sao giấy khai sinh thay vì mình không 
+    - Nếu tôi không thể đến nộp cá nhân, liệu tôi có thể nhờ ai đó khác nộp bản sao giấy khai sinh giúp 
+- intent: intent_30303001
   examples: |
-    - Cho tôi hỏi đã nộp bản sao giấy khai sinh nhưng trên hệ thống không cập nhật ?
-    - Cho tôi hỏi, tôi đã nộp bản sao giấy khai sinh để đăng ký học, nhưng tình trạng nộp của tôi chưa được cập nhật trong hệ thống.
-    - Tôi đã nộp bản sao giấy khai sinh cho việc đăng ký kết hôn, nhưng tôi muốn biết tại sao thông tin của tôi vẫn chưa được cập nhật?
-    - Cho tôi hỏi, tôi đã gửi bản sao giấy khai sinh để xác nhận thân phận khi làm hộ chiếu, nhưng hệ thống vẫn chưa ghi nhận.
-    - Tôi đã nộp bản sao giấy khai sinh để đăng ký xin hỗ trợ xã hội, nhưng tôi lo lắng vì chưa thấy thông tin của mình được cập nhật.
+    - Cho tôi hỏi đã nộp bản sao giấy khai sinh nhưng trên hệ thống không cập nhật  
+    - Cho tôi hỏi, tôi đã nộp bản sao giấy khai sinh để đăng ký học, nhưng tình trạng nộp của tôi chưa được cập nhật trong hệ thống.
+    - Tôi đã nộp bản sao giấy khai sinh cho việc đăng ký kết hôn, nhưng tôi muốn biết tại sao thông tin của tôi vẫn chưa được cập nhật 
+    - Cho tôi hỏi, tôi đã gửi bản sao giấy khai sinh để xác nhận thân phận khi làm hộ chiếu, nhưng hệ thống vẫn chưa ghi nhận.
+    - Tôi đã nộp bản sao giấy khai sinh để đăng ký xin hỗ trợ xã hội, nhưng tôi lo lắng vì chưa thấy thông tin của mình được cập nhật.
     - Tôi có vấn đề với việc nộp bản sao giấy khai sinh để mở tài khoản ngân hàng, vì tôi thấy thông tin nộp của mình chưa được hiển thị trong hệ thống.
-
-- intent: intent_3034.0001
+- intent: intent_30304001
   examples: |
-    - Cho tôi hỏi thủ tục nộp bản sao giấy khai sinh ? 
-    - Cách nộp giấy khai sinh là gì?
-    - Bạn có thể chỉ dẫn tôi cách nộp giấy khai sinh không?
-    - Làm ơn hướng dẫn tôi cách nộp giấy khai sinh được không?
-    - Có thể cho tôi biết quy trình nộp giấy khai sinh như thế nào không?
-    - Tôi muốn biết cách thức hoàn thành thủ tục nộp giấy khai sinh, bạn có thể giúp không?
-
-- intent: intent_4011.0001
+    - Cho tôi hỏi thủ tục nộp bản sao giấy khai sinh   
+    - Cách nộp giấy khai sinh là gì 
+    - Bạn có thể chỉ dẫn tôi cách nộp giấy khai sinh không 
+    - Làm ơn hướng dẫn tôi cách nộp giấy khai sinh được không 
+    - Có thể cho tôi biết quy trình nộp giấy khai sinh như thế nào không 
+    - Tôi muốn biết cách thức hoàn thành thủ tục nộp giấy khai sinh, bạn có thể giúp không 
+- intent: intent_40101001
   examples: |
-    - Cho tôi hỏi thời gian đăng kí các môn đã rớt ? 
-    - khi nào tôi mới có thể đăng kí các môn đã rớt?
-    - tôi muốn đăng kí các môn đã rớt thì có thể đăng kí vào thời gian nào?
+    - Cho tôi hỏi thời gian đăng kí các môn đã rớt   
+    - khi nào tôi mới có thể đăng kí các môn đã rớt 
+    - tôi muốn đăng kí các môn đã rớt thì có thể đăng kí vào thời gian nào 
     - cho tôi biết thời gian mở đăng kí các môn đã rớt cho sinh viên
     - cho tôi biết khoảng thời gian tôi có thể đăng kí các môn đã rớt
-
-- intent: intent_4012.0001
+- intent: intent_40102001
   examples: |
-    - Cho tôi hỏi thời gian đăng kí môn học cải thiện ? 
-    - khi nào tôi mới có thể đăng kí các môn học cải thiện?
-    - tôi muốn đăng kí các môn học cải thiện thì có thể đăng kí vào thời gian nào?
-    - cho tôi biết thời gian mở đăng kí các môn học cải thiện cho sinh viên
+    - Cho tôi hỏi thời gian đăng kí môn học cải thiện   
+    - khi nào tôi mới có thể đăng kí các môn học cải thiện 
+    - tôi muốn đăng kí các môn học cải thiện thì có thể đăng kí vào thời gian nào 
+    - cho tôi biết thời gian mở đăng kí các môn học cải thiện cho sinh viên
     - cho tôi biết khoảng thời gian tôi có thể đăng kí các môn học cải thiện
-
-- intent: intent_4013.0001
+- intent: intent_40103001
   examples: |
-    - Cho tôi hỏi thời gian đăng kí môn học của sinh viên trả nợ ? 
-    - khi nào tôi mới có thể đăng kí các môn học của sinh viên trả nợ?
-    - tôi muốn đăng kí các môn học cảu sinh viên trả nợ môn thì có thể đăng kí vào thời gian nào?
+    - Cho tôi hỏi thời gian đăng kí môn học của sinh viên trả nợ   
+    - khi nào tôi mới có thể đăng kí các môn học của sinh viên trả nợ 
+    - tôi muốn đăng kí các môn học cảu sinh viên trả nợ môn thì có thể đăng kí vào thời gian nào 
     - cho tôi biết thời gian mở đăng kí các môn trả nợ cho sinh viên
     - cho tôi biết khoảng thời gian tôi có thể đăng kí các môn học trả nợ cho sinh viên
-
-- intent: intent_4014.0001
+- intent: intent_40104001
   examples: |
-    - Cho tôi hỏi điều kiện đăng kí môn học bổ sung ? 
-    - khi nào tôi mới có thể đăng kí các môn học bổ sung?
-    - tôi muốn đăng kí các môn học bổ sung thì có thể đăng kí vào thời gian nào?
+    - Cho tôi hỏi điều kiện đăng kí môn học bổ sung   
+    - khi nào tôi mới có thể đăng kí các môn học bổ sung 
+    - tôi muốn đăng kí các môn học bổ sung thì có thể đăng kí vào thời gian nào 
     - cho tôi biết thời gian mở đăng kí các môn học bổ sung cho sinh viên
     - cho tôi biết khoảng thời gian tôi có thể đăng kí các môn học bổ sung
-
-- intent: intent_4015.0001
+- intent: intent_40105001
   examples: |
-    - Cho tôi hỏi khi qua thời gian đăng kí môn học trực tuyến của đợt 1 phải làm sao ?
+    - Cho tôi hỏi khi qua thời gian đăng kí môn học trực tuyến của đợt 1 phải làm sao  
     - cho tôi hỏi không đăng kí kịp đợt đăng kí trực tuyến thì sao đây ạ
-    - tôi không đăng kí kịp các môn học trong lúc đăng kí đợt 1 thì có sao không?
+    - tôi không đăng kí kịp các môn học trong lúc đăng kí đợt 1 thì có sao không 
     - tôi không đăng kí kịp các môn học trong đợt 1 thì phải làm sao
     - có đợt đăng kí khác không, tôi không đăng kí kịp trong đợt 1
-
-- intent: intent_4016.0001
+- intent: intent_40106001
   examples: |
-    - Cho tôi hỏi kết thúc thời gian đăng kí môn học trực tuyến có được hủy môn không ?
-    - tôi muốn hủy môn nhưng đã hết thời gian đăng ký môn học thì có được không ạ?
+    - Cho tôi hỏi kết thúc thời gian đăng kí môn học trực tuyến có được hủy môn không  
+    - tôi muốn hủy môn nhưng đã hết thời gian đăng ký môn học thì có được không ạ 
     - tôi không hủy môn kịp trong thời gian đăng kí môn học thì giờ có hủy được không vậy ạ
-    -  
-
-- intent: intent_4017.0001
+- intent: intent_40107001
   examples: |
-    - Cho tôi hỏi kết thúc thời gian đăng kí môn học trực tuyến có đươc điều chỉnh thời khóa biểu không ? 
+    - Cho tôi hỏi kết thúc thời gian đăng kí môn học trực tuyến có đươc điều chỉnh thời khóa biểu không   
     - tôi có thể điều chỉnh các môn học khi đã hết thời gian đăng kí môn học không ạ
     - tôi có thể thay đổi các môn học khi đã hết thời gian đăng kí môn học không ạ
     - tôi không kịp thay đổi môn học trong lúc đăng ký trực tuyến thì giờ có đăng kí được không
-
-- intent: intent_4018.0001
+- intent: intent_40108001
   examples: |
-    - Cho tôi hỏi sinh viên chương trình chất lượng cao có được đăng kí khác lớp không ? 
+    - Cho tôi hỏi sinh viên chương trình chất lượng cao có được đăng kí khác lớp không   
     - tôi đang học chương trình chât lượng cao thì có thể đăng kí các lớp đại trà được không
     - tôi học chất lượng cao thì có thể học các môn đại trà được không 
     - tôi muốn biết chương trình đại trà có cho phép sinh viên chất lượng cao đăng kí không 
     - tôi có thể đăng kí các môn đại trà được không
-
-- intent: intent_4021.0001
+- intent: intent_40201001
   examples: |
-    - Cho tôi hỏi thủ tục làm đơn gia hạn học phí ? 
-    - cách đăng ký thủ tục làm đơn gia hạn học phí như thế nào?
+    - Cho tôi hỏi thủ tục làm đơn gia hạn học phí   
+    - cách đăng ký thủ tục làm đơn gia hạn học phí như thế nào 
     - tôi muốn làm đơn gia hạn học phí thì phải làm như thế nào
     - tôi muốn gia hạn học phí thì làm như thế nào vậy ạ
     - tôi muốn là thủ tục gia hạn học phí thì đằng ký như thế nào
-
-- intent: intent_4022.0001
+- intent: intent_40202001
   examples: |
-    - Cho tôi hỏi gia hạn học phí có bị khóa mã số sinh viên không ? 
+    - Cho tôi hỏi gia hạn học phí có bị khóa mã số sinh viên không   
     - nếu tôi đã đăng ksi gia hạn học phí rồi thì khi đóng học phí trễ hạn có bị khóa mã số sinh ven không
     - tôi có bị khóa mã sinh viên nếu quá hạn nộp học phí không, tôi đã đăng ký gia hạn hợp phí
     - khi nào thì đóng học phí trễ không bị khóa mã số sinh viên
     - làm thế nào để không bị khóa mã số sinh viên khi đóng học phí trễ
-
-- intent: intent_4023.0001
+- intent: intent_40203001
   examples: |
-    - Cho tôi hỏi học phí đã đóng nhưng chưa được cập nhật thì phải làm sao ? 
+    - Cho tôi hỏi học phí đã đóng nhưng chưa được cập nhật thì phải làm sao   
     - tôi đã đóng học phí rồi nhưng tại sao vẫn chưa được cập nhật
     - tôi đóng học phí rồi nhưng vào web thì không thấy tình trạng đã đóng
     - tại sao tôi đã đóng học phí rồi nhưng vẫn chưa cập nhật
     - tôi muốn liên hệ để giải quyết vấn đề đóng học phí rồi nhưng vẫn chưa được cập nhập
-
-- intent: intent_4031.0001
+- intent: intent_40301001
   examples: |
-    - Cho tôi hỏi có được cấp chứng chỉ tiếng anh đầu ra/ tin học hay không ? 
+    - Cho tôi hỏi có được cấp chứng chỉ tiếng anh đầu ra/ tin học hay không   
     - tôi muốn biết chứng chỉ tiếng anh đầu ra có được cấp không
     - tôi muốn biết chứng chỉ tin học có được cấp không 
-    - tôi muốn biết tôi có thể đăng kí lấy chứng chỉ tiếng anh đầu ra không?
+    - tôi muốn biết tôi có thể đăng kí lấy chứng chỉ tiếng anh đầu ra không 
     - tôi muốn biết tôi có thể đâng kí lấy chứng chỉ tin học được không
-
-- intent: intent_4032.0001
+- intent: intent_40302001
   examples: |
-    - Cho tôi hỏi cách đăng ký giấy chứng nhận tiếng anh đầu ra/ tin học ? 
+    - Cho tôi hỏi cách đăng ký giấy chứng nhận tiếng anh đầu ra/ tin học   
     - hướng dẫn cho tôi các đăng kí lấy chứng chỉ tiếng anh đầu ra
     - hướng dẫn cho tôi các đăng kí lấy chứng chỉ tin học 
     - chỉ cho tôi cách đăng kí nhận chứng chỉ tiếng anh đầu ra 
     - chỉ tôi cách đăng kí nhận chứng chỉ tin học
     - làm sao để đăng kí nhận được chứng chỉ tiếng anh đầu ra 
     - làm sao để đăng kí nhận được chứng chỉ tin học
-    - 
